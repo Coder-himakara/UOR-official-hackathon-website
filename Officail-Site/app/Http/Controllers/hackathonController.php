@@ -9,7 +9,7 @@ class hackathonController extends Controller
     public function index(){
         return view('index');
     }
-    public function contact(){
+    public function contactUs(){
         return view('contactUs');
     }
 }

@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[hackathonController::class,'index'])->name('index');
-Route::get('/contactus',[hackathonController::class,'contact'])->name('contactus');
+Route::get('/contactUs',[hackathonController::class,'contactUs'])->name('contactUs');

@@ -1,0 +1,72 @@
+.card {
+    animation: fade-up 0.5s 0.4s backwards;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    width: auto;
+    min-height: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.container.bdy {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-image {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.info-box-name {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.info-box {
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box:hover {
+    background-color: #cfd8dc;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.container.bdy {
+    justify-content: center;
+
+}#d1{
+    
+    max-width: 60%;
+}
