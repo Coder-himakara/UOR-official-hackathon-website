@@ -1,0 +1,58 @@
+.shw_vwport.reveal{
+    position:relative;
+    transform: translateY(10%);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.shw_vwport.reveal.active{
+    transform: translateY(-3%);
+    opacity: 1;
+}
+
+form {
+    margin: 10% 0 10% 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: auto;
+    color: black;
+    opacity: 0.8;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.shw_vwport{
+    padding-top: 0px;
+    min-height: 100vh;
+}
+@media screen and (max-width:767px) {
+    #welcome{
+        margin-bottom: 17%;
+    }
+}
+
+

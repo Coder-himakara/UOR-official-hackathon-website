@@ -15,4 +15,7 @@ class hackathonController extends Controller
     public function updates(){
         return view('updates');
     }
+    public function register(){
+        return view('Reg-page');
+    }
 }

@@ -114,7 +114,7 @@
                             Competition is powered by Department of Computer
                             Science, University of Ruhuna.
                         </p>
-                        <a href="#" target="_self"><button type="button"
+                        <a href="{{route('register')}}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
@@ -316,7 +316,7 @@
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/2.png') }}" alt="2nd">
                         </div>
-                        <div class="info-box-name">Rs.10,000</div>
+                        <div class="info-box-name">Rs.20,000</div>
                     </div>
 
                     <!-- 3 -->
@@ -325,7 +325,7 @@
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/3.png') }}" alt="3nd">
                         </div>
-                        <div class="info-box-name">Rs.20,000</div>
+                        <div class="info-box-name">Rs.10,000</div>
                     </div>
                 </div>
             </div>
