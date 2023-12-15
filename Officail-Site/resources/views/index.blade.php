@@ -75,9 +75,9 @@
                             <!--Navigation drop don menu-->
                             <div class="dropdown-menu dropdown-menu-right">
                                 <button class="dropdown-item test" type="button"><a href="#sponsers"
-                                        class="dd-item">Spnosores</a></button>
+                                        class="dd-item">Sponsers</a></button>
                                 <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
-                                        target="_self" class="dd-item">News-&-Upddate</a></button>
+                                        target="_self" class="dd-item">News-&-Updates</a></button>
                             </div>
                         </li>
                     </ul>
@@ -114,7 +114,7 @@
                             Competition is powered by Department of Computer
                             Science, University of Ruhuna.
                         </p>
-                        <a href="{{ route('Reg-page') }}" target="_self"><button type="button"
+                        <a href="#" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>

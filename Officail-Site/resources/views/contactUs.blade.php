@@ -45,22 +45,22 @@
                     <!--Navigation Bar items-->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ">
-                            <a class="nav-link px-1" aria-current="page" href="../index.html#welcome">Home</a>
+                            <a class="nav-link px-1" aria-current="page" href="{{ route('index') }}#welcome">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="../index.html#about">About</a>
+                            <a class="nav-link px-1" href="{{ route('index') }}#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="../index.html#guideline">Guideline</a>
+                            <a class="nav-link px-1" href="{{ route('index') }}#guideline">Guideline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" aria-current="page" href="../index.html#timeline">Timeline</a>
+                            <a class="nav-link px-1" aria-current="page" href="{{ route('index') }}#timeline">Timeline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="../index.html#prizes">Prizes</a>
+                            <a class="nav-link px-1" href="{{ route('index') }}#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="ContactUs.html" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{route('contactUs')}}" target="_self">Contact-us</a>
 
                         </li>
                         <li class="nav-item dropdown">
@@ -70,10 +70,10 @@
 
                             <!--Navigation drop don menu-->
                             <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button"><a href="../index.html#sponsers"
-                                        class="dd-item">Spnosores</a></button>
+                                <button class="dropdown-item" type="button"><a href="{{ route('index') }}#sponsers"
+                                        class="dd-item">Sponsers</a></button>
                                 <button class="dropdown-item" type="button"><a href="{{route('updates')}}"
-                                        target="_self" class="dd-item">News-&-Upddate</a></button>
+                                        target="_self" class="dd-item">News-&-Updates</a></button>
 
                             </div>
                         </li>
