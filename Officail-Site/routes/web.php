@@ -17,3 +17,6 @@ Route::get('/',[hackathonController::class,'index'])->name('index');
 Route::get('/contactUs',[hackathonController::class,'contactUs'])->name('contactUs');
 Route::get('/updates',[hackathonController::class,'updates'])->name('updates');
 Route::get('/register',[hackathonController::class,'register'])->name('register');
+
+//==To store form data in the database==
+Route::post('/store',[hackathonController::class,'store'])->name('store');

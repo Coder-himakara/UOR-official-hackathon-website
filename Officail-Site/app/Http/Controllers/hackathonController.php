@@ -18,4 +18,7 @@ class hackathonController extends Controller
     public function register(){
         return view('Reg-page');
     }
+    public function store(Request $request){
+        
+    }
 }

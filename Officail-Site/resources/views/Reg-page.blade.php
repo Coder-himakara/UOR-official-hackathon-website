@@ -131,7 +131,8 @@
         </section>
 
         <div class=container>
-            <form action="#" method="post">
+            <form action="{{ route('store') }}" method="POST">
+              @csrf
                 <label for="teamName">Team Name:</label>
                 <input type="text" id="teamName" name="teamName" required>
 
@@ -183,7 +184,8 @@
                 <hr>
                 <!--Member 02 Details-->
                 <div class="member-box">
-                    <button type="button" onclick="enableFields()" style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 02</button>
+                    <button type="button" onclick="enableFields()"
+                        style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 02</button>
                     <h2>Member 2 Details</h2>
                     <label for="member2Name">Name:</label>
                     <input type="text" id="member2Name" name="member2Name" required disabled>
@@ -231,7 +233,8 @@
                 <hr>
                 <!--Member 03 Details-->
                 <div class="member-box">
-                  <button type="button" onclick="enableFields2()" style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 03</button>
+                    <button type="button" onclick="enableFields2()"
+                        style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 03</button>
                     <h2>Member 3 Details</h2>
                     <label for="member3Name">Name:</label>
                     <input type="text" id="member3Name" name="member3Name" required disabled>
@@ -274,7 +277,7 @@
                     <input type="email" id="member3Email" name="member3Email" required disabled>
                 </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" onclick="return confirmSubmit()" value="Submit">
             </form>
         </div>
 
@@ -326,7 +329,7 @@
             </div>
         </footer>
 
-
+         <!--Function to enable member 02-->
         <script>
             function enableFields() {
                 document.getElementById("member2Name").disabled = false;
@@ -337,17 +340,23 @@
                 document.getElementById("member2Email").disabled = false;
             }
         </script>
+        <!--Function to enable member 03-->
+        <script>
+            function enableFields2() {
+                document.getElementById("member3Name").disabled = false;
+                document.getElementById("member3Contact").disabled = false;
+                document.getElementById("m3_faculty").disabled = false;
+                document.getElementById("m3_batchNumber").disabled = false;
+                document.getElementById("member3SID").disabled = false;
+                document.getElementById("member3Email").disabled = false;
+            }
+        </script>
 
-         <script>
-          function enableFields2() {
-              document.getElementById("member3Name").disabled = false;
-              document.getElementById("member3Contact").disabled = false;
-              document.getElementById("m3_faculty").disabled = false;
-              document.getElementById("m3_batchNumber").disabled = false;
-              document.getElementById("member3SID").disabled = false;
-              document.getElementById("member3Email").disabled = false;
-          }
-      </script>
+        <script>
+            function confirmSubmit() {
+                return confirm("Are you sure you want to submit this form?");
+            }
+        </script>
 
         <!-- Bootstrap JavaScript Libraries -->
 
