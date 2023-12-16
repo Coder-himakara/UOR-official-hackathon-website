@@ -132,153 +132,169 @@
 
         <div class=container>
             <form action="{{ route('store') }}" method="POST">
-              @csrf
+                @csrf
                 <label for="teamName">Team Name:</label>
-                <input type="text" id="teamName" name="teamName" required>
-
+                <input type="text" id="teamName" name="teamName" value="{{ old('teamName') }}">
                 <hr>
                 <!--Leader/Member 01 Details-->
                 <div class="member-box">
-                    <h2>Leader Details</h2>
+                    <h3 style="background-color:rgb(112, 237, 220) ">Leader</h3>
                     <label for="LeaderName">Name:</label>
-                    <input type="text" id="LeaderName" name="LeaderName" required>
+                    <input type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
 
                     <label for="member1Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member1Contact" name="member1Contact" required>
+                    <input type="tel" id="member1Contact" name="member1Contact" value="{{ old('member1Contact') }}">
 
                     <label for="leader_faculty">Select Faculty:</label>
-                    <select id="leader_faculty" name="leader_faculty" required>
+                    <select id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
                         <option value="" disabled selected hidden></option>
-                        <option value="engineering">Engineering</option>
-                        <option value="science">Science</option>
-                        <option value="tech">Technology</option>
-                        <option value="MandF">Management and Finance</option>
-                        <option value="medi">Medicine</option>
-                        <option value="HandM">Humanities and Social Sciences</option>
-                        <option value="agri">Agriculture</option>
-                        <option value="alliedHealth">Allied Health Science</option>
-                        <option value="fishery">Fisheries and Marine Sciences</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Science">Science</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Management and Finance">Management and Finance</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Allied Health Science">Allied Health Science</option>
+                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
                         <!-- Add more options as needed -->
                     </select>
 
                     <label for="leader_batchNumber">Select Batch Number:</label>
-                    <select id="leader_batchNumber" name="leader_batchNumber" required>
+                    <select id="leader_batchNumber" name="leader_batchNumber" value="{{ old('leader_batchNumber') }}">
                         <option value="" disabled selected hidden></option>
-                        <option value="2022">41</option>
-                        <option value="2023">42</option>
-                        <option value="2024">43</option>
-                        <option value="2024">44</option>
-                        <option value="2024">45</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
                         <!-- Add more options as needed -->
                     </select>
 
                     <label for="member1SID">
-                        <label for="member1SID">Student ID:</label>
-                        <input type="text" id="member1SID" name="member1SID" required>
+                        <label for="member1SID">Student ID No:</label>
+                        <input type="text" id="member1SID" name="member1SID" value="{{ old('member1SID') }}">
 
                         <label for="member1Email">Email:</label>
-                        <input type="email" id="member1Email" name="member1Email" required>
+                        <input type="email" id="member1Email" name="member1Email" value="{{ old('member1Email') }}">
 
                 </div>
 
                 <hr>
                 <!--Member 02 Details-->
                 <div class="member-box">
-                    <button type="button" onclick="enableFields()"
-                        style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 02</button>
-                    <h2>Member 2 Details</h2>
+                    <button type="button" class="btn btn-primary" onclick="enableFields()">Add Member 2</button>
+                    <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 2</h3>
                     <label for="member2Name">Name:</label>
-                    <input type="text" id="member2Name" name="member2Name" required disabled>
+                    <input type="text" id="member2Name" name="member2Name" required title="Must fill this"
+                        disabled>
 
                     <label for="member2Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member2Contact" name="member2Contact" required disabled>
+                    <input type="tel" id="member2Contact" name="member2Contact" required title="Must fill this"
+                        disabled>
 
                     <label for="m2_faculty">Select Faculty:</label>
-                    <select id="m2_faculty" name="m2_faculty" required disabled>
+                    <select id="m2_faculty" name="m2_faculty" required title="Must fill this" disabled>
                         <option value="" disabled selected hidden></option>
-                        <option value="same">Same as leader</option>
-                        <option value="engineering">Engineering</option>
-                        <option value="science">Science</option>
-                        <option value="tech">Technology</option>
-                        <option value="MandF">Management and Finance</option>
-                        <option value="medi">Medicine</option>
-                        <option value="HandM">Humanities and Social Sciences</option>
-                        <option value="agri">Agriculture</option>
-                        <option value="alliedHealth">Allied Health Science</option>
-                        <option value="fishery">Fisheries and Marine Sciences</option>
+                        <option value="Same as leader">Same as leader</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Science">Science</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Management and Finance">Management and Finance</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Allied Health Science">Allied Health Science</option>
+                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
                         <!-- Add more options as needed -->
                     </select>
 
                     <label for="m2_batchNumber">Select Batch Number:</label>
-                    <select id="m2_batchNumber" name="m2_batchNumber" required disabled>
+                    <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same">Same as leader</option>
-                        <option value="2022">41</option>
-                        <option value="2023">42</option>
-                        <option value="2024">43</option>
-                        <option value="2024">44</option>
-                        <option value="2024">45</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
                         <!-- Add more options as needed -->
                     </select>
 
                     <label for="member2SID">
-                        <label for="member2SID">Student ID:</label>
-                        <input type="text" id="member2SID" name="member2SID" required disabled>
+                        <label for="member2SID">Student ID No:</label>
+                        <input type="text" id="member2SID" name="member2SID" required title="Must fill this"
+                            disabled>
 
                         <label for="member2Email">Email:</label>
-                        <input type="email" id="member2Email" name="member2Email" required disabled>
+                        <input type="email" id="member2Email" name="member2Email" required title="Must fill this"
+                            disabled>
 
                 </div>
 
                 <hr>
                 <!--Member 03 Details-->
                 <div class="member-box">
-                    <button type="button" onclick="enableFields2()"
-                        style="background-color:rgb(10, 230, 149); border-radius: 5% ">Add Member 03</button>
-                    <h2>Member 3 Details</h2>
+                    <button type="button" class="btn btn-primary" onclick="enableFields2()">Add Member
+                        3</button>
+                    <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 3</h3>
                     <label for="member3Name">Name:</label>
-                    <input type="text" id="member3Name" name="member3Name" required disabled>
+                    <input type="text" id="member3Name" name="member3Name" required title="Must fill this"
+                        disabled>
 
                     <label for="member3Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member3Contact" name="member3Contact" required disabled>
+                    <input type="tel" id="member3Contact" name="member3Contact" required title="Must fill this"
+                        disabled>
 
                     <label for="m3_faculty">Select Faculty:</label>
-                    <select id="m3_faculty" name="m3_faculty" required disabled>
+                    <select id="m3_faculty" name="m3_faculty" required title="Must fill this" disabled>
                         <option value="" disabled selected hidden></option>
-                        <option value="same">Same as leader</option>
-                        <option value="engineering">Engineering</option>
-                        <option value="science">Science</option>
-                        <option value="tech">Technology</option>
-                        <option value="MandF">Management and Finance</option>
-                        <option value="medi">Medicine</option>
-                        <option value="HandM">Humanities and Social Sciences</option>
-                        <option value="agri">Agriculture</option>
-                        <option value="alliedHealth">Allied Health Science</option>
-                        <option value="fishery">Fisheries and Marine Sciences</option>
+                        <option value="Same as leader">Same as leader</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Science">Science</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Management and Finance">Management and Finance</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Allied Health Science">Allied Health Science</option>
+                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
                         <!-- Add more options as needed -->
                     </select>
 
                     <label for="m3_batchNumber">Select Batch Number:</label>
-                    <select id="m3_batchNumber" name="m3_batchNumber" required disabled>
+                    <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same">Same as leader</option>
-                        <option value="2022">41</option>
-                        <option value="2023">42</option>
-                        <option value="2024">43</option>
-                        <option value="2024">44</option>
-                        <option value="2024">45</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
                         <!-- Add more options as needed -->
                     </select>
 
-                    <label for="member3SID">Student ID:</label>
-                    <input type="text" id="member3SID" name="member3SID" required disabled>
+                    <label for="member3SID">Student ID No:</label>
+                    <input type="text" id="member3SID" name="member3SID" required title="Must fill this"
+                        disabled>
 
                     <label for="member3Email">Email:</label>
-                    <input type="email" id="member3Email" name="member3Email" required disabled>
+                    <input type="email" id="member3Email" name="member3Email" required title="Must fill this"
+                        disabled>
                 </div>
 
                 <input type="submit" onclick="return confirmSubmit()" value="Submit">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </form>
+
         </div>
 
         <!-- Footer-->
@@ -329,7 +345,7 @@
             </div>
         </footer>
 
-         <!--Function to enable member 02-->
+        <!--Function to enable member 02-->
         <script>
             function enableFields() {
                 document.getElementById("member2Name").disabled = false;
