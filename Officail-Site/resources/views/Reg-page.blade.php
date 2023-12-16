@@ -174,7 +174,7 @@
 
                     <label for="member1SID">
                         <label for="member1SID">Student ID:</label>
-                        <input type="text" id="member1SID" name="member1SIDq" required>
+                        <input type="text" id="member1SID" name="member1SID" required>
 
                         <label for="member1Email">Email:</label>
                         <input type="email" id="member1Email" name="member1Email" required>
