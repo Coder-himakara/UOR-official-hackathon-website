@@ -199,14 +199,15 @@
                     <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 2</h3>
                     <label for="member2Name">Name:</label>
                     <input type="text" id="member2Name" name="member2Name" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member2Name') }}" disabled>
 
                     <label for="member2Contact">Whatsapp Number:</label>
                     <input type="tel" id="member2Contact" name="member2Contact" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member2Contact') }}" disabled>
 
                     <label for="m2_faculty">Select Faculty:</label>
-                    <select id="m2_faculty" name="m2_faculty" required title="Must fill this" disabled>
+                    <select id="m2_faculty" name="m2_faculty" required title="Must fill this"
+                        value="{{ old('m2_faculty') }}" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same as leader">Same as leader</option>
                         <option value="Engineering">Engineering</option>
@@ -222,7 +223,8 @@
                     </select>
 
                     <label for="m2_batchNumber">Select Batch Number:</label>
-                    <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this" disabled>
+                    <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this"
+                        value="{{ old('m2_batchNumber') }}" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same">Same as leader</option>
                         <option value="41">41</option>
@@ -236,11 +238,11 @@
                     <label for="member2SID">
                         <label for="member2SID">Student ID No:</label>
                         <input type="text" id="member2SID" name="member2SID" required title="Must fill this"
-                            disabled>
+                            value="{{ old('member2SID') }}" disabled>
 
                         <label for="member2Email">Email:</label>
                         <input type="email" id="member2Email" name="member2Email" required title="Must fill this"
-                            disabled>
+                            value="{{ old('member2Email') }}" disabled>
 
                 </div>
 
@@ -252,14 +254,15 @@
                     <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 3</h3>
                     <label for="member3Name">Name:</label>
                     <input type="text" id="member3Name" name="member3Name" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member3Name') }}" disabled>
 
                     <label for="member3Contact">Whatsapp Number:</label>
                     <input type="tel" id="member3Contact" name="member3Contact" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member3Contact') }}" disabled>
 
                     <label for="m3_faculty">Select Faculty:</label>
-                    <select id="m3_faculty" name="m3_faculty" required title="Must fill this" disabled>
+                    <select id="m3_faculty" name="m3_faculty" required title="Must fill this"
+                        value="{{ old('m3_faculty') }}" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same as leader">Same as leader</option>
                         <option value="Engineering">Engineering</option>
@@ -275,7 +278,8 @@
                     </select>
 
                     <label for="m3_batchNumber">Select Batch Number:</label>
-                    <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this" disabled>
+                    <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this"
+                        value="{{ old('m3_batchNumber') }}" disabled>
                         <option value="" disabled selected hidden></option>
                         <option value="Same">Same as leader</option>
                         <option value="41">41</option>
@@ -288,11 +292,11 @@
 
                     <label for="member3SID">Student ID No:</label>
                     <input type="text" id="member3SID" name="member3SID" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member3SID') }}" disabled>
 
                     <label for="member3Email">Email:</label>
                     <input type="email" id="member3Email" name="member3Email" required title="Must fill this"
-                        disabled>
+                        value="{{ old('member3Email') }}" disabled>
                 </div>
 
                 <input type="submit" onclick="return confirmSubmit()" value="Submit">
