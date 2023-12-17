@@ -7,6 +7,8 @@ use App\Models\Hackteam;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
+use App\Rules\UniqueTeamName;
+
 
 class hackathonController extends Controller
 {
@@ -25,13 +27,13 @@ class hackathonController extends Controller
     public function store(Request $request): RedirectResponse{
         //Form data Validation rules        
         $validated = $request->validate([                   
-            'teamName'=>'required|max:30',
+            'teamName' => ['required', new UniqueTeamName],
             'LeaderName'=>'required|string|max:100',
-            'member1Contact'=>'required|min:10|max:15',
+            'member1Contact'=>'required|min:10|max:15|unique:hackteams',
             'leader_faculty'=>'required',
             'leader_batchNumber'=>'required',
             'member1SID'=>'required|max:15',
-            'member1Email'=>'required|string|max:50',
+            'member1Email'=>'required|string|max:50|unique:hackteams',
         ]);
 
        /*$rules=[

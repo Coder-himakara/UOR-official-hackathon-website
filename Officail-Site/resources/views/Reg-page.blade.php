@@ -133,6 +133,15 @@
         <div class=container>
             <form action="{{ route('store') }}" method="POST">
                 @csrf
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 <label for="teamName">Team Name:</label>
                 <input type="text" id="teamName" name="teamName" value="{{ old('teamName') }}">
                 <hr>
@@ -143,7 +152,8 @@
                     <input type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
 
                     <label for="member1Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member1Contact" name="member1Contact" value="{{ old('member1Contact') }}">
+                    <input type="tel" id="member1Contact" name="member1Contact"
+                        value="{{ old('member1Contact') }}">
 
                     <label for="leader_faculty">Select Faculty:</label>
                     <select id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
@@ -161,7 +171,8 @@
                     </select>
 
                     <label for="leader_batchNumber">Select Batch Number:</label>
-                    <select id="leader_batchNumber" name="leader_batchNumber" value="{{ old('leader_batchNumber') }}">
+                    <select id="leader_batchNumber" name="leader_batchNumber"
+                        value="{{ old('leader_batchNumber') }}">
                         <option value="" disabled selected hidden></option>
                         <option value="41">41</option>
                         <option value="42">42</option>
@@ -176,7 +187,8 @@
                         <input type="text" id="member1SID" name="member1SID" value="{{ old('member1SID') }}">
 
                         <label for="member1Email">Email:</label>
-                        <input type="email" id="member1Email" name="member1Email" value="{{ old('member1Email') }}">
+                        <input type="email" id="member1Email" name="member1Email"
+                            value="{{ old('member1Email') }}">
 
                 </div>
 
@@ -284,15 +296,7 @@
                 </div>
 
                 <input type="submit" onclick="return confirmSubmit()" value="Submit">
-                @if ($errors->any())
-                    <div class="alert alert-danger">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+
             </form>
 
         </div>
