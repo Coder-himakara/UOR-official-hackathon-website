@@ -17,4 +17,12 @@
     <a href="{{ route('generate-pdf', ['id' => $Hackteam->id]) }}" target="_blank">Generate PDF</a>
 </body>
 
+<!--To disable go back feature. But it is not working in every case-->
+<script>
+    history.pushState(null, null, location.href);
+    window.onpopstate = function() {
+        history.pushState(null, null, location.href);
+    };
+</script>
+
 </html>
