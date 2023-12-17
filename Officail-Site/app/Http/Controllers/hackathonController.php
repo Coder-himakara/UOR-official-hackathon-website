@@ -24,6 +24,7 @@ class hackathonController extends Controller
     public function register(){
         return view('Reg-page');
     }
+
     public function store(Request $request): RedirectResponse{
         //Form data Validation rules        
         $validated = $request->validate([                   
@@ -35,7 +36,8 @@ class hackathonController extends Controller
             'member1SID'=>'required|max:15',
             'member1Email'=>'required|string|max:50|unique:hackteams',
         ]);
-
+        
+        //Below is method II
        /*$rules=[
             'teamName'=>'required|char|max:30',
             'LeaderName'=>'required|string',
@@ -77,7 +79,23 @@ class hackathonController extends Controller
         return redirect()->route('afterSubmit', ['id'=>$hackteam->id])->withInput();
     }
 
-    public function afterSubmit(){
-        return view('afterSubmit');
-    }
+     //view entered data in the previous form in new page without changing when refresh
+     public function afterSubmit(Request $request){
+        // Retrieve data from the URL parameters
+        $id = $request->get('id');
+         
+         // If data is not available, redirect back to the form
+         if (!$id) {
+             return redirect()->route('Reg-page')->with('error', 'Data not available. Please submit the form again.');
+         }
+ 
+         // Retrieve the Team instance using the id
+         $Hackteam = Hackteam::find($id);
+ 
+         // Return the view with the data
+         return view('afterSubmit', compact('Hackteam'));
+     } 
+
+
+  
 }

@@ -1,6 +1,8 @@
 <?php
 use App\Http\Controllers\hackathonController;
+use App\Http\Controllers\PdfController;//To generate a pdf using data
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,5 @@ Route::get('/register',[hackathonController::class,'register'])->name('register'
 Route::post('/store',[hackathonController::class,'store'])->name('store');
 //==View after submitting the data==
 Route::get('/afterSubmit',[hackathonController::class,'afterSubmit'])->name('afterSubmit');
+//For generating a pdf from form data
+Route::get('/generate-pdf/{id}', [PdfController::class, 'generatePdf'])->name('generate-pdf');
