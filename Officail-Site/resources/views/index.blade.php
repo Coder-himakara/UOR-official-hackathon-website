@@ -97,7 +97,7 @@
                         <p><span class="st8_2_1">I</span>
                             <span class="st8_2">NSURGE</span>
                             <span class="st8_2_3">X</span>
-                            <span class="st8_2">1.o</span>
+                            <span class="st8_2">1.0</span>
                         </p>
                     </div>
                 </div>

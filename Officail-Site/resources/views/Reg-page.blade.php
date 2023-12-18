@@ -56,7 +56,7 @@
                         <p><span class="st8_2_1">I</span>
                             <span class="st8_2">NSURGE</span>
                             <span class="st8_2_3">X</span>
-                            <span class="st8_2">1.o</span>
+                            <span class="st8_2">1.0</span>
                         </p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                                         HackerRank account must adhere to a specific pattern provided by us.<br>
                                         [for alignment with your team's name, "CodeBlasters", the username for
                                         HackerRank shouls be
-                                        CodeBlasters_PIX1 /(TeamName_PIX1) ].
+                                        CodeBlasters_X1 /(TeamName_X1) ].
                                     </b></li>
                                 <li>
                                     Team size limit: Your team can include <b>a maximum of 3 members.</b>
@@ -148,7 +148,7 @@
                 <!--Leader/Member 01 Details-->
                 <div class="member-box">
                     <h3 style="background-color:rgb(112, 237, 220) ">Leader</h3>
-                    <label for="LeaderName">Name:</label>
+                    <label for="LeaderName">Name: (This name will be used in the certificate.)</label>
                     <input type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
 
                     <label for="member1Contact">Whatsapp Number:</label>
@@ -209,7 +209,6 @@
                     <select id="m2_faculty" name="m2_faculty" required title="Must fill this"
                         value="{{ old('m2_faculty') }}" disabled>
                         <option value="" disabled selected hidden></option>
-                        <option value="Same as leader">Same as leader</option>
                         <option value="Engineering">Engineering</option>
                         <option value="Science">Science</option>
                         <option value="Technology">Technology</option>
@@ -226,7 +225,6 @@
                     <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this"
                         value="{{ old('m2_batchNumber') }}" disabled>
                         <option value="" disabled selected hidden></option>
-                        <option value="Same">Same as leader</option>
                         <option value="41">41</option>
                         <option value="42">42</option>
                         <option value="43">43</option>
@@ -263,8 +261,7 @@
                     <label for="m3_faculty">Select Faculty:</label>
                     <select id="m3_faculty" name="m3_faculty" required title="Must fill this"
                         value="{{ old('m3_faculty') }}" disabled>
-                        <option value="" disabled selected hidden></option>
-                        <option value="Same as leader">Same as leader</option>
+                        <option value="" disabled selected hidden></option>                       
                         <option value="Engineering">Engineering</option>
                         <option value="Science">Science</option>
                         <option value="Technology">Technology</option>
@@ -280,8 +277,7 @@
                     <label for="m3_batchNumber">Select Batch Number:</label>
                     <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this"
                         value="{{ old('m3_batchNumber') }}" disabled>
-                        <option value="" disabled selected hidden></option>
-                        <option value="Same">Same as leader</option>
+                        <option value="" disabled selected hidden></option>                       
                         <option value="41">41</option>
                         <option value="42">42</option>
                         <option value="43">43</option>
