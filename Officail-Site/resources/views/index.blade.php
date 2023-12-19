@@ -110,9 +110,10 @@
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
-                        <p class="text-sm-start">INSURGEX-1.0 , Sri Lanka's Premier Advanced Analytics
-                            Competition is powered by Department of Computer
-                            Science, University of Ruhuna.
+                        <p class="text-sm-start">Welcome to 'INSURGEX 1.0', the algorithmic hackathon event.
+                            It’s brought to you by the Computer
+                            Science student Community of University of Ruhuna.
+                            Expect a great experience!                          
                         </p>
                         <a href="{{route('register')}}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
@@ -132,19 +133,19 @@
                 </div>
                 <div class="row about">
                     <!--About us paragraph-->
-                    <div class="text-sm-justify-center about-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit.
-                        Similique hic possimusdolore cumquconsectetur exercitationem assumenda omnis corrupti modi
-                        inventore,
-                        perspiciatis accusamus. Iusto
-                        exercitationem undedoloribus aliquid accusamus animi impedit?Lorem ipsum dolor sit, amet
-                        consectetur
-                        adipisicing elit. Sit
-                        sapiente molestiasad velit cumque qui rerum alias earum at perferendis in beatae quidem dolorum
-                        odio,
-                        dicta
-                        mollitia
-                        accusantium atque repellendus!</div>
+                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition organized by
+                        undergraduates of the Department of Computer Science at
+                        University of Ruhuna.
+                        We have organized this event through “HackerRank”
+                        platform.Participants are able to use any programming language
+                        they prefer.It takes 03 hours to compete with a group consisting
+                        of maximum three members.
+                        This algorithmic event is organized with the explicit purpose of
+                        enhancing the coding skills of undergraduates.This is taking place
+                        as a Physical event and winners will receive cash prizes and
+                        valuable certificate.
+                        And also, all the other participants will receive a digital certificate
+                        as an appreciation oftheir participation and hard work.</div>
                 </div>
             </div>
         </section>
