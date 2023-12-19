@@ -9,6 +9,7 @@ window.addEventListener("scroll", function () {
         var revealpoint = 150;
         if (revealtop < windowheight - revealpoint) {
             reveals[i].classList.add('active');
+            logo.innerHTML = '<img src="{{asset(images/logo_hrz.png)}}" alt="Scrolling Logo">';
         }
         else {
             reveals[i].classList.remove('active');
