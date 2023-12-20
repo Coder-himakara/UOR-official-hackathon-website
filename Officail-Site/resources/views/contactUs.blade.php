@@ -89,7 +89,7 @@
         <div class="row justify-content-evenly">
             <!-- Card 1 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/Chair.heic') }}" alt="Chair person Image">
+                <img class="user-image" src="{{ asset('images/Contacts/chair.jpg') }}" alt="Chair person Image">
                 <div class="info-box-name">
                     <h2>Thanuja Priyadarshane (Chair)</h2>
                 </div>
@@ -119,7 +119,7 @@
             <div class="card col-lg-4 mx-lg-2 ">
                 <img class="user-image" src="{{ asset('images/Contacts/Treasurer.jpg') }}" alt="Treasurer Image">
                 <div class="info-box-name">
-                    <h2>Buddhika Pereda (Treasurer)</h2>
+                    <h2>Buddhika Perera (Treasurer)</h2>
                 </div>
                 <div class="info-box">
                     <p>Email: buddhikapereraofficial@gmail.com</p>
