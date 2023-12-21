@@ -21,7 +21,7 @@
 
     <!-- Custom Script -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
+    <link rel="stylesheet" href="{{ asset('css/roboimgs.css') }}">
 </head>
 
 <body>
@@ -149,8 +149,10 @@
                 </div>
             </div>
         </section>
-
-
+        <!--Robotimg 1-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{asset('images/robots/R3.png')}}" class="guidelineimg" alt="Description of Image 1">
+          </div>
 
         <!-- GUIDELINE section -->
         <section class="shw_vwport reveal" id="guideline">
@@ -197,6 +199,10 @@
                 </div>
             </div>
         </section>
+        <!--Robotimg 2-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{asset('images/robots/R4.png')}}" class="timelineimg" alt="Description of Image 1">
+          </div>
 
         <!-- TIMELINE section -->
         <section class="shw_vwport timeline " id="timeline">
@@ -294,7 +300,10 @@
             </div>
         </section>
 
-
+        <!--Robotimg 3-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{asset('images/robots/R7.png')}}" class="awardimg" alt="Description of Image 1">
+          </div>
 
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">
@@ -358,6 +367,7 @@
                 </div>
             </div>
         </section>
+        <script type="text/JavaScript" src="{{ asset('js/shakerobo.js') }}"></script>
     </main>
 
 
@@ -424,6 +434,5 @@
     <!-- Custom JavaScript -->
     <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
     <script type="text/JavaScript" src="{{ asset('js/Tiimeline.js') }}"></script>
-</body>
 
 </html>

@@ -670,7 +670,7 @@ header.sticky{
     transition: background-color 0.3s ease-in-out;
 }
 .user-image {
-    max-width: 100%;
+    max-width: 50%;
     margin-bottom: 10px;
 }
 @media screen and (max-width:767px) {
@@ -684,10 +684,10 @@ header.sticky{
         min-height: 363px;
     }
     .user-image {
-        max-width: 100%;
+        max-width: 75%;
         margin-bottom: 6px;
-        width: 170px;
-        height: 200px;
+        width: 150px;
+        height: 180px;
     }
 }
 @media screen and (min-width:992px) {
