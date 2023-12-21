@@ -5,7 +5,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 20px;
-    width: auto;
+    width: 30%;
     min-height: 24px;
     text-align: center;
     box-sizing: border-box;
@@ -26,9 +26,10 @@
 }
 
 .user-image {
-    max-width: 100%;
+    max-width: 30%;
     border-radius: 50%;
     margin-bottom: 10px;
+    
 }
 
 .info-box-name {

@@ -222,7 +222,7 @@ header.sticky{
     position: absolute;
 }
 #logo{
-    top:2vmin;
+    top:-5.5vmin;
     left: 10vmin;
 }
 /* set the vector in right offset */
