@@ -63,7 +63,7 @@
                             <a class="nav-link px-1" href="#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="#guideline">Guideline</a>
+                            <a class="nav-link px-1" href="#guideline">Guidelines</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link px-1" aria-current="page" href="#timeline">Timeline</a>
