@@ -112,7 +112,7 @@
 }
 
 .shaking {
-    animation: shakeUpDown 2s ease infinite;
+    animation: shakeUpDown 2.5s ease infinite;
 }
 
 .reveal {

@@ -6,9 +6,9 @@
 
 @font-face {
 
-    src: url('../fonts/D3Euronism.ttf');
     font-family: D3-Euronism;
-    font-family: 'Inter', sans-serif;
+    src: url('../fonts/D3Euronism.ttf');
+   
 }
 
 * {
@@ -157,7 +157,8 @@ body {
 /* Header and navigation bar */
 header {
     animation: fade-down 0.5s 0.4s backwards;
-    font-family: Inter;
+    font-family: "Exo 2",sans-serif;
+    font-weight: bold;
     position: fixed;
     top: 0;
     left: 0;
@@ -298,7 +299,7 @@ header.sticky {
 .st8_2_1,
 .st8_2_3 {
     animation: fade-up 0.6 0.6s;
-    font-family: D3 Euronism;
+    font-family: D3-Euronism,"Montserrat Alternates","Carter One",sans-serif;
 }
 
 .year {
@@ -393,13 +394,13 @@ header.sticky {
 
     .year {
         font-size: 77px;
-        font-family: D3 Euronism;
+        font-family: D3-Euronism,"Montserrat Alternates","Carter One",sans-serif;
         font-weight: 400;
     }
 
     .topic-color {
         text-align: center;
-        font-family: D3 Euronism;
+        font-family: D3-Euronism,"Montserrat Alternates","Carter One",sans-serif;
         font-weight: 300;
         letter-spacing: 4.92px;
     }
@@ -448,7 +449,7 @@ header.sticky {
 .bttn-text {
     color: #0D0A9C;
     font-size: 20px;
-    font-family: "Candal";
+    font-family: "Candal",sans-serif;
     font-weight: 400;
 }
 
@@ -457,7 +458,7 @@ header.sticky {
 }
 
 .subtext p {
-    font-family: "Days One";
+    font-family: "Days One",sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: #FFFFFF;
@@ -469,7 +470,7 @@ header.sticky {
 .section-topic {
     font-weight: 700;
     font-size: 50px;
-    font-family: sans-serif
+    font-family: "Viga",Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media screen and (max-width:767px) {
