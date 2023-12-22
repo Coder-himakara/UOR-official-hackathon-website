@@ -37,8 +37,8 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto" height="210px"
-                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                    <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto"
+                        height="210px" alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
                         class="d-inline-block align-text-top">
                 </a>
 
@@ -66,7 +66,7 @@
                             <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{route('contactUs')}}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
@@ -110,12 +110,12 @@
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
-                        <p class="text-sm-start">Welcome to 'INSURGEX 1.0', the algorithmic hackathon event.
-                            It’s brought to you by the Computer
-                            Science student Community of University of Ruhuna.
-                            Expect a great experience!                          
+                        <p class="text-sm-start">Welcome to 'INSURGEX 1.0', the algorithmic hackathon event
+                            organized by the Computer
+                            Science Students' Community of University of Ruhuna.
+                            Expect a great experience!
                         </p>
-                        <a href="{{route('register')}}" target="_self"><button type="button"
+                        <a href="{{ route('register') }}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
@@ -133,7 +133,8 @@
                 </div>
                 <div class="row about">
                     <!--About us paragraph-->
-                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition organized by
+                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition
+                        organized by
                         undergraduates of the Department of Computer Science at
                         University of Ruhuna.
                         We have organized this event through “HackerRank”
@@ -151,8 +152,8 @@
         </section>
         <!--Robotimg 1-->
         <div class="responsive-robo-container shaking">
-            <img src="{{asset('images/robots/R3.png')}}" class="guidelineimg" alt="Description of Image 1">
-          </div>
+            <img src="{{ asset('images/robots/R3.png') }}" class="guidelineimg" alt="Description of Image 1">
+        </div>
 
         <!-- GUIDELINE section -->
         <section class="shw_vwport reveal" id="guideline">
@@ -201,8 +202,8 @@
         </section>
         <!--Robotimg 2-->
         <div class="responsive-robo-container shaking">
-            <img src="{{asset('images/robots/R4.png')}}" class="timelineimg" alt="Description of Image 1">
-          </div>
+            <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
+        </div>
 
         <!-- TIMELINE section -->
         <section class="shw_vwport timeline " id="timeline">
@@ -302,8 +303,8 @@
 
         <!--Robotimg 3-->
         <div class="responsive-robo-container shaking">
-            <img src="{{asset('images/robots/R7.png')}}" class="awardimg" alt="Description of Image 1">
-          </div>
+            <img src="{{ asset('images/robots/R7.png') }}" class="awardimg" alt="Description of Image 1">
+        </div>
 
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">

@@ -134,6 +134,7 @@
                     </div>
                 </div>
             </div>
+            <script type="text/JavaScript" src="{{ asset('js/shakerobo.js') }}"></script>
         </section>
 
         <div class=container>

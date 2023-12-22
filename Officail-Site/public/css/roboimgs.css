@@ -6,6 +6,9 @@
     margin: 10px;
     align-items: center;
     position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
     /* Add relative positioning to the container */
 }
 
@@ -50,7 +53,8 @@
 
         /* Adjust the right positioning as needed */
     }
-    .enrollimg{
+
+    .enrollimg {
         max-width: 12%;
         position: absolute;
         right: 10%;
@@ -74,7 +78,7 @@
     /* Adjust the right positioning as needed */
 }
 
-.enrollimg{
+.enrollimg {
     max-width: 15%;
     position: absolute;
     top: -100px;
@@ -109,4 +113,9 @@
 
 .shaking {
     animation: shakeUpDown 2s ease infinite;
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
 }
