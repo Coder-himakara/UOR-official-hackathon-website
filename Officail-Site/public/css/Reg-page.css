@@ -12,14 +12,14 @@
 
 form {
     margin: 10% 0 10% 10%;
-    background-color: #fff;
+    background: rgba(251.16, 239.44, 239.44, 0.06);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     height: auto;
     color: black;
-    opacity: 0.8;
+    
 }
 
 label {
