@@ -110,8 +110,8 @@
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
-                        <p class="text-sm-start">Welcome to 'INSURGEX 1.0', the algorithmic hackathon event.
-                            It’s brought to you by the Computer
+                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, the algorithmic hackathon event.
+                            It&apos;s brought to you by the Computer
                             Science student Community of University of Ruhuna.
                             Expect a great experience!                          
                         </p>
@@ -136,7 +136,7 @@
                     <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition organized by
                         undergraduates of the Department of Computer Science at
                         University of Ruhuna.
-                        We have organized this event through “HackerRank”
+                        We have organized this event through &quot;HackerRank&quot;
                         platform.Participants are able to use any programming language
                         they prefer.It takes 03 hours to compete with a group consisting
                         of maximum three members.

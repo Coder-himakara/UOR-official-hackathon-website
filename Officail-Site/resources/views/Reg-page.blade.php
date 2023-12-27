@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -81,224 +82,283 @@
         <!--Intro paragraph-->
         <section class="shw_vwport reveal">
             <div class="container">
-                <div class="row text-center">
+                <div class="text-center">
                     <div class="section-topic">Enroll Now</div>
-                    <div class="row text-center">
-                        <div class="about text-start">
-                            <b>Participants shall comply with these rules while participating in the Hackathon.</b>
-                            <br>
-                            <br>
-                            <br>
-                            <ol style="display: block;font: optional;font-weight: 200;">
-                                <li>Each team is required to create a single Hackathon account, and <b>the username for
-                                        your
-                                        HackerRank account must adhere to a specific pattern provided by us.<br>
-                                        [for alignment with your team's name, "CodeBlasters", the username for
-                                        HackerRank shouls be
-                                        CodeBlasters_X1 /(TeamName_X1) ].
-                                    </b></li>
-                                <li>
-                                    Team size limit: Your team can include <b>a maximum of 3 members.</b>
-                                </li>
-                                <li>
-                                    Code originality: Remember, <b>you cannot copy codes for any other teams.</b>
-                                </li>
-                                <li>
-                                    Communication during Hackathon: During the event, <b>you are allowed to communicate
-                                        only with your
-                                        team members.</b>
-                                </li>
-                                <li>
-                                    Feel free to use <b>any tools </b>during the hackthon.
-                                </li>
-                                <li>
-                                    Duration: The Hackathon will run for <b>2 hours.</b>
-                                </li>
-                                <li>
-                                    Device Usage: <b>Please bring your own laptop for the Hackathon.</b>
-                                </li>
-                                <li>
-                                    Extension Requests: If your team requires an extension, feel free to bring it up.
-                                </li>
-                                <li>
-                                    Food Policy: Please note that <b>foods are not allowed in the lab.</b>
-                                </li>
-                            </ol>
-                        </div>
+                    <div class="about text-start ps-2">
+                        <b>Participants shall comply with these rules while participating in the Hackathon.</b>
+                        <br>
+                        <br>
+                        <br>
+                        <ol style="display: block;font: optional;font-weight: 200;">
+                            <li>Each team is required to create a single Hackathon account, and <b>the username for
+                                    your
+                                    HackerRank account must adhere to a specific pattern provided by us.<br>
+                                    [for alignment with your team's name, "CodeBlasters", the username for
+                                    HackerRank shouls be
+                                    CodeBlasters_X1 /(TeamName_X1) ].
+                                </b></li>
+                            <li>
+                                Team size limit: Your team can include <b>a maximum of 3 members.</b>
+                            </li>
+                            <li>
+                                Code originality: Remember, <b>you cannot copy codes for any other teams.</b>
+                            </li>
+                            <li>
+                                Communication during Hackathon: During the event, <b>you are allowed to communicate
+                                    only with your
+                                    team members.</b>
+                            </li>
+                            <li>
+                                Feel free to use <b>any tools </b>during the hackthon.
+                            </li>
+                            <li>
+                                Duration: The Hackathon will run for <b>2 hours.</b>
+                            </li>
+                            <li>
+                                Device Usage: <b>Please bring your own laptop for the Hackathon.</b>
+                            </li>
+                            <li>
+                                Extension Requests: If your team requires an extension, feel free to bring it up.
+                            </li>
+                            <li>
+                                Food Policy: Please note that <b>foods are not allowed in the lab.</b>
+                            </li>
+                        </ol>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <div class=container>
+        <!-- form -->
+        <div class="container mb-3">
             <form action="{{ route('store') }}" method="POST">
                 @csrf
                 @if ($errors->any())
-                    <div class="alert alert-danger">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
                 @endif
-                <label for="teamName">Team Name:</label>
-                <input type="text" id="teamName" name="teamName" value="{{ old('teamName') }}">
-                <hr>
+
+                <!--Get team name seperately -->
+                <div class="my-4 text-center teamDiv">
+                    <label for="teamName">Team Name:</label>
+                    <input required type="text" id="teamName" name="teamName" value="{{ old('teamName') }}">
+                </div>
+
+                <!-- leader deatials heading -->
+                <h3 class="text-start ps-4 leader-title">Leader</h3>
                 <!--Leader/Member 01 Details-->
                 <div class="member-box">
-                    <h3 style="background-color:rgb(112, 237, 220) ">Leader</h3>
-                    <label for="LeaderName">Name: (This name will be used in the certificate.)</label>
-                    <input type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
+                    <div class="input-data my-5">
+                        <input required type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
+                        <label for="LeaderName">Name: (This name will be used in the certificate.)</label>
+                    </div>
 
-                    <label for="member1Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member1Contact" name="member1Contact"
-                        value="{{ old('member1Contact') }}">
-
-                    <label for="leader_faculty">Select Faculty:</label>
-                    <select id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
-                        <option value="" disabled selected hidden></option>
-                        <option value="Engineering">Engineering</option>
-                        <option value="Science">Science</option>
-                        <option value="Technology">Technology</option>
-                        <option value="Management and Finance">Management and Finance</option>
-                        <option value="Medicine">Medicine</option>
-                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
-                        <option value="Agriculture">Agriculture</option>
-                        <option value="Allied Health Science">Allied Health Science</option>
-                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
-                        <!-- Add more options as needed -->
-                    </select>
-
-                    <label for="leader_batchNumber">Select Batch Number:</label>
-                    <select id="leader_batchNumber" name="leader_batchNumber"
-                        value="{{ old('leader_batchNumber') }}">
-                        <option value="" disabled selected hidden></option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                        <!-- Add more options as needed -->
-                    </select>
-
-                    <label for="member1SID">
+                    <div class="input-data my-5">
+                        <input required type="text" id="member1SID" name="member1SID" value="{{ old('member1SID') }}">
                         <label for="member1SID">Student ID No:</label>
-                        <input type="text" id="member1SID" name="member1SID" value="{{ old('member1SID') }}">
+                    </div>
 
-                        <label for="member1Email">Email:</label>
-                        <input type="email" id="member1Email" name="member1Email"
+
+                    <div class="input-data my-5 d-inline">
+                        <select required id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
+                            <option value="" disabled selected hidden></option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Science">Science</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Management and Finance">Management and Finance</option>
+                            <option value="Medicine">Medicine</option>
+                            <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Allied Health Science">Allied Health Science</option>
+                            <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                        <label for="leader_faculty">Faculty:</label>
+                    </div>
+
+                    <div class="input-data my-5 d-inline">
+                        <select required id="leader_batchNumber" name="leader_batchNumber"
+                            value="{{ old('leader_batchNumber') }}">
+                            <option value="" disabled selected hidden></option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                        <label for="leader_batchNumber">Batch Number:</label>
+                    </div>
+
+                    <div class="input-data my-5">
+                        <input required type="tel" id="member1Contact" name="member1Contact"
+                            value="{{ old('member1Contact') }}">
+                        <label for="member1Contact">Whatsapp Number:</label>
+                    </div>
+
+                    <div class="input-data my-5">
+                        <input required type="email" id="member1Email" name="member1Email"
                             value="{{ old('member1Email') }}">
-
+                        <label for="member1Email">Email:</label>
+                    </div>
                 </div>
 
-                <hr>
+                <!-- Member2 deatials heading -->
+                <div class="container text-center mt-3 ms-0 pt-0 member-div">
+                    <div class="row pt-0">
+                        <h6 class="col-6 member-Title">Member2</h6>
+                        <button type="button" class="col-6 btn btn-primary bttn member-add" data-bs-toggle="collapse"
+                            data-bs-target="#collapsemember2" aria-expanded="false" aria-controls="collapsemember2"
+                            onclick="enableFields()">+</button>
+                    </div>
+                </div>
                 <!--Member 02 Details-->
-                <div class="member-box">
-                    <button type="button" class="btn btn-primary" onclick="enableFields()">Add Member 2</button>
-                    <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 2</h3>
-                    <label for="member2Name">Name:</label>
-                    <input type="text" id="member2Name" name="member2Name" required title="Must fill this"
-                        value="{{ old('member2Name') }}" disabled>
+                <div class="member-box p-2">
+                    <div class="collapse" id="collapsemember2">
+                        <div class="input-data my-5">
+                            <input type="text" id="member2Name" name="member2Name" required title="Must fill this"
+                                value="{{ old('member2Name') }}" disabled>
+                            <label for="member2Name">Name:</label>
+                        </div>
 
-                    <label for="member2Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member2Contact" name="member2Contact" required title="Must fill this"
-                        value="{{ old('member2Contact') }}" disabled>
+                        <div class="input-data my-5">
+                            <input type="text" id="member2SID" name="member2SID" required title="Must fill this"
+                                value="{{ old('member2SID') }}" disabled>
+                            <label for="member2SID">Student ID No:</label>
+                        </div>
 
-                    <label for="m2_faculty">Select Faculty:</label>
-                    <select id="m2_faculty" name="m2_faculty" required title="Must fill this"
-                        value="{{ old('m2_faculty') }}" disabled>
-                        <option value="" disabled selected hidden></option>
-                        <option value="Engineering">Engineering</option>
-                        <option value="Science">Science</option>
-                        <option value="Technology">Technology</option>
-                        <option value="Management and Finance">Management and Finance</option>
-                        <option value="Medicine">Medicine</option>
-                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
-                        <option value="Agriculture">Agriculture</option>
-                        <option value="Allied Health Science">Allied Health Science</option>
-                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
-                        <!-- Add more options as needed -->
-                    </select>
+                        <div class="input-data my-5 d-inline">
+                            <select id="m2_faculty" name="m2_faculty" required title="Must fill this"
+                                value="{{ old('m2_faculty') }}" disabled>
+                                <option value="" disabled selected hidden></option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="Science">Science</option>
+                                <option value="Technology">Technology</option>
+                                <option value="Management and Finance">Management and Finance</option>
+                                <option value="Medicine">Medicine</option>
+                                <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                                <option value="Agriculture">Agriculture</option>
+                                <option value="Allied Health Science">Allied Health Science</option>
+                                <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <label for="m2_faculty">Faculty:</label>
+                        </div>
 
-                    <label for="m2_batchNumber">Select Batch Number:</label>
-                    <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this"
-                        value="{{ old('m2_batchNumber') }}" disabled>
-                        <option value="" disabled selected hidden></option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                        <!-- Add more options as needed -->
-                    </select>
+                        <div class="input-data my-5 d-inline">
+                            <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this"
+                                value="{{ old('m2_batchNumber') }}" disabled>
+                                <option value="" disabled selected hidden></option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <label for="m2_batchNumber">Batch Number:</label>
+                        </div>
 
-                    <label for="member2SID">
-                        <label for="member2SID">Student ID No:</label>
-                        <input type="text" id="member2SID" name="member2SID" required title="Must fill this"
-                            value="{{ old('member2SID') }}" disabled>
+                        <div class="input-data my-5">
+                            <input type="tel" id="member2Contact" name="member2Contact" required title="Must fill this"
+                                value="{{ old('member2Contact') }}" disabled>
+                            <label for="member2Contact">Whatsapp Number:</label>
+                        </div>
 
-                        <label for="member2Email">Email:</label>
-                        <input type="email" id="member2Email" name="member2Email" required title="Must fill this"
-                            value="{{ old('member2Email') }}" disabled>
+                        <div class="input-data my-5">
+                            <input type="email" id="member2Email" name="member2Email" required title="Must fill this"
+                                value="{{ old('member2Email') }}" disabled>
+                            <label for="member2Email">Email:</label>
+                        </div>
 
+                    </div>
                 </div>
 
-                <hr>
+                <!-- Member3 deatials heading -->
+                <div class="container text-center mt-3 ms-0 pt-0 member-div">
+                    <div class="row pt-0">
+                        <h6 class="col-6 member-Title">Member3</h6>
+                        <button type="button" class="col-6 btn btn-primary bttn member-add text-end" data-bs-toggle="collapse"
+                            data-bs-target="#collapsemember3" aria-expanded="false" aria-controls="collapsemember3"
+                            onclick="enableFields2()">+</button>
+                    </div>
+                </div>
                 <!--Member 03 Details-->
-                <div class="member-box">
-                    <button type="button" class="btn btn-primary" onclick="enableFields2()">Add Member
-                        3</button>
-                    <h3 style="background-color:rgb(112, 237, 220);margin-top: 3% ">Member 3</h3>
-                    <label for="member3Name">Name:</label>
-                    <input type="text" id="member3Name" name="member3Name" required title="Must fill this"
-                        value="{{ old('member3Name') }}" disabled>
+                <div class="member-box p-2">
+                    <div class="collapse" id="collapsemember3">
+                        <div class="input-data my-5">
+                            <input type="text" id="member3Name" name="member3Name" required title="Must fill this"
+                                value="{{ old('member3Name') }}" disabled>
+                            <label for="member3Name">Name:</label>
+                        </div>
 
-                    <label for="member3Contact">Whatsapp Number:</label>
-                    <input type="tel" id="member3Contact" name="member3Contact" required title="Must fill this"
-                        value="{{ old('member3Contact') }}" disabled>
+                        <div class="input-data my-5">
+                            <input type="text" id="member3SID" name="member3SID" required title="Must fill this"
+                                value="{{ old('member3SID') }}" disabled>
+                            <label for="member3SID">Student ID No:</label>
+                        </div>
 
-                    <label for="m3_faculty">Select Faculty:</label>
-                    <select id="m3_faculty" name="m3_faculty" required title="Must fill this"
-                        value="{{ old('m3_faculty') }}" disabled>
-                        <option value="" disabled selected hidden></option>                       
-                        <option value="Engineering">Engineering</option>
-                        <option value="Science">Science</option>
-                        <option value="Technology">Technology</option>
-                        <option value="Management and Finance">Management and Finance</option>
-                        <option value="Medicine">Medicine</option>
-                        <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
-                        <option value="Agriculture">Agriculture</option>
-                        <option value="Allied Health Science">Allied Health Science</option>
-                        <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
-                        <!-- Add more options as needed -->
-                    </select>
 
-                    <label for="m3_batchNumber">Select Batch Number:</label>
-                    <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this"
-                        value="{{ old('m3_batchNumber') }}" disabled>
-                        <option value="" disabled selected hidden></option>                       
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                        <!-- Add more options as needed -->
-                    </select>
+                        <div class="input-data my-5 d-inline">
+                            <select id="m3_faculty" name="m3_faculty" required title="Must fill this"
+                                value="{{ old('m3_faculty') }}" disabled>
+                                <option value="" disabled selected hidden></option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="Science">Science</option>
+                                <option value="Technology">Technology</option>
+                                <option value="Management and Finance">Management and Finance</option>
+                                <option value="Medicine">Medicine</option>
+                                <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+                                <option value="Agriculture">Agriculture</option>
+                                <option value="Allied Health Science">Allied Health Science</option>
+                                <option value="Fisheries and Marine Sciences">Fisheries and Marine Sciences</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <label for="m3_faculty">Faculty:</label>
+                        </div>
 
-                    <label for="member3SID">Student ID No:</label>
-                    <input type="text" id="member3SID" name="member3SID" required title="Must fill this"
-                        value="{{ old('member3SID') }}" disabled>
+                        <div class="input-data my-5 d-inline">
+                            <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this"
+                                value="{{ old('m3_batchNumber') }}" disabled>
+                                <option value="" disabled selected hidden></option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <label for="m3_batchNumber">Batch Number:</label>
+                        </div>
 
-                    <label for="member3Email">Email:</label>
-                    <input type="email" id="member3Email" name="member3Email" required title="Must fill this"
-                        value="{{ old('member3Email') }}" disabled>
+                        <div class="input-data my-5">
+                            <input type="tel" id="member3Contact" name="member3Contact" required title="Must fill this"
+                                value="{{ old('member3Contact') }}" disabled>
+                            <label for="member3Contact">Whatsapp Number:</label>
+                        </div>
+
+                        <div class="input-data my-5">
+                            <input type="email" id="member3Email" name="member3Email" required title="Must fill this"
+                                value="{{ old('member3Email') }}" disabled>
+                            <label for="member3Email">Email:</label>
+                        </div>
+                    </div>
                 </div>
 
-                <input type="submit" onclick="return confirmSubmit()" value="Submit">
-
+                <!-- Submit and Reset buttons -->
+                <div class="row">
+                    <input class="col-6 btn btn-primary bttn py-0 " type="reset" onclick="return confirmReset()"
+                        value="Reset">
+                    <input class="col-6 btn btn-primary bttn py-0" type="submit" onclick="return confirmSubmit()"
+                        value="Submit">
+                </div>
             </form>
-
         </div>
 
         <!-- Footer-->
@@ -349,19 +409,18 @@
             </div>
         </footer>
 
-        <!--Function to enable member 02-->
         <script>
-            function enableFields() {
+            // Function to enable member 02
+             function enableFields() {
                 document.getElementById("member2Name").disabled = false;
                 document.getElementById("member2Contact").disabled = false;
                 document.getElementById("m2_faculty").disabled = false;
                 document.getElementById("m2_batchNumber").disabled = false;
                 document.getElementById("member2SID").disabled = false;
                 document.getElementById("member2Email").disabled = false;
+
             }
-        </script>
-        <!--Function to enable member 03-->
-        <script>
+            // Function to enable member 03
             function enableFields2() {
                 document.getElementById("member3Name").disabled = false;
                 document.getElementById("member3Contact").disabled = false;
@@ -370,23 +429,23 @@
                 document.getElementById("member3SID").disabled = false;
                 document.getElementById("member3Email").disabled = false;
             }
-        </script>
-
-        <script>
+            //submit and reset button function
             function confirmSubmit() {
                 return confirm("Are you sure you want to submit this form?");
+            }
+            function confirmReset() {
+                return confirm("Are you sure you want to Reset this form?");
             }
         </script>
 
         <!-- Bootstrap JavaScript Libraries -->
-
-        <script difer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
         </script>
-        <script difer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
             integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
         </script>
-        <!-- Custom JavaScript -->
+        <!--main JavaScript -->
         <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
 </body>
 

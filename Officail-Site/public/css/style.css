@@ -231,6 +231,7 @@ header.sticky{
   right: 0vmin;
 }
 #d2{
+    z-index: -1;
     top: 1400px;
 }
 #d3{
@@ -695,7 +696,7 @@ header.sticky{
         transition: transform 0.3s ease-in-out; 
     }
     .prize-body:hover {
-        transform: scale(1.0);
+        transform: scale(1.07);
     }
 }
 
