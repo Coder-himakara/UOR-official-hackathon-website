@@ -12,13 +12,7 @@
     /* Add relative positioning to the container */
 }
 
-/* Image specific styling */
-.guidelineimg {
-    max-width: 15%;
-    position: absolute;
-    right: 10%;
-    /* Adjust the right positioning as needed */
-}
+
 
 /* Responsive styles for smaller screens */
 @media screen and (max-width:767px) {
@@ -41,7 +35,7 @@
         max-width: 15%;
         position: absolute;
         left: 15%;
-        margin-top: 6%;
+        margin-top: 2%;
         /* Allow the height to adjust proportionally */
     }
 
@@ -55,16 +49,24 @@
     }
 
     .enrollimg {
-        max-width: 12%;
+        max-width: 16%;
         position: absolute;
         right: 10%;
     }
 }
 
+/* Image specific styling */
+.guidelineimg {
+    max-width: 12%;
+    position: absolute;
+    right: 10%;
+    /* Adjust the right positioning as needed */
+}
 
 .timelineimg {
-    max-width: 22%;
+    max-width: 19%;
     position: absolute;
+    top:100px;
     left: 15%;
 
     /* Adjust the right positioning as needed */
@@ -81,7 +83,7 @@
 .enrollimg {
     max-width: 15%;
     position: absolute;
-    top: -100px;
+    top: -150px;
     right: 10%;
 }
 
