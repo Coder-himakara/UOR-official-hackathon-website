@@ -13,6 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Days+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo&family=Black+Ops+One&family=Carter+One&family=Exo+2&family=Montserrat+Alternates:wght@800&family=Viga&display=swap"
+        rel="stylesheet">
+
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS v5.2.1 -->
@@ -21,7 +27,7 @@
 
     <!-- Custom Script -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
+    <link rel="stylesheet" href="{{ asset('css/roboimgs.css') }}">
 </head>
 
 <body>
@@ -37,8 +43,8 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto" height="210px"
-                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                    <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto"
+                        height="210px" alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
                         class="d-inline-block align-text-top">
                 </a>
 
@@ -57,7 +63,7 @@
                             <a class="nav-link px-1" href="#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="#guideline">Guideline</a>
+                            <a class="nav-link px-1" href="#guideline">Guidelines</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link px-1" aria-current="page" href="#timeline">Timeline</a>
@@ -66,7 +72,7 @@
                             <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{route('contactUs')}}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
@@ -110,12 +116,14 @@
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
+
                         <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, the algorithmic hackathon event.
                             It&apos;s brought to you by the Computer
                             Science student Community of University of Ruhuna.
                             Expect a great experience!                          
+
                         </p>
-                        <a href="{{route('register')}}" target="_self"><button type="button"
+                        <a href="{{ route('register') }}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
@@ -133,7 +141,8 @@
                 </div>
                 <div class="row about">
                     <!--About us paragraph-->
-                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition organized by
+                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition
+                        organized by
                         undergraduates of the Department of Computer Science at
                         University of Ruhuna.
                         We have organized this event through &quot;HackerRank&quot;
@@ -149,8 +158,10 @@
                 </div>
             </div>
         </section>
-
-
+        <!--Robotimg 1-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{ asset('images/robots/R3.png') }}" class="guidelineimg" alt="Description of Image 1">
+        </div>
 
         <!-- GUIDELINE section -->
         <section class="shw_vwport reveal" id="guideline">
@@ -195,11 +206,19 @@
                 </div>    
             </div>
         </section>
+
+        <!--Robotimg 2-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
+        </div>
+
+
         <div class="container px-1">
         <div class="row text-lg-start text-center pt-0">
             <a href=""><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Download</span></button></a>
         </div> 
         </div>
+
         <!-- TIMELINE section -->
         <section class="shw_vwport timeline " id="timeline">
             <div class="container-fluid">
@@ -296,7 +315,10 @@
             </div>
         </section>
 
-
+        <!--Robotimg 3-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{ asset('images/robots/R7.png') }}" class="awardimg" alt="Description of Image 1">
+        </div>
 
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">
@@ -360,6 +382,8 @@
                 </div>
             </div>
         </section>
+        <!-- -->
+        <script type="text/JavaScript" src="{{ asset('js/shakerobo.js') }}"></script>
     </main>
 
 
@@ -426,6 +450,5 @@
     <!-- Custom JavaScript -->
     <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
     <script type="text/JavaScript" src="{{ asset('js/Tiimeline.js') }}"></script>
-</body>
 
 </html>

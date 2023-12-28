@@ -22,6 +22,7 @@
     <!-- Custom Script -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Reg-page.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/roboimgs.css') }}">
 </head>
 
 <body>
@@ -79,6 +80,11 @@
             </div>
         </section>
 
+         <!--Robotimg 1-->
+         <div class="responsive-robo-container shaking">
+            <img src="{{asset('images/robots/R.png')}}" class="enrollimg" alt="Description of Image 1">
+          </div>
+
         <!--Intro paragraph-->
         <section class="shw_vwport reveal">
             <div class="container">
@@ -128,6 +134,7 @@
 
                 </div>
             </div>
+            <script type="text/JavaScript" src="{{ asset('js/shakerobo.js') }}"></script>
         </section>
 
         <!-- form -->
