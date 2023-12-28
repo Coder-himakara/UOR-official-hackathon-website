@@ -80,7 +80,7 @@
                                 More</a>
                             <!--Navigation drop don menu-->
                             <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item test" type="button"><a href="#sponsers"
+                                <button class="dropdown-item dropdwn-shw" type="button"><a href="#sponsers"
                                         class="dd-item">Sponsers</a></button>
                                 <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
                                         target="_self" class="dd-item">News-&-Updates</a></button>
@@ -116,10 +116,12 @@
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
-                        <p class="text-sm-start">Welcome to 'INSURGEX 1.0', the algorithmic hackathon event
-                            organized by the Computer
-                            Science Students' Community of University of Ruhuna.
-                            Expect a great experience!
+
+                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, the algorithmic hackathon event.
+                            It&apos;s brought to you by the Computer
+                            Science student Community of University of Ruhuna.
+                            Expect a great experience!                          
+
                         </p>
                         <a href="{{ route('register') }}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
@@ -143,7 +145,7 @@
                         organized by
                         undergraduates of the Department of Computer Science at
                         University of Ruhuna.
-                        We have organized this event through “HackerRank”
+                        We have organized this event through &quot;HackerRank&quot;
                         platform.Participants are able to use any programming language
                         they prefer.It takes 03 hours to compete with a group consisting
                         of maximum three members.
@@ -195,20 +197,26 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
                                 repellat
-                                laudantium,
+                                laudantium,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
+                                repellat
                             </li>
                         </ol>
-                        <div class="row text-sm-center text-start">
-                            <a href=""><button type="button" class="btn btn-primary bttn"><span
-                                        class="bttn-text">Download</span></button></a>
-                        </div>
+                           
                     </div>
-                </div>
+                </div>    
             </div>
         </section>
+
         <!--Robotimg 2-->
         <div class="responsive-robo-container shaking">
             <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
+        </div>
+
+
+        <div class="container px-1">
+        <div class="row text-lg-start text-center pt-0">
+            <a href=""><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Download</span></button></a>
+        </div> 
         </div>
 
         <!-- TIMELINE section -->

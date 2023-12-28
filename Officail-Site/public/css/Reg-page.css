@@ -1,50 +1,13 @@
+/* Override the animation on the main style.css */
 .shw_vwport.reveal{
-    position:relative;
     transform: translateY(10%);
-    opacity: 0;
-    transition: all 2s ease;
 }
 
 .shw_vwport.reveal.active{
-    transform: translateY(-3%);
-    opacity: 1;
+    transform: translateY(-3%);  
 }
 
-form {
-    margin: 10% 0 10% 10%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    height: auto;
-    color: black;
-    opacity: 0.8;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-}
-
-input,select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-}
-
-input[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
+/* making viewports heights */
 .shw_vwport{
     padding-top: 0px;
     min-height: 100vh;
@@ -55,4 +18,131 @@ input[type="submit"]:hover {
     }
 }
 
+/* form main styles */
+form {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(251.16, 239.44, 239.44, 0.06);
+    padding: 8%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    color: black;
+    
+}
+@media screen and (min-width:767px) {
+    form {
+        margin: 10% 0 0 10%;
+        width: 80%;       
+    }
+}
 
+
+label{
+    font-size: 20px;
+    color:antiquewhite;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    
+}
+input{
+    color: #fff;
+}
+input,select {
+    caret-color: #fff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: auto;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* override the button stlyes in main style.css*/
+.bttn {
+    background:none;
+    border: none;
+    height:1.5em;
+    width: auto;
+}
+
+/* each boxes title control */
+.member-Title,.leader-title,.member-add{
+    color: #000000;
+}
+.member-Title{
+    margin: 0;
+    padding-top: 6px;
+}
+.member-add{
+    border-bottom:2px solid #000000;
+    margin: 0px 0 0 23px;
+    
+}
+
+/* control all memebers title header */
+.member-div,.leader-title{
+    max-width: 60%;
+    background-color:rgb(112, 237, 220);
+    border-radius: 0px 18px 18px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color:black;
+}
+
+
+/* each form boxes controls */
+.member-box,.teamDiv{
+    background-color: rgba(0,0,0,.25);
+    padding: 10px;
+    border-radius: 0 0 3% 3%;
+    border-top: 2px solid #000000;
+    border-bottom: 6px solid #084298;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/* Team Name input field width and align */
+#teamName{
+    width: 80%;
+    text-align: center;
+}
+
+/* leader,member1,memeber2 faculty and batch number widths */
+#leader_batchNumber,#m3_batchNumber,#m2_batchNumber{
+    max-width: 30%;
+}
+#leader_faculty,#m3_faculty,#m2_faculty{
+    max-width: 60%;
+}
+
+
+/* form label and input,select fields animation */
+/* for work on this animation you need to required the input and select feilds */
+.container .input-data{
+    height: 40px;
+    max-width: 100%;
+    position: relative;
+}
+.container .input-data label{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input-data input:focus ~ label,.input-data input:valid ~ label,.input-data input:hover ~ label,
+.input-data select:focus ~ label,.input-data select:valid ~ label,.input-data select:hover ~ label{
+    transform: translateY(-30px);
+    font-size: 15px;
+    color:rgb(112, 237, 220)
+}

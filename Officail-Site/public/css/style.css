@@ -139,7 +139,7 @@ body {
 /* Patricle effect has until guideline in big screen >768px*/
 #particles-js {
     position: absolute;
-    height: 270%;
+    height:300%;
     z-index: 1;
 }
 
@@ -253,7 +253,8 @@ header.sticky {
     right: 0vmin;
 }
 
-#d2 {
+#d2{
+    z-index: -1;
     top: 1400px;
 }
 
@@ -421,15 +422,15 @@ header.sticky {
 
 .bttn {
     z-index: 1;
-    width: 209px;
-    height: 45px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 12px;
-    padding-bottom: 12px;
 
-    position: relative;
-    background: #5AEDC1;
+    width: 166px; 
+    height: 33px; 
+    padding-left: 18px; 
+    padding-right: 18px; 
+    padding-top: 8px; 
+    padding-bottom: 8px;     
+    position: relative; 
+    background: #5AEDC1; 
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -448,9 +449,11 @@ header.sticky {
 
 .bttn-text {
     color: #0D0A9C;
-    font-size: 20px;
-    font-family: "Candal",sans-serif;
-    font-weight: 400;
+
+    font-size: 17px;
+    font-family: "Candal";
+    font-weight: 350;
+
 }
 
 .subtext {
@@ -799,7 +802,7 @@ header.sticky {
     }
 
     .prize-body:hover {
-        transform: scale(1.0);
+        transform: scale(1.07);
     }
 }
 

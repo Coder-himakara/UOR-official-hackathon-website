@@ -17,18 +17,20 @@ window.addEventListener("scroll", function () {
     }
 });
 
-const spon=document.querySelector(".test");
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarNav')
-const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
-navLinks.forEach((l) => {
-    if(l.className!="nav-item dropdown"){
-        l.addEventListener('click', () => { bsCollapse.toggle() });
-    }
-    
-})
-spon.addEventListener('click', () => { bsCollapse.toggle() });
-
+const chckDrpdwn=document.querySelector(".dropdown");
+if( chckDrpdwn!=null ){
+    const spon=document.querySelector(".dropdwn-shw");
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarNav')
+    const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+    navLinks.forEach((l) => {
+        if(l.className!="nav-item dropdown"){
+            l.addEventListener('click', () => { bsCollapse.toggle() });
+        }
+        
+    })
+    spon.addEventListener('click', () => { bsCollapse.toggle() });
+}
 
 
 
