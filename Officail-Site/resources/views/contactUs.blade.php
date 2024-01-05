@@ -103,7 +103,7 @@
 
             <!-- Card 2 -->
             <div class="card card col-lg-4 mx-lg-2">
-                <img class="user-image" src="{{ asset('images/Contacts/Secratary.jpg') }}" alt="Secratary Image">
+                <img class="user-image" src="{{ asset('images/Contacts/Secratary.png') }}" alt="Secratary Image">
                 <div class="info-box-name">
                     <h2>Chalani Chanchala (Secretary) </h2>
                 </div>
@@ -117,7 +117,7 @@
 
             <!-- Card 3 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/Treasurer.jpg') }}" alt="Treasurer Image">
+                <img class="user-image" src="{{ asset('images/Contacts/Treasurer.png') }}" alt="Treasurer Image">
                 <div class="info-box-name">
                     <h2>Buddhika Perera (Treasurer)</h2>
                 </div>
@@ -131,7 +131,7 @@
 
             <!-- Card 4 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/Programming.jpg') }}"
+                <img class="user-image" src="{{ asset('images/Contacts/Programming.png') }}"
                     alt="Programming leader Image">
                 <div class="info-box-name">
                     <h2>Isuru Shanaka (Programming)</h2>
@@ -148,7 +148,7 @@
 
             <!-- Card 5 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/Financial.jpg') }}"
+                <img class="user-image" src="{{ asset('images/Contacts/Financial.png') }}"
                     alt="Finance leader Image">
                 <div class="info-box-name">
                     <h2>Kushan Sandul (Finance)</h2>
@@ -164,7 +164,7 @@
 
             <!-- Card 6 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/PR.jpg') }}" alt="User Image">
+                <img class="user-image" src="{{ asset('images/Contacts/PR.png') }}" alt="User Image">
                 <div class="info-box-name">
                     <h2>Thejana Hirumal (Public Relation)
                     </h2>
@@ -179,7 +179,7 @@
             </div>
             <!-- Card 7 -->
             <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="{{ asset('images/Contacts/logistics.jpg') }}" alt="User Image">
+                <img class="user-image" src="{{ asset('images/Contacts/logistics.png') }}" alt="User Image">
                 <div class="info-box-name">
                     <h2>Imasha Dilshan (Logistics) 
                     </h2>
