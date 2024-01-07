@@ -23,7 +23,7 @@
 }
 
 body {
-    padding-top: 120px;
+    padding-top: 90px;
     color: var(--fontClr);
     background: var(--bgClr);
 }
@@ -235,17 +235,18 @@ header.sticky {
 
 }
 
-
-
 /* set the vector design at background*/
 .vector_pos {
     position: absolute;
 }
 
 #logo {
-    top: -5.5vmin;
+    top: -3.2vmin;
     left: 10vmin;
 }
+/* .scroll_logo{
+    display: none;
+} */
 
 /* set the vector in right offset */
 #d1 {

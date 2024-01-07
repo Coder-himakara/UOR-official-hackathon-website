@@ -41,12 +41,17 @@
         <!--Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
-                <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
+                <a  class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto"
-                        height="210px" alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                    <img src="{{ asset('images/logo_hrz.png') }}"  width="auto"
+                        height="160px" alt="Logo2" class="vector_pos scroll_logo" id="logo" style="position:absolute; display:none;"
                         class="d-inline-block align-text-top">
+                    <!--Hackthon LOGO2. Change with requirements-->
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                    class="d-inline-block align-text-top">
                 </a>
+            
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -32,7 +32,7 @@
       <div class="container-fluid">
         <a class="navbar-brand ms-4 me-0" href="{{route('index')}}">
           <!--Hackthon LOGO. Change with requirements-->
-          <img src="{{ asset('images/logo without bg2.png') }}" border-radius: 278.50px width="auto" height="100px" alt="Logo"
+          <img src="{{ asset('images/logo without bg2.png') }}"  width="auto" height="160px" alt="Logo"
             class="vector_pos" id="logo" style="position:absolute; " class="d-inline-block align-text-top">
         </a>
 
