@@ -24,7 +24,7 @@
     }
 
     .guidelineimg {
-        max-width: 15%;
+        max-width: 30%;
         position: absolute;
         margin-top: 5px;
         right: 10%;
@@ -49,7 +49,7 @@
     }
 
     .enrollimg {
-        max-width: 16%;
+        max-width: 20%;
         position: absolute;
         right: 10%;
     }
@@ -57,7 +57,7 @@
 
 /* Image specific styling */
 .guidelineimg {
-    max-width: 12%;
+    max-width: 20%;
     position: absolute;
     right: 10%;
     /* Adjust the right positioning as needed */
@@ -73,7 +73,7 @@
 }
 
 .awardimg {
-    max-width: 16%;
+    max-width: 20%;
     position: absolute;
     right: 15%;
 
@@ -81,7 +81,7 @@
 }
 
 .enrollimg {
-    max-width: 15%;
+    max-width: 22%;
     position: absolute;
     top: -150px;
     right: 10%;
