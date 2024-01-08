@@ -41,38 +41,42 @@ class PdfController extends Controller
         $pdf->Image($imagePath, $x, $y, $headerWidth, $headerHeight);
 
         // Set new coordinates for text below the image
-        $textX = 10; //  x-coordinate from the left=0
+        $textX = 5; //  x-coordinate from the left=0
         $textY = $y + $headerHeight + 10; // Adjust the 10 based on the space you want between image and text
 
         // Add text below the image
         $pdf->SetXY($textX, $textY);
-        $pdf->SetFont('Arial', 'B', 12);
-        $paragraph = "This is a paragraph of text that you want to include between the image and the table. You can 
-        customize the content and formatting of this text based on your requirements.";
+        $pdf->SetFont('Times', 'B', 14);
+        $paragraph = "                                                     This is your Team Card.
+        If there is any mistake feel free to contact the Hackathon collaborators to correct those.
+        Practise hard to make your team win this Hackathon.Happy Coding!";
         
         $pdf->MultiCell($headerWidth, 7, utf8_decode($paragraph));
         
-        $pdf->Ln(); // Line break
+        //$pdf->Ln(); // Line break
         $pdf->Ln();
+        // Set a different font style for the table data
+        $pdf->SetFont('Arial','B', 10); // Bold font style
+
         // Output team data in a two-column table
         $data = [
             'Team Name' => $Hackteam->teamName,          
             'Leader Name' => $Hackteam->LeaderName,
             'Leader Contact' => $Hackteam->member1Contact,
             'Leader Faculty' => $Hackteam->leader_faculty,
-            'Leader Batch no' => $Hackteam->leader_batchNumber,
+            'Leader Year' => $Hackteam->leader_year,
             'Leader Student ID No' => $Hackteam->member1SID,
             'Leader Email' => $Hackteam->member1Email,
             'Member 02 Name' => $Hackteam->member2Name,
             'Member 02 Contact' => $Hackteam->member2Contact,
             'Member 02 Faculty' => $Hackteam->m2_faculty,
-            'Member 02 Batch no' => $Hackteam->m2_batchNumber,
+            'Member 02 Year' => $Hackteam->m2_year,
             'Member 02 Student ID No' => $Hackteam->member2SID,
-            'Member 02 Email' => $Hackteam->member2Emai,
+            'Member 02 Email' => $Hackteam->member2Email,
             'Member 03 Name' => $Hackteam->member3Name ,
             'Member 03 Contact' => $Hackteam->member3Contact,
             'Member 03 Faculty' => $Hackteam->m3_faculty,
-            'Member 03 Batch no' => $Hackteam->m3_batchNumber,
+            'Member 03 Year' => $Hackteam->m3_year,
             'Member 03 Student ID No' => $Hackteam->member3SID,
             'Member 03 Email' => $Hackteam->member3Email,
         ];

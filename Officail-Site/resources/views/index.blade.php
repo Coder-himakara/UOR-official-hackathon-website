@@ -41,17 +41,17 @@
         <!--Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
-                <a  class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
+                <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo_hrz.png') }}"  width="auto"
-                        height="160px" alt="Logo2" class="vector_pos scroll_logo" id="logo" style="position:absolute; display:none;"
+                    <img src="{{ asset('images/logo_hrz.png') }}" width="auto" height="160px" alt="Logo2"
+                        class="vector_pos scroll_logo" id="logo" style="position:absolute; display:none;"
                         class="d-inline-block align-text-top">
                     <!--Hackthon LOGO2. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
-                    alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
-                    class="d-inline-block align-text-top">
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
+                        class="vector_pos" id="logo" style="position:absolute; "
+                        class="d-inline-block align-text-top">
                 </a>
-            
+
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,7 +114,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2023</div>
+                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024</div>
                     <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
@@ -125,7 +125,7 @@
                         <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, the algorithmic hackathon event.
                             It&apos;s brought to you by the Computer
                             Science student Community of University of Ruhuna.
-                            Expect a great experience!                          
+                            Expect a great experience!
 
                         </p>
                         <a href="{{ route('register') }}" target="_self"><button type="button"
@@ -179,36 +179,48 @@
                         <!--Guidline list-->
                         <ol>
                             <li>
-                                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                                <p>Participants must strictly adhere to the provided rules throughout the 
+                                    duration of the Hackathon</p>
                             </li>
                             <li>
-                                Similique hic possimus dolore cumqu consectetur exercitationem assumenda omnis corrupti
-                                modi inve
+                                <p>Maximum three(3) members can allocate for each team.</p>
                             </li>
                             <li>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. ntore, perspiciatis accusamus.
-                                Iusto
-                                exercitationem unde
-                                doloribus aliquid accusamus animi impedit?Lorem ipsum dolor sit
+                                <p>Each team is required to create a single HackerRank account</p>
                             </li>
                             <li>
-                                amet consectetur adipisicing elit. Sit sapiente molestias ad velit cumque qui rerum
-                                alias earum at
-                                perferendis in
+                                <p>Ensure that the username for the HackerRank account follows the
+                                    specific pattern provided by the organizers. For alignment with your
+                                    team's name, "CodeRangers," the username for,<br></p>
+                                <p style="font-weight: bolder">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
                             </li>
                             <li>
-                                beatae quidem dolorum odio, dicta mollitia accusantium atque repellendus!
+                                <p>Participants are required to bring their own laptops for the hackathon.
+                                    Ensure your devices are fully charged(Because charging ports are
+                                    limited).</p>
+                                <p>If you need extension you can bring it.
+                                </p>
                             </li>
                             <li>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
-                                repellat
-                                laudantium,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
-                                repellat
+                              <p>The hackathon will run for a set duration of 3 hours. Manage your time 
+                                properly.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Your internet connection is provided by the Organizing team through 
+                                    Wifi.</p>
+                            </li>
+                            <li>
+                                <p>Feel free to use any tools during the hackathon to enhance your coding 
+                                    experience.</p>
+                            </li>
+                            <li>
+                                <p style="font-weight: bolder">To see more guidelines, Please download the PDF from below.</p>
                             </li>
                         </ol>
-                           
+
                     </div>
-                </div>    
+                </div>
             </div>
         </section>
 
@@ -219,9 +231,10 @@
 
 
         <div class="container px-1">
-        <div class="row text-lg-start text-center pt-0">
-            <a href=""><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Download</span></button></a>
-        </div> 
+            <div class="row text-lg-start text-center pt-0">
+                <a href=""><button type="button" class="btn btn-primary bttn"><span
+                            class="bttn-text">Download</span></button></a>
+            </div>
         </div>
 
         <!-- TIMELINE section -->
@@ -234,8 +247,8 @@
                         <div class=" left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Google</h2>
-                                <small>2023-2024</small>
+                                <h2>Event Announcement</h2>
+                                <small>15-Dec-2023</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -258,8 +271,8 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>YouTube</h2>
-                                <small>2023-2024</small>
+                                <h2>Registration Open</h2>
+                                <small>12-Jan-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -270,10 +283,11 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Facebook</h2>
-                                <small>2023-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <h2>WorkShop Announcement
+                                </h2>
+                                <small>14-Jan-2024</small>
+                                <p>The workshop regarding
+                                    the hackathon event.
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -282,8 +296,9 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Twitter</h2>
-                                <small>2023-2024</small>
+                                <h2>Workshop Day
+                                </h2>
+                                <small>19-Jan-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -294,8 +309,9 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Facebook</h2>
-                                <small>2023-2024</small>
+                                <h2>Hackathon Day
+                                </h2>
+                                <small>22-Jan-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -372,7 +388,7 @@
                         <div class="prize-body reveal col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
                             <div class="info-box-name">logo</div>
                             <div class="card">
-                                <img class="user-image" src="" alt="1nd">
+                                <img class="user-image" src="{{asset('images/Sponsors/Logo2.png')}}" alt="1nd">
                             </div>
                         </div>
 
