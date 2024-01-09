@@ -1,14 +1,33 @@
 window.addEventListener("scroll", function () {
+    //logo display when scrolling
+    const logo = document.getElementById('logo');
+    const scrollPosition = window.scrollY; // Get current scroll position
+
+    if (scrollPosition >= 200) { // Threshold for logo change
+        logo.src = "images/logo_hrz.png"; // Change the logo image
+        logo.classList.add('scrolled'); // Apply optional CSS class for further styling
+    } else {
+        logo.src = "images/logo without bg2.png"; // Revert to initial logo if scrolled back up
+        logo.classList.remove('scrolled');
+    }
+    
+    //Header color change when scrolling
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
    
+    //add animation when scrolling
     var reveals = document.querySelectorAll('.reveal');
     for (var i = 0; i < reveals.length; i++) {
+        //get window height
         var windowheight = window.innerHeight;
         var revealtop = reveals[i].getBoundingClientRect().top;
         var revealpoint = 150;
         if (revealtop < windowheight - revealpoint) {
+<<<<<<< Updated upstream
             reveals[i].classList.add('active');
+=======
+            reveals[i].classList.add('active');   
+>>>>>>> Stashed changes
         }
         else {
             reveals[i].classList.remove('active');
@@ -16,6 +35,7 @@ window.addEventListener("scroll", function () {
     }
 });
 
+//Drop down togling
 const chckDrpdwn=document.querySelector(".dropdown");
 if( chckDrpdwn!=null ){
     const spon=document.querySelector(".dropdwn-shw");

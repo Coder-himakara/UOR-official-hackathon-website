@@ -191,7 +191,12 @@ header.sticky{
 .navbar-dark .navbar-nav .nav-link:hover{
     opacity: 0.5; 
 }
+<<<<<<< Updated upstream
 .nav-link,.dd-item{
+=======
+
+.nav-link,.dd-item {
+>>>>>>> Stashed changes
     font-size: 20px;
     letter-spacing: 1px;
     word-spacing: -10px;
@@ -221,10 +226,28 @@ header.sticky{
 .vector_pos{
     position: absolute;
 }
+<<<<<<< Updated upstream
 #logo{
     top:2vmin;
     left: 10vmin;
 }
+=======
+
+/* Logo design */
+#logo {
+    position: absolute;
+    top: -3.2vmin;
+    left: 10vmin;
+}
+#logo.scrolled{
+    height: 109px;
+    width: auto;
+    top: 0.6vmin;
+    left: 10vmin;
+}
+
+
+>>>>>>> Stashed changes
 /* set the vector in right offset */
 #d1{
   top: 0vmin;
