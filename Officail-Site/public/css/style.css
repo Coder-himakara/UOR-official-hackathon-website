@@ -245,13 +245,30 @@ header.sticky {
     position: absolute;
     top: -3.2vmin;
     left: 10vmin;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 #logo.scrolled{
-    height: 109px;
-    width: auto;
-    top: 0.6vmin;
+    height: 73px;
+    width: 13em;
+    top: 28px;
     left: 10vmin;
+    transform: translateX(-25px);  /*Move it up slightly*/
 }
+ /* #logo.scrolled{
+    height: 109px;
+    left: 10vmin;
+    transform: translateX(-25px);  /*Move it up slightly
+}  */
+
+ @media screen and (min-width:992px) {
+    #logo.scrolled {
+        height: 109px;
+        width: auto;
+        top: 7.6vmin;
+        top: 0.6vmin;
+    }
+    
+} 
 
 /* set the vector in right offset */
 #d1 {
@@ -534,8 +551,7 @@ header.sticky {
 
 @media screen and (max-width:767px) {
 
-    ol,
-    ul {
+    ol,ul {
         padding-left: 7%;
         ;
     }
