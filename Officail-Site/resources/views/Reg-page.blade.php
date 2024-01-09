@@ -91,7 +91,7 @@
                 <div class="text-center">
                     <div class="section-topic">Enroll Now</div>
                     <div class="about text-start ps-2">
-                        <b>Participants shall comply with these rules while participating in the Hackathon.</b>
+                        <b>Participants shall comply with these rules while filling the registration form.</b>
                         <br>
                         <br>
                         <br>
@@ -107,27 +107,10 @@
                                 Team size limit: Your team can include <b>a maximum of 3 members.</b>
                             </li>
                             <li>
-                                Code originality: Remember, <b>you cannot copy codes for any other teams.</b>
+                                Leader details are mandatory.
                             </li>
                             <li>
-                                Communication during Hackathon: During the event, <b>you are allowed to communicate
-                                    only with your
-                                    team members.</b>
-                            </li>
-                            <li>
-                                Feel free to use <b>any tools </b>during the hackthon.
-                            </li>
-                            <li>
-                                Duration: The Hackathon will run for <b>2 hours.</b>
-                            </li>
-                            <li>
-                                Device Usage: <b>Please bring your own laptop for the Hackathon.</b>
-                            </li>
-                            <li>
-                                Extension Requests: If your team requires an extension, feel free to bring it up.
-                            </li>
-                            <li>
-                                Food Policy: Please note that <b>foods are not allowed in the lab.</b>
+                                Try to use a unique name for your team.
                             </li>
                         </ol>
                     </div>
@@ -193,7 +176,8 @@
                     </div>
 
                     <div class="input-data my-5 d-inline">
-                        <select required id="leader_batchNumber" name="leader_batchNumber" value="{{ old('leader_batchNumber') }}">
+                        <select required id="leader_batchNumber" name="leader_batchNumber"
+                            value="{{ old('leader_batchNumber') }}">
                             <option value="" disabled selected hidden></option>
                             <option value="1">1st year</option>
                             <option value="2">2nd year</option>
