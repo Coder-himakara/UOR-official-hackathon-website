@@ -117,7 +117,7 @@
                         </div>
                         <!--Hackthon Introduction paragraph-->
 
-                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, the algorithmic hackathon event.
+                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, algorithmic inter-faculty hackathon event.
                             It&apos;s brought to you by the Computer
                             Science student Community of University of Ruhuna.
                             Expect a great experience!
