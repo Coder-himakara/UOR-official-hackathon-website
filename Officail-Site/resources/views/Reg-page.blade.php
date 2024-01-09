@@ -34,8 +34,8 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
-                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
+                        class="vector_pos" id="logo" style="position:absolute; "
                         class="d-inline-block align-text-top">
                 </a>
                 <!--Navigation Bar items-->
@@ -80,10 +80,10 @@
             </div>
         </section>
 
-         <!--Robotimg 1-->
-         <div class="responsive-robo-container shaking">
-            <img src="{{asset('images/robots/R.png')}}" class="enrollimg" alt="Description of Image 1">
-          </div>
+        <!--Robotimg 1-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{ asset('images/robots/R.png') }}" class="enrollimg" alt="Description of Image 1">
+        </div>
 
         <!--Intro paragraph-->
         <section class="shw_vwport reveal">
@@ -142,13 +142,13 @@
             <form action="{{ route('store') }}" method="POST">
                 @csrf
                 @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
                 @endif
 
                 <!--Get team name seperately -->
@@ -162,18 +162,21 @@
                 <!--Leader/Member 01 Details-->
                 <div class="member-box">
                     <div class="input-data my-5">
-                        <input required type="text" id="LeaderName" name="LeaderName" value="{{ old('LeaderName') }}">
+                        <input required type="text" id="LeaderName" name="LeaderName"
+                            value="{{ old('LeaderName') }}">
                         <label for="LeaderName">Name: (This name will be used in the certificate.)</label>
                     </div>
 
                     <div class="input-data my-5">
-                        <input required type="text" id="member1SID" name="member1SID" value="{{ old('member1SID') }}">
+                        <input required type="text" id="member1SID" name="member1SID"
+                            value="{{ old('member1SID') }}">
                         <label for="member1SID">Student ID No:</label>
                     </div>
 
 
                     <div class="input-data my-5 d-inline">
-                        <select required id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
+                        <select required id="leader_faculty" name="leader_faculty"
+                            value="{{ old('leader_faculty') }}">
                             <option value="" disabled selected hidden></option>
                             <option value="Engineering">Engineering</option>
                             <option value="Science">Science</option>
@@ -190,17 +193,15 @@
                     </div>
 
                     <div class="input-data my-5 d-inline">
-                        <select required id="leader_batchNumber" name="leader_batchNumber"
-                            value="{{ old('leader_batchNumber') }}">
+                        <select required id="leader_batchNumber" name="leader_batchNumber" value="{{ old('leader_batchNumber') }}">
                             <option value="" disabled selected hidden></option>
-                            <option value="41">41</option>
-                            <option value="42">42</option>
-                            <option value="43">43</option>
-                            <option value="44">44</option>
-                            <option value="45">45</option>
+                            <option value="1">1st year</option>
+                            <option value="2">2nd year</option>
+                            <option value="3">3rd year</option>
+                            <option value="4">4th year</option>
                             <!-- Add more options as needed -->
                         </select>
-                        <label for="leader_batchNumber">Batch Number:</label>
+                        <label for="leader_year">Year</label>
                     </div>
 
                     <div class="input-data my-5">
@@ -220,17 +221,17 @@
                 <div class="container text-center mt-3 ms-0 pt-0 member-div">
                     <div class="row pt-0">
                         <h6 class="col-6 member-Title">Member2</h6>
-                        <button type="button" class="col-6 btn btn-primary bttn member-add" data-bs-toggle="collapse"
-                            data-bs-target="#collapsemember2" aria-expanded="false" aria-controls="collapsemember2"
-                            onclick="enableFields()">+</button>
+                        <button type="button" class="col-6 btn btn-primary bttn member-add"
+                            data-bs-toggle="collapse" data-bs-target="#collapsemember2" aria-expanded="false"
+                            aria-controls="collapsemember2" onclick="enableFields()">+</button>
                     </div>
                 </div>
                 <!--Member 02 Details-->
                 <div class="member-box p-2">
                     <div class="collapse" id="collapsemember2">
                         <div class="input-data my-5">
-                            <input type="text" id="member2Name" name="member2Name" required title="Must fill this"
-                                value="{{ old('member2Name') }}" disabled>
+                            <input type="text" id="member2Name" name="member2Name" required
+                                title="Must fill this" value="{{ old('member2Name') }}" disabled>
                             <label for="member2Name">Name:</label>
                         </div>
 
@@ -262,25 +263,24 @@
                             <select id="m2_batchNumber" name="m2_batchNumber" required title="Must fill this"
                                 value="{{ old('m2_batchNumber') }}" disabled>
                                 <option value="" disabled selected hidden></option>
-                                <option value="41">41</option>
-                                <option value="42">42</option>
-                                <option value="43">43</option>
-                                <option value="44">44</option>
-                                <option value="45">45</option>
+                                <option value="1">1st year</option>
+                                <option value="2">2nd year</option>
+                                <option value="3">3rd year</option>
+                                <option value="4">4th year</option>
                                 <!-- Add more options as needed -->
                             </select>
-                            <label for="m2_batchNumber">Batch Number:</label>
+                            <label for="m2_batchNumber">Year:</label>
                         </div>
 
                         <div class="input-data my-5">
-                            <input type="tel" id="member2Contact" name="member2Contact" required title="Must fill this"
-                                value="{{ old('member2Contact') }}" disabled>
+                            <input type="tel" id="member2Contact" name="member2Contact" required
+                                title="Must fill this" value="{{ old('member2Contact') }}" disabled>
                             <label for="member2Contact">Whatsapp Number:</label>
                         </div>
 
                         <div class="input-data my-5">
-                            <input type="email" id="member2Email" name="member2Email" required title="Must fill this"
-                                value="{{ old('member2Email') }}" disabled>
+                            <input type="email" id="member2Email" name="member2Email" required
+                                title="Must fill this" value="{{ old('member2Email') }}" disabled>
                             <label for="member2Email">Email:</label>
                         </div>
 
@@ -291,17 +291,17 @@
                 <div class="container text-center mt-3 ms-0 pt-0 member-div">
                     <div class="row pt-0">
                         <h6 class="col-6 member-Title">Member3</h6>
-                        <button type="button" class="col-6 btn btn-primary bttn member-add text-end" data-bs-toggle="collapse"
-                            data-bs-target="#collapsemember3" aria-expanded="false" aria-controls="collapsemember3"
-                            onclick="enableFields2()">+</button>
+                        <button type="button" class="col-6 btn btn-primary bttn member-add text-end"
+                            data-bs-toggle="collapse" data-bs-target="#collapsemember3" aria-expanded="false"
+                            aria-controls="collapsemember3" onclick="enableFields2()">+</button>
                     </div>
                 </div>
                 <!--Member 03 Details-->
                 <div class="member-box p-2">
                     <div class="collapse" id="collapsemember3">
                         <div class="input-data my-5">
-                            <input type="text" id="member3Name" name="member3Name" required title="Must fill this"
-                                value="{{ old('member3Name') }}" disabled>
+                            <input type="text" id="member3Name" name="member3Name" required
+                                title="Must fill this" value="{{ old('member3Name') }}" disabled>
                             <label for="member3Name">Name:</label>
                         </div>
 
@@ -334,25 +334,24 @@
                             <select id="m3_batchNumber" name="m3_batchNumber" required title="Must fill this"
                                 value="{{ old('m3_batchNumber') }}" disabled>
                                 <option value="" disabled selected hidden></option>
-                                <option value="41">41</option>
-                                <option value="42">42</option>
-                                <option value="43">43</option>
-                                <option value="44">44</option>
-                                <option value="45">45</option>
+                                <option value="1">1st year</option>
+                                <option value="2">2nd year</option>
+                                <option value="3">3rd year</option>
+                                <option value="4">4th year</option>
                                 <!-- Add more options as needed -->
                             </select>
-                            <label for="m3_batchNumber">Batch Number:</label>
+                            <label for="m3_batchNumber">Year:</label>
                         </div>
 
                         <div class="input-data my-5">
-                            <input type="tel" id="member3Contact" name="member3Contact" required title="Must fill this"
-                                value="{{ old('member3Contact') }}" disabled>
+                            <input type="tel" id="member3Contact" name="member3Contact" required
+                                title="Must fill this" value="{{ old('member3Contact') }}" disabled>
                             <label for="member3Contact">Whatsapp Number:</label>
                         </div>
 
                         <div class="input-data my-5">
-                            <input type="email" id="member3Email" name="member3Email" required title="Must fill this"
-                                value="{{ old('member3Email') }}" disabled>
+                            <input type="email" id="member3Email" name="member3Email" required
+                                title="Must fill this" value="{{ old('member3Email') }}" disabled>
                             <label for="member3Email">Email:</label>
                         </div>
                     </div>
@@ -418,7 +417,7 @@
 
         <script>
             // Function to enable member 02
-             function enableFields() {
+            function enableFields() {
                 document.getElementById("member2Name").disabled = false;
                 document.getElementById("member2Contact").disabled = false;
                 document.getElementById("m2_faculty").disabled = false;
@@ -440,6 +439,7 @@
             function confirmSubmit() {
                 return confirm("Are you sure you want to submit this form?");
             }
+
             function confirmReset() {
                 return confirm("Are you sure you want to Reset this form?");
             }
