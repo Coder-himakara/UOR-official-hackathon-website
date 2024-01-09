@@ -185,7 +185,7 @@
                         <li>
                             <!-- Email -->
                             <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
                         </li>
                         <li>
                             <!-- Phone -->
