@@ -240,13 +240,18 @@ header.sticky {
     position: absolute;
 }
 
+/* Logo design */
 #logo {
+    position: absolute;
     top: -3.2vmin;
     left: 10vmin;
 }
-/* .scroll_logo{
-    display: none;
-} */
+#logo.scrolled{
+    height: 109px;
+    width: auto;
+    top: 0.6vmin;
+    left: 10vmin;
+}
 
 /* set the vector in right offset */
 #d1 {

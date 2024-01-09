@@ -42,14 +42,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
-                    <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo_hrz.png') }}" width="auto" height="160px" alt="Logo2"
-                        class="vector_pos scroll_logo" id="logo" style="position:absolute; display:none;"
-                        class="d-inline-block align-text-top">
-                    <!--Hackthon LOGO2. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
-                        class="vector_pos" id="logo" style="position:absolute; "
-                        class="d-inline-block align-text-top">
+                    <!--Hackthon LOGO.-->
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
 
 
