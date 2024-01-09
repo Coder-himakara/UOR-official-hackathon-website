@@ -247,12 +247,25 @@ header.sticky {
     left: 10vmin;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+@keyframes logo_transition {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
 #logo.scrolled{
     height: 73px;
     width: 13em;
     top: 28px;
     left: 10vmin;
-    transform: translateX(-25px);  /*Move it up slightly*/
+    animation: logo_transition 0.5s 0.4s backwards;
+    /*transform: translateX(-25px);  Move it up slightly*/
 }
  /* #logo.scrolled{
     height: 109px;
@@ -260,12 +273,12 @@ header.sticky {
     transform: translateX(-25px);  /*Move it up slightly
 }  */
 
- @media screen and (min-width:992px) {
+ @media screen and (min-width:1179px) {
     #logo.scrolled {
         height: 109px;
         width: auto;
         top: 7.6vmin;
-        top: 0.6vmin;
+        top: 1.6vmin;
     }
     
 } 
