@@ -57,25 +57,25 @@
                     <!--Navigation Bar items-->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ">
-                            <a class="nav-link px-2" aria-current="page" href="#welcome">Home</a>
+                            <a class="nav-link px-1" aria-current="page" href="#welcome">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#about">About</a>
+                            <a class="nav-link px-1" href="#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#guideline">Guidelines</a>
+                            <a class="nav-link px-1" href="#guideline">Guidelines</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" aria-current="page" href="#timeline">Timeline</a>
+                            <a class="nav-link px-1" aria-current="page" href="#timeline">Timeline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#prizes">Prizes</a>
+                            <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#sponsers" target="_self">Sponsers</a>
+                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->
