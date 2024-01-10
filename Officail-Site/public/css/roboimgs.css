@@ -65,13 +65,9 @@
 }
 
 .timelineimg {
-<<<<<<< HEAD
-    max-width: 18%;
-=======
     max-width: 21%;
->>>>>>> 591bcf9a76ade98c45df1aa1210cd45c1d32e53d
     position: absolute;
-    top:-14px;
+    top:-109px;
     left: 24%;
 
     /* Adjust the right positioning as needed */
