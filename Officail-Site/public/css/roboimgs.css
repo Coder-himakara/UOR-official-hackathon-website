@@ -1,0 +1,128 @@
+/* styles.css */
+
+/* Ensure images don't exceed their container width */
+.responsive-robo-container {
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+    /* Add relative positioning to the container */
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width:767px) {
+    .responsive-robo-container {
+        height: auto;
+        margin: 10px;
+        align-items: center;
+        position: relative;
+    }
+
+    .guidelineimg {
+        max-width: 30%;
+        position: absolute;
+        margin-top: 5px;
+        right: 10%;
+        /* Allow the height to adjust proportionally */
+    }
+
+    .timelineimg {
+        max-width: 30%;
+        position: absolute;
+        left: 15%;
+        margin-top: 1%;
+        /* Allow the height to adjust proportionally */
+    }
+
+    .awardimg {
+        max-width: 12%;
+        position: absolute;
+        margin-bottom: 8%;
+        right: 15%;
+
+        /* Adjust the right positioning as needed */
+    }
+
+    .enrollimg {
+        max-width: 20%;
+        position: absolute;
+        right: 10%;
+    }
+}
+
+/* Image specific styling */
+.guidelineimg {
+    max-width: 20%;
+    position: absolute;
+    right: 1%;
+    top: -30px;
+    /* Adjust the right positioning as needed */
+}
+
+.timelineimg {
+<<<<<<< HEAD
+    max-width: 18%;
+=======
+    max-width: 21%;
+>>>>>>> 591bcf9a76ade98c45df1aa1210cd45c1d32e53d
+    position: absolute;
+    top:-14px;
+    left: 24%;
+
+    /* Adjust the right positioning as needed */
+}
+
+.awardimg {
+    max-width: 22%;
+    position: absolute;
+    right: 14%;
+    top: -91px;
+    /* Adjust the right positioning as needed */
+}
+
+.enrollimg {
+    max-width: 22%;
+    position: absolute;
+    top: -150px;
+    right: 10%;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+@keyframes shakeUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    75% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.shaking {
+    animation: shakeUpDown 2.5s ease infinite;
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}

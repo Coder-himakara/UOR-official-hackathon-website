@@ -29,10 +29,15 @@
         <!--Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
-                <a class="navbar-brand ms-4 me-0" href="{{route('index')}}">
+                <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
+                    <!--Hackthon LOGO.-->
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
+                </a>
+                <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo 2.png') }}" border-radius: 278.50px width="auto" height="100px" alt="Logo"
-                        class="vector_pos" id="logo" style="position:absolute; "
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
                         class="d-inline-block align-text-top">
                 </a>
 
@@ -54,13 +59,14 @@
                             <a class="nav-link px-1" href="{{ route('index') }}#guideline">Guideline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" aria-current="page" href="{{ route('index') }}#timeline">Timeline</a>
+                            <a class="nav-link px-1" aria-current="page"
+                                href="{{ route('index') }}#timeline">Timeline</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link px-1" href="{{ route('index') }}#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{route('contactUs')}}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
 
                         </li>
                         <li class="nav-item dropdown">
@@ -72,7 +78,7 @@
                             <div class="dropdown-menu dropdown-menu-right">
                                 <button class="dropdown-item" type="button"><a href="{{ route('index') }}#sponsers"
                                         class="dd-item">Sponsers</a></button>
-                                <button class="dropdown-item" type="button"><a href="{{route('updates')}}"
+                                <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
                                         target="_self" class="dd-item">News-&-Updates</a></button>
 
                             </div>
@@ -83,90 +89,134 @@
         </nav>
     </header>
 
-    <img src="{{asset('images/Design2.svg')}}" alt="Design" id="d1" class="img-fluid vector_pos">
+    <img src="{{ asset('images/Design2.svg') }}" alt="Design" id="d1" class="img-fluid vector_pos">
     <div class="container bdy">
         <div class="row justify-content-evenly">
             <!-- Card 1 -->
-            <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2 ">
+                <div>
+                <img class="user-image" src="{{ asset('images/Contacts/chair.png') }}" alt="Chair person Image">
+                </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Thanuja Priyadarshane (Chair)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: thanujapriyadarshane26@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: +94767274497</p>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="card card col-lg-4 mx-lg-2">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Secratary.png') }}" alt="Secratary Image">
+                </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Chalani Chanchala (Secretary) </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: chalanichanchala18@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: +94776250496</p>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Treasurer.png') }}" alt="Treasurer Image">
+                </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Buddhika Perera (Treasurer)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: buddhikapereraofficial@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: 0701577670</p>
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Programming.png') }}"alt="Programming leader Image">
+            </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Isuru Shanaka (Programming)</h2>
+
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: shanakaisuru11@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: 0768324613
+                    </p>
                 </div>
             </div>
 
             <!-- Card 5 -->
-            <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Financial.png') }}"alt="Finance leader Image">
+            </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Kushan Sandul (Finance)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: kushanca20@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: 0777357473
+                    </p>
                 </div>
             </div>
 
             <!-- Card 6 -->
-            <div class="card col-lg-4 mx-lg-2 ">
-                <img class="user-image" src="https://placekitten.com/200/200" alt="User Image">
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/PR.png') }}" alt="User Image">
+                </div>
                 <div class="info-box-name">
-                    <h2>John Doe</h2>
+                    <h2>Thejana Hirumal (Public Relation)
+                    </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: john@example.com</p>
+                    <p>Email: thejanahirumal5@gmail.com</p>
                 </div>
                 <div class="info-box">
-                    <p>Phone: +1 123-456-7890</p>
+                    <p>Phone: 0789389459
+                    </p>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/logistics.png') }}" alt="User Image">
+                </div>
+                <div class="info-box-name">
+                    <h2>Imasha Dilshan (Logistics) 
+                    </h2>
+                </div>
+                <div class="info-box">
+                    <p>Email: imashadilshan1080@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <p>Phone: 0769799502
+                    </p>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="card mx-2 mx-lg-2 ">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Marketing.png') }}" alt="User Image">
+                </div>
+                <div class="info-box-name">
+                    <h2>Malinda Sampath (Marketing)
+                    </h2>
+                </div>
+                <div class="info-box">
+                    <p>Email: malindasampath45@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <p>Phone: 0701894658
+                    </p>
                 </div>
             </div>
         </div>
@@ -205,7 +255,7 @@
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
                         </li>
                         <li>
                             <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
@@ -230,7 +280,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
     <!-- Custom JavaScript -->
-    <script type="text/JavaScript" src="{{asset('js/main.js')}}"></script>
+    <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
 </body>
 
 </html>
