@@ -182,7 +182,7 @@ header {
     }
 }
 
-header.sticky {
+.header.sticky {
     background: #0D0017;
 }
 
@@ -879,19 +879,18 @@ p.big-text{
 
 /* ************************************************************************************/
 /* Footer decoration */
-footer {
+footer{
     background-color: #0D0017;
     width: 100%;
     height: auto;
 }
-
-.row {
-    padding-top: 20px;
+.row{
+    padding-top: 20px;   
     text-align: center;
 }
 
 /* Round the footer icon table */
-.social {
+.social{
     color: white;
     font-size: 30px;
     width: 30px;
@@ -899,39 +898,32 @@ footer {
     text-decoration: none;
     border-radius: 80%;
 }
-
 /* Add a hover effect  */
 .social:hover {
     opacity: 0.7;
 }
-
 /* Social media link and faculty logos */
-.f-contact,
-.f-logo {
+.f-contact,.f-logo{
     list-style: none;
     padding: 0px;
 }
-
-@media screen and (min-width:992px) {
-    .rfooter {
+@media  screen and (min-width:992px) {
+    .rfooter{
         padding-left: 10rem;
     }
-
-    .row {
+    .row{   
         text-align: left;
     }
 }
-
-@media screen and (min-width:767px) and (max-width:992) {
-    .rfooter {
+@media  screen and (min-width:767px) and (max-width:992) {
+    .rfooter{
         padding-left: 5rem;
     }
-
-    .row {
+    .row{   
         text-align: left;
     }
 }
 
-.cpyright {
+.cpyright{
     font-size: 15px;
 }
