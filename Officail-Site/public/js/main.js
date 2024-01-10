@@ -6,7 +6,11 @@ window.addEventListener("scroll", function () {
     if (scrollPosition >= 200) { // Threshold for logo change
         logo.src = "images/logo_hrz.png"; // Change the logo image
         logo.classList.add('scrolled'); // Apply optional CSS class for further styling
-    } else {
+    } 
+    else if(page=="contactUs"){
+        
+    } 
+    else {
         logo.src = "images/logo without bg2.png"; // Revert to initial logo if scrolled back up
         logo.classList.remove('scrolled');
     }
@@ -47,33 +51,39 @@ if( chckDrpdwn!=null ){
 }
 
 
+var path = window.location.pathname;
+var page = path.split("/").pop();
+// console.log( page )
 
-let daysItem = document.querySelector("#days");
-let hoursItem = document.querySelector("#hours");
-let minItem = document.querySelector("#min");
-let secItem = document.querySelector("#sec");
+if(page==""){
+    let daysItem = document.querySelector("#days");
+    let hoursItem = document.querySelector("#hours");
+    let minItem = document.querySelector("#min");
+    let secItem = document.querySelector("#sec");
 
 
-let countDown = () => {
-  let futureDate = new Date("12 Jan 2024");
-  let currentDate = new Date();
-  let myDate = futureDate - currentDate;
-  //console.log(myDate);
+    let countDown = () => {
+    let futureDate = new Date("12 Jan 2024");
+    let currentDate = new Date();
+    let myDate = futureDate - currentDate;
+    //console.log(myDate);
 
-  let days = Math.floor(myDate / 1000 / 60 / 60 / 24);
+    let days = Math.floor(myDate / 1000 / 60 / 60 / 24);
 
-  let hours = Math.floor(myDate / 1000 / 60 / 60) % 24;
+    let hours = Math.floor(myDate / 1000 / 60 / 60) % 24;
 
-  let min = Math.floor(myDate / 1000 / 60) % 60;
+    let min = Math.floor(myDate / 1000 / 60) % 60;
 
-  let sec = Math.floor(myDate / 1000) % 60;
+    let sec = Math.floor(myDate / 1000) % 60;
 
-  daysItem.innerHTML = days;
-  hoursItem.innerHTML = hours;
-  minItem.innerHTML = min;
-  secItem.innerHTML = sec;
+    daysItem.innerHTML = days;
+    hoursItem.innerHTML = hours;
+    minItem.innerHTML = min;
+    secItem.innerHTML = sec;
+    }
+
+    countDown();
+
+    setInterval(countDown, 1000);
 }
 
-countDown();
-
-setInterval(countDown, 1000);
