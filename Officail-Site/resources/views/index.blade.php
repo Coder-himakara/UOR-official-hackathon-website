@@ -92,7 +92,7 @@
                                         target="_self" class="dd-item">News-&-Updates</a></button>
                             </div>
                         </li> -->
-                        
+
                     </ul>
                 </div>
             </div>
@@ -116,7 +116,26 @@
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024</div>
+                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024
+                    <div class="countdown-container">
+                    <div>
+                        <p id="days" class="big-text">0</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours" class="big-text">0</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="min" class="big-text">0</p>
+                        <span>Min</span>
+                    </div>
+                    <div>
+                        <p id="sec" class="big-text">0</p>
+                        <span>Sec</span>
+                    </div>
+                    </div>
+                    </div>
                     <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
