@@ -43,8 +43,8 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO.-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
-                        class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
 
 
@@ -117,24 +117,24 @@
 
                 <div class="row">
                     <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024
-                        <div class="countdown-container">
-                            <div>
-                                <p id="days" class="big-text">0</p>
-                                <span>Days</span>
-                            </div>
-                            <div>
-                                <p id="hours" class="big-text">0</p>
-                                <span>Hours</span>
-                            </div>
-                            <div>
-                                <p id="min" class="big-text">0</p>
-                                <span>Min</span>
-                            </div>
-                            <div>
-                                <p id="sec" class="big-text">0</p>
-                                <span>Sec</span>
-                            </div>
-                        </div>
+                    <div class="countdown-container">
+                    <div>
+                        <p id="days" class="big-text">0</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours" class="big-text">0</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="min" class="big-text">0</p>
+                        <span>Min</span>
+                    </div>
+                    <div>
+                        <p id="sec" class="big-text">0</p>
+                        <span>Sec</span>
+                    </div>
+                    </div>
                     </div>
                     <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
@@ -143,8 +143,7 @@
                         </div>
                         <!--Hackthon Introduction paragraph-->
 
-                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, algorithmic inter-faculty
-                            hackathon event.
+                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, algorithmic inter-faculty hackathon event.
                             It&apos;s brought to you by the Computer
                             Science student Community of University of Ruhuna.
                             Expect a great experience!
@@ -201,7 +200,7 @@
                         <!--Guidline list-->
                         <ol>
                             <li>
-                                <p>Participants must strictly adhere to the provided rules throughout the
+                                <p>Participants must strictly adhere to the provided rules throughout the 
                                     duration of the Hackathon</p>
                             </li>
                             <li>
@@ -224,21 +223,20 @@
                                 </p>
                             </li>
                             <li>
-                                <p>The hackathon will run for a set duration of 3 hours. Manage your time
-                                    properly.
+                              <p>The hackathon will run for a set duration of 3 hours. Manage your time 
+                                properly.
                                 </p>
                             </li>
                             <li>
-                                <p>Your internet connection is provided by the Organizing team through
+                                <p>Your internet connection is provided by the Organizing team through 
                                     Wifi.</p>
                             </li>
                             <li>
-                                <p>Feel free to use any tools during the hackathon to enhance your coding
+                                <p>Feel free to use any tools during the hackathon to enhance your coding 
                                     experience.</p>
                             </li>
                             <li>
-                                <p style="font-weight: bolder">To see more guidelines, Please download the PDF from
-                                    below.</p>
+                                <p style="font-weight: bolder">To see more guidelines, Please download the PDF from below.</p>
                             </li>
                         </ol>
 
@@ -247,16 +245,17 @@
             </div>
         </section>
 
+        <!--Robotimg 2-->
+        <div class="responsive-robo-container shaking">
+            <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
+        </div>
+
 
         <div class="container px-1">
             <div class="row text-lg-start text-center pt-0">
                 <a href=""><button type="button" class="btn btn-primary bttn"><span
                             class="bttn-text">Download</span></button></a>
             </div>
-        </div>
-        <!--Robotimg 2-->
-        <div class="responsive-robo-container shaking">
-            <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
         </div>
 
         <!-- TIMELINE section -->
@@ -410,8 +409,7 @@
                         <div class="prize-body reveal col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
                             <div class="info-box-name">logo</div>
                             <div class="card">
-                                <img class="user-image" src="{{ asset('images/Sponsors/Logo2.png') }}"
-                                    alt="1nd">
+                                <img class="user-image" src="{{asset('images/Sponsors/Logo2.png')}}" alt="1nd">
                             </div>
                         </div>
 
