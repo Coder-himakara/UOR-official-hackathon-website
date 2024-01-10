@@ -443,7 +443,7 @@
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
                         </li>
                         <li>
                             <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
