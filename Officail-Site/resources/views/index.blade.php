@@ -74,18 +74,25 @@
                         <li class="nav-item ">
                             <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item ">
+                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
+                        </li>
+
+                        <!-- WILL BE UPDATED SOON -->
+
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 More</a>
-                            <!--Navigation drop don menu-->
+                            //Navigation drop don menu
                             <div class="dropdown-menu dropdown-menu-right">
                                 <button class="dropdown-item dropdwn-shw" type="button"><a href="#sponsers"
                                         class="dd-item">Sponsers</a></button>
                                 <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
                                         target="_self" class="dd-item">News-&-Updates</a></button>
                             </div>
-                        </li>
+                        </li> -->
+                        
                     </ul>
                 </div>
             </div>

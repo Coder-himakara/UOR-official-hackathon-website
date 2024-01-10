@@ -33,10 +33,9 @@
         <nav class="navbar navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
-                    <!--Hackthon LOGO. Change with requirements-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
-                        class="vector_pos" id="logo" style="position:absolute; "
-                        class="d-inline-block align-text-top">
+                    <!--Hackthon LOGO.-->
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
                 <!--Navigation Bar items-->
                 <ul class="navbar-nav ms-auto">
