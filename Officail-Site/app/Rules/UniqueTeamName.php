@@ -26,6 +26,6 @@ class UniqueTeamName implements Rule
 
     public function message()
     {
-        return 'This team name has already been used';
+        return 'This team name has already been used.';
     }
 }

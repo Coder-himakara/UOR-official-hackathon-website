@@ -13,12 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Days+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Archivo&family=Black+Ops+One&family=Carter+One&family=Exo+2&family=Montserrat+Alternates:wght@800&family=Viga&display=swap"
-        rel="stylesheet">
-
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS v5.2.1 -->
@@ -27,7 +21,7 @@
 
     <!-- Custom Script -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/roboimgs.css') }}">
+
 </head>
 
 <body>
@@ -41,12 +35,19 @@
         <!--Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
+<<<<<<< Updated upstream
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
-                    <!--Hackthon LOGO.-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
-                    alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
+                    <!--Hackthon LOGO. Change with requirements-->
+                    <img src="{{ asset('images/logo 2.png') }}" border-radius: 278.50px width="auto" height="100px"
+                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                        class="d-inline-block align-text-top">
+=======
+                <a  class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
+                     <!--Hackthon LOGO.-->
+                     <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
+                    alt="Logo" class="d-inline-block insurg_logo align-text-top" id="logo">
+>>>>>>> Stashed changes
                 </a>
-
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +64,7 @@
                             <a class="nav-link px-1" href="#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="#guideline">Guidelines</a>
+                            <a class="nav-link px-1" href="#guideline">Guideline</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link px-1" aria-current="page" href="#timeline">Timeline</a>
@@ -72,27 +73,20 @@
                             <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{route('contactUs')}}" target="_self">Contact-us</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
-                        </li>
-
-                        <!-- WILL BE UPDATED SOON -->
-
-                        <!-- <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 More</a>
-                            //Navigation drop don menu
+                            <!--Navigation drop don menu-->
                             <div class="dropdown-menu dropdown-menu-right">
                                 <button class="dropdown-item dropdwn-shw" type="button"><a href="#sponsers"
                                         class="dd-item">Sponsers</a></button>
                                 <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
                                         target="_self" class="dd-item">News-&-Updates</a></button>
                             </div>
-                        </li> -->
-
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -110,46 +104,24 @@
                         <p><span class="st8_2_1">I</span>
                             <span class="st8_2">NSURGE</span>
                             <span class="st8_2_3">X</span>
-                            <span class="st8_2">1.0</span>
+                            <span class="st8_2">1.o</span>
                         </p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024
-                    <div class="countdown-container">
-                    <div>
-                        <p id="days" class="big-text">0</p>
-                        <span>Days</span>
-                    </div>
-                    <div>
-                        <p id="hours" class="big-text">0</p>
-                        <span>Hours</span>
-                    </div>
-                    <div>
-                        <p id="min" class="big-text">0</p>
-                        <span>Min</span>
-                    </div>
-                    <div>
-                        <p id="sec" class="big-text">0</p>
-                        <span>Sec</span>
-                    </div>
-                    </div>
-                    </div>
+                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2023</div>
                     <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
                         </div>
                         <!--Hackthon Introduction paragraph-->
-
-                        <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, algorithmic inter-faculty hackathon event.
-                            It&apos;s brought to you by the Computer
-                            Science student Community of University of Ruhuna.
-                            Expect a great experience!
-
+                        <p class="text-sm-start">INSURGEX-1.0 , Sri Lanka's Premier Advanced Analytics
+                            Competition is powered by Department of Computer
+                            Science, University of Ruhuna.
                         </p>
-                        <a href="{{ route('register') }}" target="_self"><button type="button"
+                        <a href="{{route('register')}}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
@@ -167,27 +139,24 @@
                 </div>
                 <div class="row about">
                     <!--About us paragraph-->
-                    <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition
-                        organized by
-                        undergraduates of the Department of Computer Science at
-                        University of Ruhuna.
-                        We have organized this event through &quot;HackerRank&quot;
-                        platform.Participants are able to use any programming language
-                        they prefer.It takes 03 hours to compete with a group consisting
-                        of maximum three members.
-                        This algorithmic event is organized with the explicit purpose of
-                        enhancing the coding skills of undergraduates.This is taking place
-                        as a Physical event and winners will receive cash prizes and
-                        valuable certificate.
-                        And also, all the other participants will receive a digital certificate
-                        as an appreciation oftheir participation and hard work.</div>
+                    <div class="text-sm-justify-center about-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Similique hic possimusdolore cumquconsectetur exercitationem assumenda omnis corrupti modi
+                        inventore,
+                        perspiciatis accusamus. Iusto
+                        exercitationem undedoloribus aliquid accusamus animi impedit?Lorem ipsum dolor sit, amet
+                        consectetur
+                        adipisicing elit. Sit
+                        sapiente molestiasad velit cumque qui rerum alias earum at perferendis in beatae quidem dolorum
+                        odio,
+                        dicta
+                        mollitia
+                        accusantium atque repellendus!</div>
                 </div>
             </div>
         </section>
-        <!--Robotimg 1-->
-        <div class="responsive-robo-container shaking">
-            <img src="{{ asset('images/robots/R3.png') }}" class="guidelineimg" alt="Description of Image 1">
-        </div>
+
+
 
         <!-- GUIDELINE section -->
         <section class="shw_vwport reveal" id="guideline">
@@ -200,64 +169,43 @@
                         <!--Guidline list-->
                         <ol>
                             <li>
-                                <p>Participants must strictly adhere to the provided rules throughout the 
-                                    duration of the Hackathon</p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing eli
                             </li>
                             <li>
-                                <p>Maximum three(3) members can allocate for each team.</p>
+                                Similique hic possimus dolore cumqu consectetur exercitationem assumenda omnis corrupti
+                                modi inve
                             </li>
                             <li>
-                                <p>Each team is required to create a single HackerRank account</p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. ntore, perspiciatis accusamus.
+                                Iusto
+                                exercitationem unde
+                                doloribus aliquid accusamus animi impedit?Lorem ipsum dolor sit
                             </li>
                             <li>
-                                <p>Ensure that the username for the HackerRank account follows the
-                                    specific pattern provided by the organizers. For alignment with your
-                                    team's name, "CodeRangers," the username for,<br></p>
-                                <p style="font-weight: bolder">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
+                                amet consectetur adipisicing elit. Sit sapiente molestias ad velit cumque qui rerum
+                                alias earum at
+                                perferendis in
                             </li>
                             <li>
-                                <p>Participants are required to bring their own laptops for the hackathon.
-                                    Ensure your devices are fully charged(Because charging ports are
-                                    limited).</p>
-                                <p>If you need extension you can bring it.
-                                </p>
+                                beatae quidem dolorum odio, dicta mollitia accusantium atque repellendus!
                             </li>
                             <li>
-                              <p>The hackathon will run for a set duration of 3 hours. Manage your time 
-                                properly.
-                                </p>
-                            </li>
-                            <li>
-                                <p>Your internet connection is provided by the Organizing team through 
-                                    Wifi.</p>
-                            </li>
-                            <li>
-                                <p>Feel free to use any tools during the hackathon to enhance your coding 
-                                    experience.</p>
-                            </li>
-                            <li>
-                                <p style="font-weight: bolder">To see more guidelines, Please download the PDF from below.</p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
+                                repellat
+                                laudantium,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam tempore fugiat
+                                repellat
                             </li>
                         </ol>
-
+                           
                     </div>
-                </div>
+                </div>    
             </div>
         </section>
-
-        <!--Robotimg 2-->
-        <div class="responsive-robo-container shaking">
-            <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
-        </div>
-
-
         <div class="container px-1">
-            <div class="row text-lg-start text-center pt-0">
-                <a href=""><button type="button" class="btn btn-primary bttn"><span
-                            class="bttn-text">Download</span></button></a>
-            </div>
+        <div class="row text-lg-start text-center pt-0">
+            <a href=""><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Download</span></button></a>
+        </div> 
         </div>
-
         <!-- TIMELINE section -->
         <section class="shw_vwport timeline " id="timeline">
             <div class="container-fluid">
@@ -268,8 +216,8 @@
                         <div class=" left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Event Announcement</h2>
-                                <small>15-Dec-2023</small>
+                                <h2>Google</h2>
+                                <small>2023-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -292,8 +240,8 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Registration Open</h2>
-                                <small>12-Jan-2024</small>
+                                <h2>YouTube</h2>
+                                <small>2023-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -304,11 +252,10 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>WorkShop Announcement
-                                </h2>
-                                <small>14-Jan-2024</small>
-                                <p>The workshop regarding
-                                    the hackathon event.
+                                <h2>Facebook</h2>
+                                <small>2023-2024</small>
+                                <p>The success of every web site depend on search engine optimisation and digital
+                                    marketing stratergy. If you are on first page of all major search...
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -317,9 +264,8 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Workshop Day
-                                </h2>
-                                <small>19-Jan-2024</small>
+                                <h2>Twitter</h2>
+                                <small>2023-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -330,9 +276,8 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Hackathon Day
-                                </h2>
-                                <small>22-Jan-2024</small>
+                                <h2>Facebook</h2>
+                                <small>2023-2024</small>
                                 <p>The success of every web site depend on search engine optimisation and digital
                                     marketing stratergy. If you are on first page of all major search...
                                 </p>
@@ -357,10 +302,7 @@
             </div>
         </section>
 
-        <!--Robotimg 3-->
-        <div class="responsive-robo-container shaking">
-            <img src="{{ asset('images/robots/R7.png') }}" class="awardimg" alt="Description of Image 1">
-        </div>
+
 
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">
@@ -409,7 +351,7 @@
                         <div class="prize-body reveal col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
                             <div class="info-box-name">logo</div>
                             <div class="card">
-                                <img class="user-image" src="{{asset('images/Sponsors/Logo2.png')}}" alt="1nd">
+                                <img class="user-image" src="" alt="1nd">
                             </div>
                         </div>
 
@@ -424,8 +366,6 @@
                 </div>
             </div>
         </section>
-        <!-- -->
-        <script type="text/JavaScript" src="{{ asset('js/shakerobo.js') }}"></script>
     </main>
 
 
@@ -462,7 +402,7 @@
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
+                                class="ms-lg-2">Insurgex.ruh@gmail.com</span>
                         </li>
                         <li>
                             <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
@@ -492,5 +432,6 @@
     <!-- Custom JavaScript -->
     <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
     <script type="text/JavaScript" src="{{ asset('js/Tiimeline.js') }}"></script>
+</body>
 
 </html>
