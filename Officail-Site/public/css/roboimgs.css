@@ -32,10 +32,10 @@
     }
 
     .timelineimg {
-        max-width: 15%;
+        max-width: 30%;
         position: absolute;
         left: 15%;
-        margin-top: 2%;
+        margin-top: 1%;
         /* Allow the height to adjust proportionally */
     }
 
@@ -64,7 +64,7 @@
 }
 
 .timelineimg {
-    max-width: 19%;
+    max-width: 21%;
     position: absolute;
     top:100px;
     left: 15%;
@@ -73,7 +73,7 @@
 }
 
 .awardimg {
-    max-width: 20%;
+    max-width: 22%;
     position: absolute;
     right: 15%;
 

@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2023</div>
+                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024</div>
                     <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
