@@ -93,7 +93,7 @@ input[type="submit"]:hover {
 
 /* control all memebers title header */
 .member-div,.leader-title{
-    max-width: 60%;
+    max-width: 32%;
     background-color:rgb(112, 237, 220);
     border-radius: 0px 18px 18px 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
