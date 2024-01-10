@@ -63,12 +63,18 @@
                             <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
 
                         </li>
+                        <li class="nav-item ">
+                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
+                        </li>
+
+                        <!-- WILL BE UPDATED SOON -->
+                        <!-- 
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 More</a>
 
-                            <!--Navigation drop don menu-->
+                            Navigation drop don menu
                             <div class="dropdown-menu dropdown-menu-right">
                                 <button class="dropdown-item" type="button"><a href="{{ route('index') }}#sponsers"
                                         class="dd-item">Sponsers</a></button>
@@ -76,7 +82,8 @@
                                         target="_self" class="dd-item">News-&-Updates</a></button>
 
                             </div>
-                        </li>
+                        </li> -->
+
                     </ul>
                 </div>
             </div>
@@ -217,52 +224,45 @@
     </div>
 
     <!-- Footer-->
-    <footer class="footer">
-        <div class="container-fluid px-lg-5">
-            <div class="row">
-                <!-- Footer Left-->
-                <div class="col-lg-6 col-md-6 col-sm-12 lfooter">
-                    <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,<br>
-                        WELLAMADAMA, MATARA, <br>SRI LANKA.</span>
-                    <ul class="f-logo">
-                        <li>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
-                        </li>
-                    </ul>
-                </div>
+  <footer class="footer">
+    <div class="container-fluid px-lg-5">
+      <div class="row">
+        <!-- Footer Left-->
+        <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
+          <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
+            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
+          <ul class="f-logo">
+            <li>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+            </li>
+          </ul>
+        </div>
 
-                <!-- Footer Right-->
-                <div class="col-lg-6 col-md-6 col-sm-12 text-justify-center rfooter">
-                    <!-- Social Media links -->
-                    <ul class="f-contact">
-                        <li>
-                            <!-- Facebook -->
-                            <a href=""><i class="fa fa-facebook-f social me-2"></i></a>
-                            <!-- Twitter -->
-                            <a href=""><i class="fa fa-twitter social mx-2"></i></a>
-                            <!-- Google + -->
-                            <a href=""><i class="fa fa-youtube social mx-2"></i></a>
-                            <!-- Linkedin -->
-                            <a href=""><i class="fa fa-linkedin social mx-2"></i></a>
-                        </li>
-                        <li>
-                            <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
-                        </li>
-                        <li>
-                            <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <!-- Footer Right-->
+        <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
+          <!-- Social Media links -->
+          <ul class="f-contact">
+            <li>
+              <!-- Facebook -->
+              <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+            </li>
+            <li>
+              <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
+            </li>
+          </ul>
         </div>
-        <div class="container text-center">
-            <!-- Footer Copyrigth-->
-            <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
-        </div>
-    </footer>
+      </div>
+    </div>
+    <div class="container text-center">
+      <!-- Footer Copyrigth-->
+      <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+    </div>
+  </footer>
 
 
 
