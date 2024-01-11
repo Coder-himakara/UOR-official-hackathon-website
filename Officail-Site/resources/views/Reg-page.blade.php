@@ -38,9 +38,9 @@
                     alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
                 <!--Navigation Bar items-->
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav me-4">
                     <li class="nav-item ">
-                        <a class="nav-link px-2" aria-current="page" href="{{ route('index') }}">Back-to-Home</a>
+                        <a class="nav-link px-2" aria-current="page" href="{{ route('index') }}">Home</a>
                     </li>
                 </ul>
             </div>
@@ -63,8 +63,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024</div>
-                    <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
+                    <div class="order-md-last col-lg-4 col-md-6 mb-lg-0 text-sm-start year">2024</div>
+                    <div class="order-md-first col-lg-8 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>

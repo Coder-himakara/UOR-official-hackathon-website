@@ -6,6 +6,10 @@
 .shw_vwport.reveal.active{
     transform: translateY(-3%);  
 }
+header {
+    background: #1A002F;
+}
+
 
 /* making viewports heights */
 .shw_vwport{
