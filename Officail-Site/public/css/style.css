@@ -950,17 +950,17 @@ footer{
     padding: 0px;
 }
 @media  screen and (min-width:992px) {
-    .rfooter{
+    /* .rfooter{
         padding-left: 10rem;
-    }
+    } */
     .row{   
         text-align: left;
     }
 }
 @media  screen and (min-width:767px) and (max-width:992) {
-    .rfooter{
+    /* .rfooter{
         padding-left: 5rem;
-    }
+    } */
     .row{   
         text-align: left;
     }
