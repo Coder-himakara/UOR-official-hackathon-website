@@ -310,16 +310,16 @@ header {
 }
 .bg_vector_Timg {
     position: absolute;
-    width: 526px;
+    /*width: 526px;*/
     height: 416px;
     top: -44px;
     right: -9px;
 }
 .bg_vector_Pimg {
     position: absolute;
-    width: 326px;
-    height: 265px;
-    top: -79px;
+    /*width: 326px;*/
+    height: 255px;
+    top: -108px;
     left: 194px;
 }
 
@@ -709,7 +709,7 @@ p.big-text{
     background-color: #fff;
     background-size: 404px 211px;
     padding: 20px 30px;
-    background-image: url('../images/Wave.png');
+    /*background-image: url('../images/Wave.png');*/
     position: relative;
     background-repeat: no-repeat;
     border-radius: 6px;
@@ -851,8 +851,8 @@ p.big-text{
 .prize-body {
     background: center;
     background-repeat:no-repeat ;
-    background-image: url('../images/red_curtains_podium.jpg');
-    background-size: 309px 398px;
+    background-image: url('../images/red_curtains_podium.png');
+    background-size: 329px 543px;
     border: 1px solid #1A002F;
     background-color: #fff;
     border-radius: 8px;
