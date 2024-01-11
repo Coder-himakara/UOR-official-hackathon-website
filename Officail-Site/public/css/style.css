@@ -704,9 +704,14 @@ p.big-text{
 }
 
 .text-box {
+  
+    background:top;
+    background-color: #fff;
+    background-size: 404px 211px;
     padding: 20px 30px;
-    background: #fff;
+    background-image: url('../images/Wave.png');
     position: relative;
+    background-repeat: no-repeat;
     border-radius: 6px;
     font-size: 12px;
 }
@@ -945,17 +950,17 @@ footer{
     padding: 0px;
 }
 @media  screen and (min-width:992px) {
-    .rfooter{
+    /* .rfooter{
         padding-left: 10rem;
-    }
+    } */
     .row{   
         text-align: left;
     }
 }
 @media  screen and (min-width:767px) and (max-width:992) {
-    .rfooter{
+    /* .rfooter{
         padding-left: 5rem;
-    }
+    } */
     .row{   
         text-align: left;
     }
