@@ -116,27 +116,12 @@
                 </div>
 
                 <div class="row">
-                    <div class="order-md-last col-lg-6 col-md-6 mb-lg-0 text-sm-start year">2024
-                        <div class="countdown-container">
-                            <div>
-                                <p id="days" class="big-text">0</p>
-                                <span>Days</span>
-                            </div>
-                            <div>
-                                <p id="hours" class="big-text">0</p>
-                                <span>Hours</span>
-                            </div>
-                            <div>
-                                <p id="min" class="big-text">0</p>
-                                <span>Min</span>
-                            </div>
-                            <div>
-                                <p id="sec" class="big-text">0</p>
-                                <span>Sec</span>
-                            </div>
-                        </div>
+                    <div class="order-md-last col-lg-4 col-md-6 mb-lg-0 text-sm-start year">2024
+                    <div class="bg_Gvectors">
+            <img src="{{ asset('images/Manage.png') }}" class="bg_vector_Gimg " alt="peple manage">
+        </div>
                     </div>
-                    <div class="order-md-first col-lg-6 col-md-6 text-md-start desc">
+                    <div class="order-md-first col-lg-8 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
                         <div class="subtext text-sm-start ms-0 ">
                             <p>Storm&apos;s Rage Looms - Brace for Impact !</p>
@@ -155,7 +140,29 @@
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
                     </div>
+                    
                 </div>
+                <div class="row">
+                <p class="text-start ">Close the Registration</p>
+                    <div class="countdown-container"> 
+                            <div>
+                                <p id="days" class="big-text">0</p>
+                                <span class="countdown_title">Days</span>
+                            </div>
+                            <div>
+                                <p id="hours" class="big-text">0</p>
+                                <span class="countdown_title">Hours</span>
+                            </div>
+                            <div>
+                                <p id="min" class="big-text">0</p>
+                                <span class="countdown_title">Min</span>
+                            </div>
+                            <div>
+                                <p id="sec" class="big-text">0</p>
+                                <span class="countdown_title">Sec</span>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
 
@@ -185,6 +192,7 @@
                 </div>
             </div>
         </section>
+        
         <!--Robotimg 1-->
         <div class="responsive-robo-container shaking">
             <img src="{{ asset('images/robots/R3.png') }}" class="guidelineimg" alt="Description of Image 1">
@@ -253,7 +261,11 @@
                             class="bttn-text">Download</span></button></a>
             </div>
         </div>
-        
+
+        <div class="bg_Tvectors">
+            <img src="{{ asset('images/Timeline.png') }}" class="bg_vector_Timg " alt="peple manage">
+        </div>
+
         <!--Robotimg 2-->
         <div class="responsive-robo-container shaking">
             <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
@@ -362,6 +374,8 @@
             <img src="{{ asset('images/robots/R7.png') }}" class="awardimg" alt="Description of Image 1">
         </div>
 
+        
+
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">
             <div class="section-topic text-center">Award and Prizes</div>
@@ -399,6 +413,9 @@
             </div>
         </section>
 
+        <div class="bg_Pvectors">
+            <img src="{{ asset('images/Prizes.png') }}" class="bg_vector_Pimg " alt="peple manage">
+        </div>
         <!-- PARTNERSHIP and Sponsors section -->
         <section class="shw_vwport" id="sponsers">
             <div class="container-fluid reveal">

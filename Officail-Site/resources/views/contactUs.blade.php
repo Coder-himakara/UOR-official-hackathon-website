@@ -31,7 +31,7 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO.-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
+                    <img src="{{ asset('images/logo_hrz.png') }}" width="auto" height="109px" alt="Logo"
                         class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
 
@@ -44,25 +44,34 @@
                     <!--Navigation Bar items-->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ">
-                            <a class="nav-link px-1" aria-current="page" href="{{ route('index') }}#welcome">Home</a>
+                            <a class="nav-link px-2" aria-current="page" href="{{ route('index') }}#welcome">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('index') }}#about">About</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('index') }}#guideline">Guideline</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#guideline">Guideline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" aria-current="page"
+                            <a class="nav-link px-2" aria-current="page"
                                 href="{{ route('index') }}#timeline">Timeline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('index') }}#prizes">Prizes</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
+                            <a class="nav-link px-2" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
 
                         </li>
+<
+                        <li class="nav-item ">
+                            <a class="nav-link px-2" href="#sponsers" target="_self">Sponsers</a>
+                        </li>
+
+                        <!-- WILL BE UPDATED SOON -->
+                        <!-- 
+
+
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">

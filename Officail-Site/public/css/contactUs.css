@@ -1,16 +1,19 @@
 .card {
     animation: fade-up 0.5s 0.4s backwards;
-    border: 1px solid #ccc;
+    border: 3px solid purple;
     border-radius: 8px;
     margin-top: 5%;
     margin-bottom: 5%;
-    padding: 20px;
-    width: 300px;
+    padding: 7px;
+    width: 250px;
     min-height: 24px;
     text-align: center;
     box-sizing: border-box;
     transition: transform 0.3s ease-in-out;
     color: black;
+    background-image: url("../images/card_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 465.19px;
 }
 
 
@@ -38,6 +41,7 @@
 }
 
 .info-box-name {
+    color: #000000;
     background-color: #eee;
     padding: 10px;
     border-radius: 5px;
@@ -47,6 +51,7 @@
 
 
 .info-box {
+    color: #fff;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -58,6 +63,7 @@
 
 .info-box:hover {
     background-color: #cfd8dc;
+    color: black;
 }
 
 h2 {
@@ -75,3 +81,18 @@ p {
 #d1{
     max-width: 60%;
 }
+#logo{
+    width: 13em;
+    top: 28px;
+    left: 10vmin;
+    height: 73px;
+    top: 1.6vmin;
+}
+@media screen and (min-width:1179px) {
+    #logo{
+        height: 109px;
+        width: auto;
+        top: 1.6vmin;
+    }
+    
+} 
