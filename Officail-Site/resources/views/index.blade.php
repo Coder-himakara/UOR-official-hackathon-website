@@ -57,25 +57,25 @@
                     <!--Navigation Bar items-->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ">
-                            <a class="nav-link px-2" aria-current="page" href="#welcome">Home</a>
+                            <a class="nav-link px-1" aria-current="page" href="#welcome">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#about">About</a>
+                            <a class="nav-link px-1" href="#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#guideline">Guidelines</a>
+                            <a class="nav-link px-1" href="#guideline">Guidelines</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" aria-current="page" href="#timeline">Timeline</a>
+                            <a class="nav-link px-1" aria-current="page" href="#timeline">Timeline</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#prizes">Prizes</a>
+                            <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#sponsers" target="_self">Sponsers</a>
+                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->
@@ -255,21 +255,21 @@
             </div>
         </section>
 
-
         <div class="container px-1">
             <div class="row text-lg-start text-center pt-0">
                 <a href=""><button type="button" class="btn btn-primary bttn"><span
                             class="bttn-text">Download</span></button></a>
             </div>
         </div>
+
         <div class="bg_Tvectors">
             <img src="{{ asset('images/Timeline.png') }}" class="bg_vector_Timg " alt="peple manage">
         </div>
+
         <!--Robotimg 2-->
         <div class="responsive-robo-container shaking">
             <img src="{{ asset('images/robots/R4.png') }}" class="timelineimg" alt="Description of Image 1">
         </div>
-
         <!-- TIMELINE section -->
         <section class="shw_vwport timeline " id="timeline">
             <div class="container-fluid">
