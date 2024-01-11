@@ -423,8 +423,7 @@
                 <div class="container prize reveal mt-5">
                     <div class="row justify-content-evenly">
                         <!-- 1 -->
-                        <div class="prize-body reveal col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
-                            <div class="info-box-name">logo</div>
+                        <div class="prize-body spon reveal col-lg  col-md-4 mx-lg-4 mx-md-2 order-md-2">
                             <div class="card">
                                 <img class="user-image" src="{{ asset('images/Sponsors/Logo2.png') }}"
                                     alt="1nd">
@@ -432,12 +431,12 @@
                         </div>
 
                         <!-- 2 -->
-                        <div class="prize-body reveal sp-prize col-lg col-md mx-lg-4 mx-md-2 order-md-1">
+                        <!-- <div class="prize-body reveal sp-prize col-lg col-md mx-lg-4 mx-md-2 order-md-1">
                             <div class="info-box-name">logo</div>
                             <div class="card">
                                 <img class="user-image" src="" alt="2nd">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

@@ -951,6 +951,24 @@ p.countdown_title{
 }
 
 
+
+
+/* --------------------------------------------*/
+/* Sponsours */
+.prize-body.spon {
+    border: 2px solid purple;
+    background-image: none;
+    background-color: #fff0;
+    background-size: auto;
+    margin: 0;
+    min-height: 230px;
+
+}
+.spon .user-image{
+    max-width: 100%;
+}
+
+
 /* ************************************************************************************/
 /* Footer decoration */
 footer{
