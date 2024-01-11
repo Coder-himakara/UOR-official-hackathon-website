@@ -63,9 +63,9 @@
                             <a class="nav-link px-2" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
 
                         </li>
-<
+
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="#sponsers" target="_self">Sponsers</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#sponsers" target="_self">Sponsers</a>
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->
@@ -75,7 +75,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                More</a>
+                                More</a>-->
 
                             <!--Navigation drop don menu-->
                             <div class="dropdown-menu dropdown-menu-right">
