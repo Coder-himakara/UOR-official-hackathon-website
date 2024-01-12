@@ -974,6 +974,17 @@ p.countdown_title{
     max-width: 100%;
 }
 
+@media screen and (max-width:767px) {
+    .prize-body.spon {
+        width: 77%;
+        height: 175px;
+    
+    }
+    .spon .user-image{
+        width: 228px;
+        height: 100px;
+    }
+}
 
 /* ************************************************************************************/
 /* Footer decoration */
