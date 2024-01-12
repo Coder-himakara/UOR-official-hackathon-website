@@ -14,7 +14,7 @@ header {
 /* making viewports heights */
 .shw_vwport{
     padding-top: 0px;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 @media screen and (max-width:767px) {
     #welcome{
@@ -36,7 +36,7 @@ form {
 }
 @media screen and (min-width:767px) {
     form {
-        margin: 10% 0 0 10%;
+        margin: 2% 0 0 10%;
         width: 80%;       
     }
 }

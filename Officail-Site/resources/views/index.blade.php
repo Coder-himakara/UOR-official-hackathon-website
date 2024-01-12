@@ -107,7 +107,7 @@
                 <div class="row">
                     <div class="topic-color text-sm-start">
                         <!--Hackthon main title.Can change with the time-->
-                        <p><span class="st8_2_1">I</span>
+                        <p class="welcome_para"><span class="st8_2_1">I</span>
                             <span class="st8_2">NSURGE</span>
                             <span class="st8_2_3">X</span>
                             <span class="st8_2">1.0</span>
@@ -143,7 +143,7 @@
                     
                 </div>
                 <div class="row">
-                <p class="text-start ">Close the Registration</p>
+                <p class="text-center countdown_title  col-md-6">Close the Registration</p>
                     <div class="countdown-container"> 
                             <div>
                                 <p id="days" class="big-text">0</p>
@@ -218,8 +218,8 @@
                             <li>
                                 <p>Each team is required to create a single HackerRank account</p>
                             </li>
-                            <li>
-                                <p>Ensure that the username for the HackerRank account follows the
+                            <li >
+                                <p id="notdisplay_4">Ensure that the username for the HackerRank account follows the
                                     specific pattern provided by the organizers. For alignment with your
                                     team's name, "CodeRangers," the username for,<br></p>
                                 <p style="font-weight: bolder">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
@@ -255,7 +255,7 @@
             </div>
         </section>
 
-        <div class="container px-1">
+        <div class="container">
             <div class="row text-lg-start text-center pt-0">
                 <a href=""><button type="button" class="btn btn-primary bttn"><span
                             class="bttn-text">Download</span></button></a>
@@ -423,8 +423,7 @@
                 <div class="container prize reveal mt-5">
                     <div class="row justify-content-evenly">
                         <!-- 1 -->
-                        <div class="prize-body reveal col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
-                            <div class="info-box-name">logo</div>
+                        <div class="prize-body spon reveal col-lg  col-md-4 mx-lg-4 mx-md-2 order-md-2">
                             <div class="card">
                                 <img class="user-image" src="{{ asset('images/Sponsors/Logo2.png') }}"
                                     alt="1nd">
@@ -432,12 +431,12 @@
                         </div>
 
                         <!-- 2 -->
-                        <div class="prize-body reveal sp-prize col-lg col-md mx-lg-4 mx-md-2 order-md-1">
+                        <!-- <div class="prize-body reveal sp-prize col-lg col-md mx-lg-4 mx-md-2 order-md-1">
                             <div class="info-box-name">logo</div>
                             <div class="card">
                                 <img class="user-image" src="" alt="2nd">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -502,6 +501,6 @@
     <script type="text/JavaScript" src="{{ asset('js/Particle/app.js') }}"></script>
     <!-- Custom JavaScript -->
     <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
-    <script type="text/JavaScript" src="{{ asset('js/Tiimeline.js') }}"></script>
+    
 
 </html>

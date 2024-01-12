@@ -350,53 +350,46 @@
             </form>
         </div>
 
-        <!-- Footer-->
-        <footer class="footer">
-            <div class="container-fluid px-lg-5">
-                <div class="row">
-                    <!-- Footer Left-->
-                    <div class="col-lg-6 col-md-6 col-sm-12 lfooter">
-                        <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,<br>
-                            WELLAMADAMA, MATARA, <br>SRI LANKA.</span>
-                        <ul class="f-logo">
-                            <li>
-                                <a href=""><i class="fa fa-home mx-2"></i></a>
-                                <a href=""><i class="fa fa-home mx-2"></i></a>
-                                <a href=""><i class="fa fa-home mx-2"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+         <!-- Footer-->
+  <footer class="footer">
+    <div class="container-fluid px-lg-5">
+      <div class="row">
+        <!-- Footer Left-->
+        <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
+          <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
+            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
+          <ul class="f-logo">
+            <li>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+              <a href=""><i class="fa fa-home mx-2"></i></a>
+            </li>
+          </ul>
+        </div>
 
-                    <!-- Footer Right-->
-                    <div class="col-lg-6 col-md-6 col-sm-12 text-justify-center rfooter">
-                        <!-- Social Media links -->
-                        <ul class="f-contact">
-                            <li>
-                                <!-- Facebook -->
-                                <a href=""><i class="fa fa-facebook-f social me-2"></i></a>
-                                <!-- Twitter -->
-                                <a href=""><i class="fa fa-twitter social mx-2"></i></a>
-                                <!-- Google + -->
-                                <a href=""><i class="fa fa-youtube social mx-2"></i></a>
-                                <!-- Linkedin -->
-                                <a href=""><i class="fa fa-linkedin social mx-2"></i></a>
-                            </li>
-                            <li>
-                                <span><i class="fa fa-envelope"></i></span><span
-                                    class="ms-lg-2">insurgex.ruh@gmail.com</span>
-                            </li>
-                            <li>
-                                <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <!-- Footer Copyrigth-->
-                <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
-            </div>
-        </footer>
+        <!-- Footer Right-->
+        <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
+          <!-- Social Media links -->
+          <ul class="f-contact">
+            <li>
+              <!-- Facebook -->
+              <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+            </li>
+            <li>
+              <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <!-- Footer Copyrigth-->
+      <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+    </div>
+  </footer>
 
         <script>
             // Function to enable member 02
