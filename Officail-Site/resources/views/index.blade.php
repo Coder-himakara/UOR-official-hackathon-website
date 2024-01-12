@@ -218,8 +218,8 @@
                             <li>
                                 <p>Each team is required to create a single HackerRank account</p>
                             </li>
-                            <li>
-                                <p>Ensure that the username for the HackerRank account follows the
+                            <li >
+                                <p id="notdisplay_4">Ensure that the username for the HackerRank account follows the
                                     specific pattern provided by the organizers. For alignment with your
                                     team's name, "CodeRangers," the username for,<br></p>
                                 <p style="font-weight: bolder">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>

@@ -661,6 +661,7 @@ p.countdown_title{
 
 @media screen and (max-width:767px) {
 
+
     ol,ul {
         padding-left: 7%;
         ;
@@ -678,9 +679,14 @@ p.countdown_title{
 
     }
 
-    .guideline-text {
+    .guideline-text { 
         text-align: justify;
     }
+   
+    #notdisplay_4{
+        display: none;
+    }
+
 }
 
 /* --------------------------------------------*/
@@ -916,7 +922,7 @@ p.countdown_title{
 }
 
 .user-image {
-    max-width: 50%;
+    max-width: 57%;
     margin-bottom: 10px;
 }
 
