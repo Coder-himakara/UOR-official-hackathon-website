@@ -263,7 +263,7 @@
         </div>
 
         <div class="bg_Tvectors">
-            <img src="{{ asset('images/Timeline.png') }}" class="bg_vector_Timg " alt="peple manage">
+            <img src="{{ asset('images/clockticks.png') }}" class="bg_vector_Timg " alt="peple manage">
         </div>
 
         <!--Robotimg 2-->
@@ -414,7 +414,7 @@
         </section>
 
         <div class="bg_Pvectors">
-            <img src="{{ asset('images/Prizes.png') }}" class="bg_vector_Pimg " alt="peple manage">
+            <img src="{{ asset('images/target.png') }}" class="bg_vector_Pimg " alt="peple manage">
         </div>
         <!-- PARTNERSHIP and Sponsors section -->
         <section class="shw_vwport" id="sponsers">
@@ -472,7 +472,7 @@
               <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
             </li>
             <li>
-              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">insurgex.ruh@gmail.com</span>
             </li>
             <li>
               <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
