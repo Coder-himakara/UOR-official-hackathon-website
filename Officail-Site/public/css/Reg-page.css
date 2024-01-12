@@ -55,7 +55,7 @@ input{
 }
 input,select {
     caret-color: #fff;
-    background: none;
+    background:none;
     border: none;
     border-bottom: 1px solid #fff;
     width: 100%;
@@ -63,6 +63,13 @@ input,select {
     margin-bottom: 16px;
     box-sizing: border-box;
 }
+select{
+    color: white; /* Change text color to blue */
+  }
+select:focus{
+    background-color:#260046;
+}
+
 input[type="submit"] {
     width: auto;
     background-color: #4caf50;
@@ -103,7 +110,11 @@ input[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     color:black;
 }
-
+@media screen and (max-width:767px) {
+    .member-div,.leader-title{
+        max-width: 68%;
+    }
+}
 
 /* each form boxes controls */
 .member-box,.teamDiv{
@@ -149,4 +160,8 @@ input[type="submit"]:hover {
     transform: translateY(-30px);
     font-size: 15px;
     color:rgb(112, 237, 220)
+}
+
+#d1{
+    z-index: -1;
 }
