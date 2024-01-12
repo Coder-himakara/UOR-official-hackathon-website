@@ -376,7 +376,7 @@
 
                     <!-- 1 -->
                     <div class="prize-body reveal sp-prize col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
-                        <div class="info-box-name">1nd</div>
+                        <div class="info-box-name">1st</div>
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/1.png') }}" alt="1nd">
                         </div>
@@ -394,7 +394,7 @@
 
                     <!-- 3 -->
                     <div class="prize-body reveal sp-prize col-lg  col-md mx-lg-4 mx-md-2 order-md-3">
-                        <div class="info-box-name">3nd</div>
+                        <div class="info-box-name">3rd</div>
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/3.png') }}" alt="3nd">
                         </div>
