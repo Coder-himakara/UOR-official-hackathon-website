@@ -272,7 +272,7 @@
         </div>
         <div class="container text-center">
             <!-- Footer Copyrigth-->
-            <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+            <small class="lead mb-0 cpyright">&copy; 2023-2024 RUCSD. All rights reserved.</small>
         </div>
     </footer>
 

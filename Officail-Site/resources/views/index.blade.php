@@ -208,40 +208,40 @@
                         <!--Guidline list-->
                         <ol>
                             <li>
-                                <p>Participants must strictly adhere to the provided rules throughout the
-                                    duration of the Hackathon</p>
+                                Participants must strictly adhere to the provided rules throughout the
+                                    duration of the Hackathon
                             </li>
                             <li>
-                                <p>Maximum three(3) members can allocate for each team.</p>
+                                Maximum three(3) members can allocate for each team.
                             </li>
                             <li>
-                                <p>Each team is required to create a single HackerRank account</p>
+                                Each team is required to create a single HackerRank account
                             </li>
                             <li>
-                                <p id="notdisplay_4">Ensure that the username for the HackerRank account follows the
+                                Ensure that the username for the HackerRank account follows the
                                     specific pattern provided by the organizers. For alignment with your
-                                    team's name, "CodeRangers," the username for,<br></p>
-                                <p style="font-weight: bolder">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
+                                    team's name, "CodeRangers," the username for,<br>
+                                <p style="font-weight: bolder;text-align:left">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
                             </li>
                             <li>
-                                <p>Participants are required to bring their own laptops for the hackathon.
+                                Participants are required to bring their own laptops for the hackathon.
                                     Ensure your devices are fully charged(Because charging ports are
-                                    limited).</p>
-                                <p>If you need extension you can bring it.
-                                </p>
+                                    limited).
+                                If you need extension you can bring it.
+                                
                             </li>
                             <li>
-                                <p>The hackathon will run for a set duration of 3 hours. Manage your time
+                                The hackathon will run for a set duration of 3 hours. Manage your time
                                     properly.
-                                </p>
+                                
                             </li>
                             <li>
-                                <p>Your internet connection is provided by the Organizing team through
-                                    Wifi.</p>
+                                Your internet connection is provided by the Organizing team through
+                                    Wifi.
                             </li>
                             <li>
-                                <p>Feel free to use any tools during the hackathon to enhance your coding
-                                    experience.</p>
+                                Feel free to use any tools during the hackathon to enhance your coding
+                                    experience.
                             </li>
                             <li>
                                 <p style="font-weight: bolder">To see more guidelines, Please download the PDF from
@@ -481,7 +481,7 @@
         </div>
         <div class="container text-center">
             <!-- Footer Copyrigth-->
-            <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+            <small class="lead mb-0 cpyright">&copy; 2023-2024 RUCSD. All rights reserved.</small>
         </div>
     </footer>
 
