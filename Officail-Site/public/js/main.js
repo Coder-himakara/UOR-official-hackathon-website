@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
         logo.src = "images/logo_hrz.png"; // Change the logo image
         logo.classList.add('scrolled'); // Apply optional CSS class for further styling
     } 
-    else if(page=="contactUs"){
+    else if(page=="contactUs" || page=="afterSubmit"){
         
     } 
     else {

@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <style>
+        #logo{
+            top: 29px;;
+        }
         header {
             background-color: black;
         }
@@ -30,7 +33,14 @@
         }
 
         .shw_vwport {
+            height:100vh;
             padding-top: 7%;
+        }
+        @media (max-width: 767px) {
+            .shw_vwport {
+            height:50vh;
+            padding-top: 7%;
+        }
         }
 
         .Thanktext,
@@ -38,7 +48,7 @@
         .pdf-download-text,
         .f-contact,
         .cpyright {
-            margin-bottom: 30px;
+            margin-bottom: 42px;
         }
 
         .f-logo li {
@@ -59,6 +69,7 @@
         .luck h4 {
             font-size: 3vw;
         }
+       
 
         .pdf-download-text p.lead,
         .pdf-download-text a.btn {
@@ -77,14 +88,26 @@
             animation: fade-up 0.5s 0.4s backwards;
             width: 350px;
             position: absolute;
-            right: 0px;
-            top: -177px;
+            right: 48px;
+            top: 192px;
+        }
+        @media (max-width: 767px) {
+            #rimg1 {
+            width: 243px;
+            position: relative;
+            right: -66px;
+            top: 39px;
+        }
         }
 
-
+        .bttn{
+            width:178px;
+        }
 
         @media (max-width: 767px) {
-
+            #logo{
+            top:6.799999999999997vmin;
+            }
             /* Adjusted styles for smaller screens */
             .f-logo li {
                 margin-right: 0;
@@ -98,6 +121,14 @@
             .f-contact li {
                 margin-bottom: 10px;
             }
+            .luck h4 {
+                font-size: 6vw;
+            }
+
+            .pdf-download-text p.lead,
+            .pdf-download-text a.btn {
+                font-size: 4.5vw;
+            }
         }
 
         @media (min-width: 768px) and (max-width: 991px) {
@@ -108,7 +139,7 @@
             }
 
             .luck h4 {
-                font-size: 2.5vw;
+                font-size: 2vw;
             }
 
             .pdf-download-text p.lead,
@@ -141,24 +172,26 @@
                 font-size: 1.5vw;
             }
         }
+       
     </style>
 </head>
 
 <body>
-
     <header class="header">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="index.html">
-                    <!-- Hackathon LOGO. Change with requirements -->
-                    <img src="{{ asset('images/logo 2.png') }}" border-radius: 278.50px width="auto" height="100px"
-                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
-                        class="d-inline-block align-text-top">
+                    <!--Hackthon LOGO.-->
+                    <img src="{{ asset('images/logo_hrz.png') }}" width="auto" height="65px" alt="Logo"
+                        class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
             </div>
         </nav>
     </header>
+    <div class="images_relative">
+            <img src="{{ asset('images/Human_vector.png') }}" alt="Human" id="rimg1">
+        </div>
     <div class="container shw_vwport">
 
         <div class="Thanktext text-center">
@@ -179,9 +212,7 @@
             </div>
         </div>
 
-        <div class="images_relative">
-            <img src="{{ asset('images/Human_vector.png') }}" alt="Human" id="rimg1">
-        </div>
+        
 
 
         <div class="text-center">
@@ -249,7 +280,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
 
-    <script type="text/JavaScript" src="main.js"></script>
+    <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
 
     <script>
         history.pushState(null, null, location.href);

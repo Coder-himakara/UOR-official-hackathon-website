@@ -271,7 +271,6 @@ header {
         height: 65px;
         width: auto;
         top: 33px;
-   
     }
     
 }
@@ -892,14 +891,14 @@ p.countdown_title{
     background-repeat:no-repeat ;
     background-image: url('../images/red_curtains_podium.png');
 
-    background-size: 329px 543px;
+    background-size: 329px 551px;
 
     border: 1px solid #1A002F;
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     margin: 20px 10px 20px 10px;
-    min-height: 400px;
+    min-height: 365px;
     text-align: center;
     color: black;
 }
@@ -938,7 +937,7 @@ p.countdown_title{
         margin: 43px;
         width: 57%;
         margin-top: 3%;
-        height: 263px;
+        min-height: 330px;
     }
 
     .user-image {

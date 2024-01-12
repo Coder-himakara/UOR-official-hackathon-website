@@ -82,11 +82,10 @@ p {
     max-width: 60%;
 }
 #logo{
-    width: 13em;
-    top: 28px;
+    width: auto;
+    top: 33px;
     left: 10vmin;
-    height: 73px;
-    top: 1.6vmin;
+    height: 65px;
 }
 @media screen and (min-width:1179px) {
     #logo{
