@@ -313,10 +313,10 @@ header {
 }
 .bg_vector_Timg {
     position: absolute;
-    /*width: 526px;*/
-    height: 416px;
+    width: 584px;
+    height: 384px;
     top: -44px;
-    right: -9px;
+    right: 25px;
 }
 .bg_vector_Pimg {
     position: absolute;
@@ -333,9 +333,9 @@ header {
     }
     .bg_vector_Timg {
         width: auto;
-        height: 175px;
+        height: 154px;
         top: -11px;
-        left: 170px;
+        left: 127px;
       
     }
     .bg_vector_Pimg {
