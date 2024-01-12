@@ -18,7 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <style>
         header {
@@ -68,18 +68,19 @@
         .cpyright {
             font-size: 1.5vw;
         }
-        
-        .images_relative{
+
+        .images_relative {
             position: relative;
         }
-        #rimg1{
+
+        #rimg1 {
             animation: fade-up 0.5s 0.4s backwards;
             width: 350px;
             position: absolute;
             right: 0px;
             top: -177px;
         }
-        
+
 
 
         @media (max-width: 767px) {
@@ -151,8 +152,9 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="index.html">
                     <!-- Hackathon LOGO. Change with requirements -->
-                    <img src="{{asset('images/logo 2.png')}}" border-radius: 278.50px width="auto" height="100px" alt="Logo"
-                        class="vector_pos" id="logo" style="position:absolute; " class="d-inline-block align-text-top">
+                    <img src="{{ asset('images/logo 2.png') }}" border-radius: 278.50px width="auto" height="100px"
+                        alt="Logo" class="vector_pos" id="logo" style="position:absolute; "
+                        class="d-inline-block align-text-top">
                 </a>
             </div>
         </nav>
@@ -171,20 +173,22 @@
         <div class=" text-center">
             <div class="pdf-download-text">
                 <p class="lead">Download your team details from below</p>
-                <a href="{{ route('generate-pdf', ['id' => $Hackteam->id]) }}" target="_blank"><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Download
+                <a href="{{ route('generate-pdf', ['id' => $Hackteam->id]) }}" target="_blank"><button type="button"
+                        class="btn btn-primary bttn"><span class="bttn-text">Download
                             PDF</span></button></a>
             </div>
         </div>
 
         <div class="images_relative">
-            <img src="{{asset('images/Human_vector.png')}}" alt="Human"  id="rimg1">
+            <img src="{{ asset('images/Human_vector.png') }}" alt="Human" id="rimg1">
         </div>
 
 
         <div class="text-center">
             <div class="pdf-download-text">
                 <p class="lead">Return to Home Page</p>
-                <a href="{{route('index')}}"><button type="button" class="btn btn-primary bttn"><span class="bttn-text">Home
+                <a href="{{ route('index') }}"><button type="button" class="btn btn-primary bttn"><span
+                            class="bttn-text">Home
                             Page</span></button></a>
             </div>
         </div>
@@ -199,9 +203,13 @@
                         WELLAMADAMA<br>MATARA, SRI LANKA.</span>
                     <ul class="f-logo">
                         <li>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
-                            <a href=""><i class="fa fa-home mx-2"></i></a>
+                            <a href="">
+                                <div class="responsive-cssc-container">
+                                    <img src="{{ asset('images/cssc logo.png') }}" class="cssc-logo"
+                                        alt="Description of Image 1">
+                                </div>
+                            </a>
+
                         </li>
                     </ul>
                 </div>
@@ -212,8 +220,9 @@
                     <ul class="f-contact">
                         <li>
                             <!-- Facebook -->
-                            <a href=""><i class="fa fa-facebook-f social"></i></a><span
-                                class="ms-lg-2">www.facebook.com</span>
+                            <a href="https://www.facebook.com/csscuor" target="_blank"><i
+                                    class="fa fa-facebook-f social"></i></a><span
+                                class="ms-lg-2">facebook.com/csscuor</span>
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span><span
@@ -235,16 +244,16 @@
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-        </script>
+    </script>
 
     <script type="text/JavaScript" src="main.js"></script>
 
     <script>
         history.pushState(null, null, location.href);
-        window.onpopstate = function () {
+        window.onpopstate = function() {
             history.pushState(null, null, location.href);
         };
     </script>

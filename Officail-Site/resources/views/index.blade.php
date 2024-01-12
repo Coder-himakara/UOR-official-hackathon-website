@@ -117,9 +117,9 @@
 
                 <div class="row">
                     <div class="order-md-last col-lg-4 col-md-6 mb-lg-0 text-sm-start year">2024
-                    <div class="bg_Gvectors">
-            <img src="{{ asset('images/Manage.png') }}" class="bg_vector_Gimg " alt="peple manage">
-        </div>
+                        <div class="bg_Gvectors">
+                            <img src="{{ asset('images/Manage.png') }}" class="bg_vector_Gimg " alt="peple manage">
+                        </div>
                     </div>
                     <div class="order-md-first col-lg-8 col-md-6 text-md-start desc">
                         <!--Hackthon subtheme title. Change with the time-->
@@ -140,29 +140,29 @@
                                 <span class="bttn-text">ENROLL NOW</span>
                             </button></a>
                     </div>
-                    
+
                 </div>
                 <div class="row">
-                <p class="text-center countdown_title  col-md-6">Close the Registration</p>
-                    <div class="countdown-container"> 
-                            <div>
-                                <p id="days" class="big-text">0</p>
-                                <span class="countdown_title">Days</span>
-                            </div>
-                            <div>
-                                <p id="hours" class="big-text">0</p>
-                                <span class="countdown_title">Hours</span>
-                            </div>
-                            <div>
-                                <p id="min" class="big-text">0</p>
-                                <span class="countdown_title">Min</span>
-                            </div>
-                            <div>
-                                <p id="sec" class="big-text">0</p>
-                                <span class="countdown_title">Sec</span>
-                            </div>
+                    <p class="text-center countdown_title  col-md-6">Close the Registration</p>
+                    <div class="countdown-container">
+                        <div>
+                            <p id="days" class="big-text">0</p>
+                            <span class="countdown_title">Days</span>
+                        </div>
+                        <div>
+                            <p id="hours" class="big-text">0</p>
+                            <span class="countdown_title">Hours</span>
+                        </div>
+                        <div>
+                            <p id="min" class="big-text">0</p>
+                            <span class="countdown_title">Min</span>
+                        </div>
+                        <div>
+                            <p id="sec" class="big-text">0</p>
+                            <span class="countdown_title">Sec</span>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
 
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!--Robotimg 1-->
         <div class="responsive-robo-container shaking">
             <img src="{{ asset('images/robots/R3.png') }}" class="guidelineimg" alt="Description of Image 1">
@@ -218,7 +218,7 @@
                             <li>
                                 <p>Each team is required to create a single HackerRank account</p>
                             </li>
-                            <li >
+                            <li>
                                 <p id="notdisplay_4">Ensure that the username for the HackerRank account follows the
                                     specific pattern provided by the organizers. For alignment with your
                                     team's name, "CodeRangers," the username for,<br></p>
@@ -280,10 +280,11 @@
                         <div class=" left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Event Announcement</h2>
-                                <small>15-Dec-2023</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <h2>Registration Open
+                                </h2>
+                                <small>13-Jan-2023</small>
+                                <p>"The creative coding revolution has been unlocked as registration for our hackathon
+                                    is now open."
                                 </p>
                                 <span class="left-container-arrow"></span>
                             </div>
@@ -292,10 +293,11 @@
                         <div class=" right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>LinkedIn</h2>
-                                <small>2023-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <h2>Event Announcement Ceremony</h2>
+                                <small>16-Jan-2024</small>
+                                <p>"Exciting announcement: Unveiling our upcoming event that promises innovation,
+                                    collaboration, and memorable
+                                    experiences!"
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -304,10 +306,11 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Registration Open</h2>
-                                <small>12-Jan-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <h2>Workshop I
+                                </h2>
+                                <small>16-Jan-2024</small>
+                                <p>"Master the art of hackathon success in Workshop 1 by Team ExactPro-your guide to
+                                    conquering the coding challenges ahead!"
                                 </p>
                                 <span class="left-container-arrow"></span>
                             </div>
@@ -316,11 +319,10 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>WorkShop Announcement
+                                <h2>Registration Close
                                 </h2>
-                                <small>14-Jan-2024</small>
-                                <p>The workshop regarding
-                                    the hackathon event.
+                                <small>18-Jan-2024</small>
+                                <p>"Registration has closed. Get ready for an incredible event!
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -329,11 +331,11 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Workshop Day
+                                <h2>Hackathon
                                 </h2>
-                                <small>19-Jan-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <small>20-Jan-2024</small>
+                                <p>"Get ready for Hackathon Day: where innovation meets competition, and coding prowess
+                                    takes center stage!"
                                 </p>
                                 <span class="left-container-arrow"></span>
                             </div>
@@ -342,27 +344,17 @@
                         <div class="right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Hackathon Day
+                                <h2>Workshop II
                                 </h2>
-                                <small>22-Jan-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
+                                <small>20-Jan-2024</small>
+                                <p>"Dive into the world of Software Quality Assurance in Workshop 2 by Team ExactPro -
+                                    sharpen your skills for top-tier software development!"
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
                         </div>
 
-                        <div class="left-container timeline-align reveal">
 
-                            <div class="text-box">
-                                <h2>Twitter</h2>
-                                <small>2023-2024</small>
-                                <p>The success of every web site depend on search engine optimisation and digital
-                                    marketing stratergy. If you are on first page of all major search...
-                                </p>
-                                <span class="left-container-arrow"></span>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -374,7 +366,7 @@
             <img src="{{ asset('images/robots/R7.png') }}" class="awardimg" alt="Description of Image 1">
         </div>
 
-        
+
 
         <!-- AWARDS AND PRIZE section -->
         <section class="shw_vwport" id="prizes">
@@ -447,45 +439,52 @@
 
 
     <!-- Footer-->
-  <footer class="footer">
-    <div class="container-fluid px-lg-5">
-      <div class="row">
-        <!-- Footer Left-->
-        <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
-          <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
-            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
-          <ul class="f-logo">
-            <li>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-            </li>
-          </ul>
-        </div>
+    <footer class="footer">
+        <div class="container-fluid px-lg-5">
+            <div class="row">
+                <!-- Footer Left-->
+                <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
+                    <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
+                        WELLAMADAMA<br>MATARA, SRI LANKA.</span>
+                    <ul class="f-logo">
+                        <li>
+                            <a href="">
+                                <div class="responsive-cssc-container">
+                                    <img src="{{ asset('images/cssc logo.png') }}" class="cssc-logo"
+                                        alt="Description of Image 1">
+                                </div>
+                            </a>
 
-        <!-- Footer Right-->
-        <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
-          <!-- Social Media links -->
-          <ul class="f-contact">
-            <li>
-              <!-- Facebook -->
-              <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">insurgex.ruh@gmail.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
-            </li>
-          </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer Right-->
+                <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
+                    <!-- Social Media links -->
+                    <ul class="f-contact">
+                        <li>
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/csscuor" target="_blank"><i
+                                    class="fa fa-facebook-f social"></i></a><span
+                                class="ms-lg-2">facebook.com/csscuor</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span><span
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <!-- Footer Copyrigth-->
-      <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
-    </div>
-  </footer>
+        <div class="container text-center">
+            <!-- Footer Copyrigth-->
+            <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+        </div>
+    </footer>
 
 
     <!-- Bootstrap JavaScript Libraries -->
@@ -501,6 +500,6 @@
     <script type="text/JavaScript" src="{{ asset('js/Particle/app.js') }}"></script>
     <!-- Custom JavaScript -->
     <script type="text/JavaScript" src="{{ asset('js/main.js') }}"></script>
-    
+
 
 </html>

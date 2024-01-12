@@ -306,7 +306,7 @@ header {
 }
 .bg_vector_Gimg {
     position: absolute;
-    width: 573px;
+    width: 506px;
     height: 476px;
     left: -45px;
     top: -52px;
@@ -328,8 +328,8 @@ header {
 @media screen and (max-width:768px) {
     .bg_vector_Gimg {
         position: relative;
-        width: 396px;
-        height: 341px;
+        width: 320px;
+        height: 335px;
     }
     .bg_vector_Timg {
         width: auto;
@@ -989,12 +989,29 @@ footer{
     text-align: center;
 }
 
+
+.responsive-cssc-container {
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    position: relative;   
+    /* Add relative positioning to the container */
+}
+.cssc-logo{
+    max-width: 11%;   
+    /* Adjust the right positioning as needed */
+}
+
+
+
+
+
 /* Round the footer icon table */
 .social{
     color: white;
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    /*text-align: center;*/
     text-decoration: none;
     border-radius: 80%;
 }

@@ -69,7 +69,7 @@
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->
-                        <!-- 
+                        <!--
 
 
                         <li class="nav-item dropdown">
@@ -77,14 +77,14 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 More</a>-->
 
-                            <!--Navigation drop don menu-->
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button"><a href="{{ route('index') }}#sponsers"
-                                        class="dd-item">Sponsers</a></button>
-                                <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
-                                        target="_self" class="dd-item">News-&-Updates</a></button>
+                        <!--Navigation drop don menu-->
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button"><a href="{{ route('index') }}#sponsers"
+                                    class="dd-item">Sponsers</a></button>
+                            <button class="dropdown-item" type="button"><a href="{{ route('updates') }}"
+                                    target="_self" class="dd-item">News-&-Updates</a></button>
 
-                            </div>
+                        </div>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +98,7 @@
             <!-- Card 1 -->
             <div class="card mx-2 mx-lg-2 ">
                 <div>
-                <img class="user-image" src="{{ asset('images/Contacts/chair.png') }}" alt="Chair person Image">
+                    <img class="user-image" src="{{ asset('images/Contacts/chair.png') }}" alt="Chair person Image">
                 </div>
                 <div class="info-box-name">
                     <h2>Thanuja Priyadarshane (Chair)</h2>
@@ -128,7 +128,8 @@
 
             <!-- Card 3 -->
             <div class="card mx-2 mx-lg-2 ">
-                <div><img class="user-image" src="{{ asset('images/Contacts/Treasurer.png') }}" alt="Treasurer Image">
+                <div><img class="user-image" src="{{ asset('images/Contacts/Treasurer.png') }}"
+                        alt="Treasurer Image">
                 </div>
                 <div class="info-box-name">
                     <h2>Buddhika Perera (Treasurer)</h2>
@@ -143,8 +144,9 @@
 
             <!-- Card 4 -->
             <div class="card mx-2 mx-lg-2 ">
-                <div><img class="user-image" src="{{ asset('images/Contacts/Programming.png') }}"alt="Programming leader Image">
-            </div>
+                <div><img class="user-image"
+                        src="{{ asset('images/Contacts/Programming.png') }}"alt="Programming leader Image">
+                </div>
                 <div class="info-box-name">
                     <h2>Isuru Shanaka (Programming)</h2>
 
@@ -160,8 +162,9 @@
 
             <!-- Card 5 -->
             <div class="card mx-2 mx-lg-2 ">
-                <div><img class="user-image" src="{{ asset('images/Contacts/Financial.png') }}"alt="Finance leader Image">
-            </div>
+                <div><img class="user-image"
+                        src="{{ asset('images/Contacts/Financial.png') }}"alt="Finance leader Image">
+                </div>
                 <div class="info-box-name">
                     <h2>Kushan Sandul (Finance)</h2>
                 </div>
@@ -195,7 +198,7 @@
                 <div><img class="user-image" src="{{ asset('images/Contacts/logistics.png') }}" alt="User Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Imasha Dilshan (Logistics) 
+                    <h2>Imasha Dilshan (Logistics)
                     </h2>
                 </div>
                 <div class="info-box">
@@ -226,45 +229,52 @@
     </div>
 
     <!-- Footer-->
-  <footer class="footer">
-    <div class="container-fluid px-lg-5">
-      <div class="row">
-        <!-- Footer Left-->
-        <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
-          <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
-            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
-          <ul class="f-logo">
-            <li>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-            </li>
-          </ul>
-        </div>
+    <footer class="footer">
+        <div class="container-fluid px-lg-5">
+            <div class="row">
+                <!-- Footer Left-->
+                <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
+                    <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
+                        WELLAMADAMA<br>MATARA, SRI LANKA.</span>
+                    <ul class="f-logo">
+                        <li>
+                            <a href="">
+                                <div class="responsive-cssc-container">
+                                    <img src="{{ asset('images/cssc logo.png') }}" class="cssc-logo"
+                                        alt="Description of Image 1">
+                                </div>
+                            </a>
 
-        <!-- Footer Right-->
-        <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
-          <!-- Social Media links -->
-          <ul class="f-contact">
-            <li>
-              <!-- Facebook -->
-              <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">Insurgex.ruh@gmail.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
-            </li>
-          </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer Right-->
+                <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
+                    <!-- Social Media links -->
+                    <ul class="f-contact">
+                        <li>
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/csscuor" target="_blank"><i
+                                    class="fa fa-facebook-f social"></i></a><span
+                                class="ms-lg-2">facebook.com/csscuor</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span><span
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <!-- Footer Copyrigth-->
-      <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
-    </div>
-  </footer>
+        <div class="container text-center">
+            <!-- Footer Copyrigth-->
+            <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+        </div>
+    </footer>
 
 
 
