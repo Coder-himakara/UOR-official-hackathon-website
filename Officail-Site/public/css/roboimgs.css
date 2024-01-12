@@ -43,7 +43,7 @@
     .awardimg {
         width: 34%;
         position: absolute;
-        margin-top: 33%;
+        margin-top: 20%;
         right: 15%;
 
         /* Adjust the right positioning as needed */
@@ -77,10 +77,10 @@
 }
 
 .awardimg {
-    max-width: 22%;
+    max-width: 18%;
     position: absolute;
-    right: 14%;
-    top: -163px;
+    right: 10%;
+    top: -84px;
     /* Adjust the right positioning as needed */
 }
 

@@ -41,7 +41,7 @@ class hackathonController extends Controller
        $rules=[
             'teamName' => ['required','max:30', new UniqueTeamName],
             'LeaderName'=>'required|string|max:100',
-            'member1Contact'=>'required|min:10|max:15|unique:hackteams',
+            'member1Contact'=>'required|min:10|max:12|unique:hackteams',
             'leader_faculty'=>'required',
             'leader_batchNumber'=>'required',
             'member1SID'=>'required|max:15',
@@ -55,7 +55,7 @@ class hackathonController extends Controller
             'LeaderName.max'=>'Maximum characters=100 for Leader Name',
             'member1Contact.required'=>'Provide the Leader Contact Number',
             'member1Contact.min'=>'Minimum characters=10 for Leader Contact Number',
-            'member1Contact.max'=>'Maximum characters=15 for Leader Contact Number',
+            'member1Contact.max'=>'Maximum characters=12 for Leader Contact Number',
             'member1Contact.unique'=>'Leader Contact Number has already been used',
             'leader_faculty.required'=>'Leader faculty is required',
             'leader_batchNumber.required'=>'Leader academic year is required',

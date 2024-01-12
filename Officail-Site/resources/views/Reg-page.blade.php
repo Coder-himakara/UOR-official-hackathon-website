@@ -34,8 +34,8 @@
             <div class="container-fluid px-0 px-md-1">
                 <a class="navbar-brand ms-4 me-0" href="{{ route('index') }}">
                     <!--Hackthon LOGO.-->
-                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px"
-                    alt="Logo" class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
+                    <img src="{{ asset('images/logo without bg2.png') }}" width="auto" height="160px" alt="Logo"
+                        class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
                 </a>
                 <!--Navigation Bar items-->
                 <ul class="navbar-nav me-4">
@@ -106,10 +106,19 @@
                                 Team size limit: Your team can include <b>a maximum of 3 members.</b>
                             </li>
                             <li>
+                                There can be one, two or three members for a team.
+                            </li>
+                            <li>
                                 Leader details are mandatory.
                             </li>
                             <li>
                                 Try to use a unique name for your team.
+                            </li>
+                            <li>
+                                Email and phone number of the leader must be unique.
+                            </li>
+                            <li>
+                                Please fill all the fields correctly. And don't provide any misleading information.
                             </li>
                         </ol>
                     </div>
@@ -157,8 +166,7 @@
 
 
                     <div class="input-data my-5 d-inline">
-                        <select required id="leader_faculty" name="leader_faculty"
-                            value="{{ old('leader_faculty') }}">
+                        <select required id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
                             <option value="" disabled selected hidden></option>
                             <option value="Engineering">Engineering</option>
                             <option value="Science">Science</option>
@@ -215,7 +223,7 @@
                         <div class="input-data my-5">
                             <input type="text" id="member2Name" name="member2Name" required
                                 title="Must fill this" value="{{ old('member2Name') }}" disabled>
-                            <label for="member2Name">Name:</label>
+                            <label for="member2Name">Name: (This name will be used in the certificate.)</label>
                         </div>
 
                         <div class="input-data my-5">
@@ -285,7 +293,7 @@
                         <div class="input-data my-5">
                             <input type="text" id="member3Name" name="member3Name" required
                                 title="Must fill this" value="{{ old('member3Name') }}" disabled>
-                            <label for="member3Name">Name:</label>
+                            <label for="member3Name">Name: (This name will be used in the certificate.)</label>
                         </div>
 
                         <div class="input-data my-5">
@@ -350,46 +358,53 @@
             </form>
         </div>
 
-         <!-- Footer-->
-  <footer class="footer">
-    <div class="container-fluid px-lg-5">
-      <div class="row">
-        <!-- Footer Left-->
-        <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
-          <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
-            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
-          <ul class="f-logo">
-            <li>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-              <a href=""><i class="fa fa-home mx-2"></i></a>
-            </li>
-          </ul>
-        </div>
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container-fluid px-lg-5">
+                <div class="row">
+                    <!-- Footer Left-->
+                    <div class="col-lg-7 col-md-7 col-sm-12 lfooter text-center">
+                        <span><i class="fa fa-home"></i></span><span class="ms-2">UNIVERSITY OF RUHUNA,
+                            WELLAMADAMA<br>MATARA, SRI LANKA.</span>
+                        <ul class="f-logo">
+                            <li>
+                                <a href="">
+                                    <div class="responsive-cssc-container">
+                                        <img src="{{ asset('images/cssc logo.png') }}" class="cssc-logo"
+                                            alt="Description of Image 1">
+                                    </div>
+                                </a>
 
-        <!-- Footer Right-->
-        <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
-          <!-- Social Media links -->
-          <ul class="f-contact">
-            <li>
-              <!-- Facebook -->
-              <a href=""><i class="fa fa-facebook-f social"></i></a><span class="ms-lg-2">www.facebook.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-envelope"></i></span><span class="ms-lg-2">Insurgex.ruh@gmail.com</span>
-            </li>
-            <li>
-              <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <!-- Footer Copyrigth-->
-      <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
-    </div>
-  </footer>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer Right-->
+                    <div class="col-lg-5 col-md-5 col-sm-12 text-justify-center rfooter">
+                        <!-- Social Media links -->
+                        <ul class="f-contact">
+                            <li>
+                                <!-- Facebook -->
+                                <a href="https://www.facebook.com/csscuor" target="_blank"><i
+                                        class="fa fa-facebook-f social"></i></a><span
+                                    class="ms-lg-2">facebook.com/csscuor</span>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-envelope"></i></span><span
+                                    class="ms-lg-2">insurgex.ruh@gmail.com</span>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <!-- Footer Copyrigth-->
+                <small class="lead mb-0 cpyright">&copy; 2023 Copyright Inc. All rights reserved.</small>
+            </div>
+        </footer>
 
         <script>
             // Function to enable member 02

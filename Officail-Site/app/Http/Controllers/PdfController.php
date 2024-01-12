@@ -49,7 +49,7 @@ class PdfController extends Controller
         $pdf->SetFont('Times', 'B', 14);
         $paragraph = "                                                     This is your Team Card.
         If there is any mistake feel free to contact the Hackathon collaborators to correct those.
-        Practise hard to make your team to win this Hackathon.Happy Coding!";
+        Practise hard to make your team to win this Hackathon. Happy Coding!";
         
         $pdf->MultiCell($headerWidth, 7, utf8_decode($paragraph));
         

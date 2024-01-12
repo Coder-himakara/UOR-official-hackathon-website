@@ -11,7 +11,7 @@
     box-sizing: border-box;
     transition: transform 0.3s ease-in-out;
     color: black;
-    background-image: url("../images/card_bg.jpg");
+    background-image: url("../images/card_bg.png");
     background-repeat: no-repeat;
     background-size: 300px 465.19px;
 }
