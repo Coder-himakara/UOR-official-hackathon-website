@@ -167,7 +167,7 @@
 
 
         <div class="luck text-center">
-            <h4 class="display-6">"Best of luck! Code your way to victory in the hackathon!"</h4>
+            <h4 class="display-6">"Best of luck, Code your way to victory in the hackathon!"</h4>
         </div>
 
         <div class=" text-center">
