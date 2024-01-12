@@ -50,7 +50,7 @@
                             <a class="nav-link px-2" href="{{ route('index') }}#about">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="{{ route('index') }}#guideline">Guideline</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#guideline">Guidelines</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link px-2" aria-current="page"
@@ -65,7 +65,7 @@
                         </li>
 
                         <li class="nav-item ">
-                            <a class="nav-link px-2" href="{{ route('index') }}#sponsers" target="_self">Sponsers</a>
+                            <a class="nav-link px-2" href="{{ route('index') }}#sponsers" target="_self">Sponsors</a>
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->

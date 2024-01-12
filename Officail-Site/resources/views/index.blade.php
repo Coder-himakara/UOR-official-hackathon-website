@@ -75,7 +75,7 @@
                             <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsers</a>
+                            <a class="nav-link px-1" href="#sponsers" target="_self">Sponsors</a>
                         </li>
 
                         <!-- WILL BE UPDATED SOON -->
@@ -131,7 +131,7 @@
                         <p class="text-sm-start">Welcome to &apos;INSURGEX 1.0&apos;, algorithmic inter-faculty
                             hackathon event.
                             It&apos;s brought to you by the Computer
-                            Science student Community of University of Ruhuna.
+                            Science Student Community of University of Ruhuna.
                             Expect a great experience!
 
                         </p>
@@ -177,18 +177,17 @@
                     <!--About us paragraph-->
                     <div class="text-sm-justify-center about-text">INSURGEX is an algorithmic coding competition
                         organized by
-                        undergraduates of the Department of Computer Science at
-                        University of Ruhuna.
-                        We have organized this event through &quot;HackerRank&quot;
-                        platform.Participants are able to use any programming language
-                        they prefer.It takes 03 hours to compete with a group consisting
-                        of maximum three members.
-                        This algorithmic event is organized with the explicit purpose of
-                        enhancing the coding skills of undergraduates.This is taking place
-                        as a Physical event and winners will receive cash prizes and
-                        valuable certificate.
-                        And also, all the other participants will receive a digital certificate
-                        as an appreciation oftheir participation and hard work.</div>
+                        undergraduates of the Department of Computer Science at the University of Ruhuna.
+                        We have organized this event through the &quot;HackerRank&quot;platform.
+                        Participants are able to use any programming language they prefer.
+                        It takes 03 hours to compete with a group consisting of a maximum of three members.
+                        This algorithmic event is organized with the explicit purpose of enhancing the coding skills of
+                        undergraduates.
+                        This is taking place as a physical event, and winners will receive cash prizes and a valuable
+                        certificate.
+                        Additionally, all other participants will receive a digital certificate as an appreciation of
+                        their participation and hard work.
+                    </div>
                 </div>
             </div>
         </section>
@@ -282,7 +281,7 @@
                             <div class="text-box">
                                 <h2>Registration Open
                                 </h2>
-                                <small>13-Jan-2023</small>
+                                <small class="h6">13-Jan-2023</small>
                                 <p>"The creative coding revolution has been unlocked as registration for our hackathon
                                     is now open."
                                 </p>
@@ -294,7 +293,7 @@
 
                             <div class="text-box">
                                 <h2>Event Announcement Ceremony</h2>
-                                <small>16-Jan-2024</small>
+                                <small class="h6">16-Jan-2024</small>
                                 <p>"Exciting announcement: Unveiling our upcoming event that promises innovation,
                                     collaboration, and memorable
                                     experiences!"
@@ -308,7 +307,7 @@
                             <div class="text-box">
                                 <h2>Workshop I
                                 </h2>
-                                <small>16-Jan-2024</small>
+                                <small class="h6">16-Jan-2024</small>
                                 <p>"Master the art of hackathon success in Workshop 1 by Team ExactPro-your guide to
                                     conquering the coding challenges ahead!"
                                 </p>
@@ -321,7 +320,7 @@
                             <div class="text-box">
                                 <h2>Registration Close
                                 </h2>
-                                <small>18-Jan-2024</small>
+                                <small class="h6">18-Jan-2024</small>
                                 <p>"Registration has closed. Get ready for an incredible event!
                                 </p>
                                 <span class="right-container-arrow"></span>
@@ -333,7 +332,7 @@
                             <div class="text-box">
                                 <h2>Hackathon
                                 </h2>
-                                <small>20-Jan-2024</small>
+                                <small class="h6">20-Jan-2024</small>
                                 <p>"Get ready for Hackathon Day: where innovation meets competition, and coding prowess
                                     takes center stage!"
                                 </p>
@@ -346,7 +345,7 @@
                             <div class="text-box">
                                 <h2>Workshop II
                                 </h2>
-                                <small>20-Jan-2024</small>
+                                <small class="h6">20-Jan-2024</small>
                                 <p>"Dive into the world of Software Quality Assurance in Workshop 2 by Team ExactPro -
                                     sharpen your skills for top-tier software development!"
                                 </p>
