@@ -143,7 +143,7 @@
 
                 </div>
                 <div class="row">
-                    <p class="text-center countdown_title  col-md-6">Close the Registration</p>
+                    <p class="text-center countdown_title  col-md-6">Registration will be closed by</p>
                     <div class="countdown-container">
                         <div>
                             <p id="days" class="big-text">0</p>
