@@ -328,14 +328,15 @@ header {
 @media screen and (max-width:768px) {
     .bg_vector_Gimg {
         position: relative;
-        width: 396px;
+        max-width: 370px;
         height: 341px;
+        top: -30px;
     }
     .bg_vector_Timg {
         width: auto;
         height: 154px;
-        top: -11px;
-        left: 127px;
+        top: -27px;
+        left: 121px;
       
     }
     .bg_vector_Pimg {
