@@ -252,7 +252,7 @@ header {
 #logo {
     position: absolute;
     top: -3.2vmin;
-    left: 10vmin;
+    left: 1vmin;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 @keyframes logo_transition {
@@ -271,7 +271,7 @@ header {
     height: 73px;
     width: 13em;
     top: 28px;
-    left: 10vmin;
+    left: 1vmin;
     animation: logo_transition 0.5s 0.4s backwards;
    
 }
@@ -384,8 +384,8 @@ header {
 
 @media screen and (min-width:992px) and (max-width:1326px){
     .bg_vector_Gimg {
-        max-width: 410px;
-        height: 405px;
+        max-width: 361px;
+        min-height: 390px;
     }
     .bg_vector_Timg {
         width: 392px;
@@ -509,7 +509,11 @@ p.countdown_title{
 .st8_2_3 {
     font-size: 128px;
 }
-
+@media screen and (max-width:400px) {
+    .welcome_para{
+       letter-spacing: 0.2px;
+    }
+}
 @media screen and (max-width:576px) {
     #welcome {
         font-size: 10px;
@@ -547,6 +551,7 @@ p.countdown_title{
         word-spacing: -20px;
     }
 }
+
 
 @media screen and (min-width:577px) and (max-width:992px) {
     .st8_2_1 {
