@@ -38,7 +38,7 @@
         }
         @media (max-width: 767px) {
             .shw_vwport {
-            height:50vh;
+            height:68vh;
             padding-top: 7%;
         }
         }
@@ -181,7 +181,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid px-0 px-md-1">
-                <a class="navbar-brand ms-4 me-0" href="index.html">
+                <a class="navbar-brand ms-4 me-0" href="">
                     <!--Hackthon LOGO.-->
                     <img src="{{ asset('images/logo_hrz.png') }}" width="auto" height="65px" alt="Logo"
                         class="justify-content-start d-inline-block insurg_logo align-text-top" id="logo">
@@ -257,7 +257,7 @@
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span><span
-                                class="ms-lg-2">Insurgex.ruh@gmail.com</span>
+                                class="ms-lg-2">insurgex.ruh@gmail.com</span>
                         </li>
                         <li>
                             <span><i class="fa fa-phone"></i></span><span class="ms-2">+94 702392322</span>
