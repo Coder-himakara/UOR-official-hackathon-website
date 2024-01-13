@@ -35,20 +35,7 @@ window.addEventListener("scroll", function () {
     }
 });
 
-const chckDrpdwn=document.querySelector(".dropdown");
-if( chckDrpdwn!=null ){
-    const spon=document.querySelector(".dropdwn-shw");
-    const navLinks = document.querySelectorAll('.nav-item')
-    const menuToggle = document.getElementById('navbarNav')
-    const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
-    navLinks.forEach((l) => {
-        if(l.className!="nav-item dropdown"){
-            l.addEventListener('click', () => { bsCollapse.toggle() });
-        }
-        
-    })
-    spon.addEventListener('click', () => { bsCollapse.toggle() });
-}
+
 
 
 var path = window.location.pathname;
@@ -108,4 +95,31 @@ if(page==""){
 
     setInterval(countDown, 1000);
 }
+
+// const chckDrpdwn=document.querySelector(".dropdown");
+// if( chckDrpdwn!=null ){
+//     const spon=document.querySelector(".dropdwn-shw");
+//     const navLinks = document.querySelectorAll('.nav-item')
+//     const menuToggle = document.getElementById('navbarNav')
+//     const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+//     navLinks.forEach((l) => {
+//         if(l.className!="nav-item dropdown"){
+//             l.addEventListener('click', () => { bsCollapse.toggle() });
+//         }
+        
+//     })
+//     spon.addEventListener('click', () => { bsCollapse.toggle() });
+// }
+
+
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {
+    if(l.className!="nav-item dropdown"){
+        l.addEventListener('click', () => { bsCollapse.toggle() });
+    }
+    
+})
+
 
