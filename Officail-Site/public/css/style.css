@@ -331,7 +331,7 @@ header {
     /*width: 326px;*/
     height: 255px;
     top: -108px;
-    left: 194px;
+    left: 4%;
 }
 @media screen and (max-width:581px) {
     .bg_vector_Gimg {
@@ -352,6 +352,7 @@ header {
     .bg_vector_Pimg {
         display: none;
     }
+    
 }
 @media screen and (min-width:582px) and (max-width:767px) {
     .bg_vector_Gimg {
@@ -367,6 +368,9 @@ header {
         height: 229px;
         top: -5px;
         left: 293px; */
+    }
+    .bg_vector_Pimg {
+        left: 77px;
     }
 }
 @media screen and (min-width:768px) and (max-width:991px) {

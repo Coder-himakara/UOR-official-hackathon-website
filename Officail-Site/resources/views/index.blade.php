@@ -411,7 +411,7 @@
         <section class="shw_vwport" id="sponsers">
             <div class="container-fluid reveal">
                 <div class="section-topic text-center">Sponsors</div>
-                <div class="container prize reveal mt-5">
+                <div class="container prize reveal mt-5 mb-3">
                     <div class="row justify-content-evenly">
                         <!-- 1 -->
                         <div class="prize-body spon reveal col-lg  col-md-4 mx-lg-4 mx-md-2 order-md-2">
