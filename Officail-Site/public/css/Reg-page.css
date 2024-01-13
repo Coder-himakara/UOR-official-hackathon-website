@@ -115,6 +115,11 @@ input[type="submit"]:hover {
         max-width: 68%;
     }
 }
+@media screen and (min-width:761px) and (max-width:1004px){
+    .member-div,.leader-title{
+        max-width: 39%;
+    }
+}
 
 /* each form boxes controls */
 .member-box,.teamDiv{

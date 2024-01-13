@@ -333,25 +333,35 @@ header {
     top: -108px;
     left: 194px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:581px) {
     .bg_vector_Gimg {
         position: relative;
-        max-width: 370px;
+        max-width: 359px;
         height: 341px;
         top: -30px;
     }
     .bg_vector_Timg {
+        position: relative;
         width: auto;
         height: 154px;
-        top: -27px;
-        left: 121px;
+        top: -23px;
+        left: 84px;
       
     }
     .bg_vector_Pimg {
         display: none;
     }
 }
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:582px) and (max-width:767px) {
+    .bg_vector_Timg {
+        position: absolute;
+        width: 392px;
+        height: 244px;
+        top: -5px;
+        left: 293px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
     .bg_vector_Gimg {
         max-width: 410px;
         height: 405px;
