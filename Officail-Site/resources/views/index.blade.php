@@ -207,38 +207,38 @@
                     <div class="col-sm-10  ms-sm-4 guideline-text">
                         <!--Guidline list-->
                         <ol>
-                            <li>
+                            <li style="text-align: left">
                                 Participants must be undergraduates at the University of Ruhuna.
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Maximum three(3) members can allocate for each team.
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Each team is required to create a single HackerRank account
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Ensure that the username for the HackerRank account follows the
                                     specific pattern provided by the organizers. For alignment with your
                                     team's name, "CodeRangers," the username for,<br>
                                 <p style="font-weight: bolder;text-align:left">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Participants are required to bring their own laptops for the hackathon.
                                     Ensure your devices are fully charged(Because charging ports are
                                     limited).
                                 If you need extension you can bring it.
                                 
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 The hackathon will run for a set duration of 3 hours. Manage your time
                                     properly.
                                 
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Your internet connection is provided by the Organizing team through
                                     Wifi.
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 Feel free to use any tools during the hackathon to enhance your coding
                                     experience.
                             </li>
