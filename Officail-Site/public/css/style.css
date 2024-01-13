@@ -750,7 +750,7 @@ p.countdown_title{
     /*background-image: url('../images/Wave.png');*/
     position: relative;
     background-repeat: no-repeat;
-    border-radius: 6px;
+    border-radius: 12px;
     font-size: 12px;
 }
 

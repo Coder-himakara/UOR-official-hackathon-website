@@ -256,7 +256,7 @@
 
         <div class="container">
             <div class="row text-lg-start text-center pt-0">
-                <a href=""><button type="button" class="btn btn-primary bttn"><span
+                <a href="https://drive.google.com/file/d/1PBjR8wt4crCcOA60sxl0qg_edZOYUefh/view?usp=drive_link"  target="_blank"><button type="button" class="btn btn-primary bttn"><span
                             class="bttn-text">Download</span></button></a>
             </div>
         </div>
