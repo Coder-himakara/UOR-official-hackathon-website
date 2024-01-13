@@ -243,9 +243,9 @@
                                 Feel free to use any tools during the hackathon to enhance your coding
                                     experience.
                             </li>
-                            <li>
-                                <p style="font-weight: bolder">To see more guidelines, Please download the PDF from
-                                    below.</p>
+                            <li style="font-weight: bolder">
+                                To see more guidelines, Please download the PDF from
+                                    below.
                             </li>
                         </ol>
 

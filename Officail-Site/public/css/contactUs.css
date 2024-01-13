@@ -87,7 +87,7 @@ p {
     left: 10vmin;
     height: 65px;
 }
-@media screen and (min-width:1179px) {
+@media screen and (min-width:1260px) {
     #logo{
         height: 109px;
         width: auto;
@@ -95,3 +95,11 @@ p {
     }
     
 } 
+@media screen and (min-width:986px) and (max-width:116px) {
+    .nav-link,.dd-item {
+        font-size:18px;
+        letter-spacing: 2px;
+        word-spacing: -5px;
+    }
+
+}

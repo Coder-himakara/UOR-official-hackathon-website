@@ -167,7 +167,7 @@ header {
     z-index: 2;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     header {
         background: #1A002F;
     }
@@ -181,6 +181,7 @@ header {
         top: 120px;
     }
 }
+
 
 .header.sticky {
     background: #0D0017;
@@ -212,6 +213,14 @@ header {
     font-size: 20px;
     letter-spacing: 3px;
     word-spacing: -5px;
+}
+@media screen and (min-width:992px) and (max-width:1116px) {
+    .nav-link {
+        font-size:18px;
+        letter-spacing: 2px;
+        word-spacing: -5px;
+    }
+
 }
 
 /* For the drop down appear when hover on it and open when click for small screen */
@@ -274,7 +283,7 @@ header {
     }
     
 }
- @media screen and (min-width:1179px) {
+ @media screen and (min-width:1260px) {
     #logo.scrolled {
         height: 109px;
         width: auto;
@@ -340,6 +349,18 @@ header {
     }
     .bg_vector_Pimg {
         display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .bg_vector_Gimg {
+        max-width: 410px;
+        height: 405px;
+    }
+    .bg_vector_Timg {
+        width: 392px;
+        height: 244px;
+        top: 98px;
+        right: 2px;
     }
 }
 
@@ -664,7 +685,7 @@ p.countdown_title{
 
     ol,ul {
         padding-left: 7%;
-        ;
+        
     }
 
     #guideline {
@@ -687,6 +708,14 @@ p.countdown_title{
         display: none;
     }
 
+}
+@media screen and (min-width:767px) {
+    .row.guideline {
+        padding-top: 20px;
+        text-align: start;
+    }
+
+   
 }
 
 /* --------------------------------------------*/
@@ -763,6 +792,9 @@ p.countdown_title{
     color: black;
     font-weight: 600;
     font-size: 30px;
+}
+.timelineSec h2 {
+    font-size: 25px;
 }
 
 .timelineSec small {
