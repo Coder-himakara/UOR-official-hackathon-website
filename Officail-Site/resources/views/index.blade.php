@@ -208,8 +208,7 @@
                         <!--Guidline list-->
                         <ol>
                             <li>
-                                Participants must strictly adhere to the provided rules throughout the
-                                    duration of the Hackathon
+                                Participants must be undergraduates at the University of Ruhuna.
                             </li>
                             <li>
                                 Maximum three(3) members can allocate for each team.
