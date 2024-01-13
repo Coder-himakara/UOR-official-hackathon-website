@@ -353,10 +353,16 @@ header {
     }
 }
 @media screen and (min-width:582px) and (max-width:767px) {
+    .bg_vector_Gimg {
+        position: relative;
+        max-width: 359px;
+        height: 341px;
+        top: -30px;
+    }
     .bg_vector_Timg {
         position: absolute;
-        width: 392px;
-        height: 244px;
+        width: 50%;
+        height: 229px;
         top: -5px;
         left: 293px;
     }
