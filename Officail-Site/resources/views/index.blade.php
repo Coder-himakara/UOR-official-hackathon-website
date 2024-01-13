@@ -3,6 +3,7 @@
 
 <head>
     <title>INSURGEX-1.0 | Home</title> <!--Change the title with recent hackthon name-->
+    <link rel="icon" type="image/x-icon" href="{{asset('images/ONLY LOGO.jpg')}}">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -72,11 +73,12 @@
                             <a class="nav-link px-1" href="#prizes">Prizes</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
-                        </li>
-                        <li class="nav-item ">
                             <a class="nav-link px-1" href="#sponsers" target="_self">Sponsors</a>
                         </li>
+                        <li class="nav-item ">
+                            <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
+                        </li>
+                        
 
                         <!-- WILL BE UPDATED SOON -->
 
