@@ -3,6 +3,7 @@
 
 <head>
     <title>INSURGEX-1.0 | Register</title> <!--Change the title with recent hackthon name-->
+    <link rel="icon" type="image/x-icon" href="{{asset('images/ONLY LOGO.jpg')}}">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -123,6 +124,10 @@
                             <li>
                                 Please fill all the fields correctly. And don't provide any misleading information.
                             </li>
+                            <li>
+                                If you encounter any problem, while fillng out the form feel free to refresh the page
+                                for a quick solution.
+                            </li>
                         </ol>
                     </div>
 
@@ -169,7 +174,8 @@
 
 
                     <div class="input-data my-5 d-inline">
-                        <select required id="leader_faculty" name="leader_faculty" value="{{ old('leader_faculty') }}">
+                        <select required id="leader_faculty" name="leader_faculty"
+                            value="{{ old('leader_faculty') }}">
                             <option value="" disabled selected hidden></option>
                             <option value="Engineering">Engineering</option>
                             <option value="Science">Science</option>
