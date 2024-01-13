@@ -341,11 +341,12 @@ header {
         top: -30px;
     }
     .bg_vector_Timg {
-        position: relative;
+        display: none;
+        /* position: relative;
         width: auto;
         height: 154px;
         top: -23px;
-        left: 84px;
+        left: 84px; */
       
     }
     .bg_vector_Pimg {
@@ -360,11 +361,12 @@ header {
         top: -30px;
     }
     .bg_vector_Timg {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         width: 50%;
         height: 229px;
         top: -5px;
-        left: 293px;
+        left: 293px; */
     }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -527,7 +529,7 @@ p.countdown_title{
     .topic-color {
         text-align: center;
         font-weight: 300;
-        letter-spacing: 0px;
+        letter-spacing: 0.1em;
     }
 
     .st8_2_1 {
@@ -549,23 +551,27 @@ p.countdown_title{
 @media screen and (min-width:577px) and (max-width:992px) {
     .st8_2_1 {
         font-size: 100px;
-
     }
-
     .st8_2 {
         font-size: 60px;
-
-
     }
 
     .st8_2_3 {
         font-size: 100px;
-
     }
 
     .year {
         font-size: 40px;
         font-weight: 100;
+    }
+    .welcome_para{
+        word-spacing: -20px;
+    }
+    .topic-color {
+        letter-spacing: 5px;
+    }
+    #welcome {
+        font-size: 10px;
     }
 }
 
