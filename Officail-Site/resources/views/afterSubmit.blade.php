@@ -37,6 +37,11 @@
             padding-top: 7%;
         }
 
+        @media screen and (min-width:699px) and (max-width:769px){
+            .shw_vwport {
+                min-height:120vh;
+            }
+        }
         .Thanktext,
         .luck,
         .pdf-download-text,
@@ -89,7 +94,7 @@
             #rimg1 {
             width: 243px;
             position: relative;
-            /* right: -66px; */
+            right: 0px;
             top: 39px;
         }
         }
