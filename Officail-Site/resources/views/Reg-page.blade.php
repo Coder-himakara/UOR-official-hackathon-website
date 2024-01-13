@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>INSURGEX-1.0 | Home</title> <!--Change the title with recent hackthon name-->
+    <title>INSURGEX-1.0 | Register</title> <!--Change the title with recent hackthon name-->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -95,6 +95,9 @@
                         <br>
                         <br>
                         <ol style="display: block;font: optional;font-weight: 200;">
+                            <li>
+                                All the team members must be undergraduates at the University of Ruhuna.
+                            </li>
                             <li>Each team is required to create a single Hackathon account, and <b>the username for
                                     your
                                     HackerRank account must adhere to a specific pattern provided by us.<br>
