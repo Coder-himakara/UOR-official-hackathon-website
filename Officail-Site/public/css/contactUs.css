@@ -37,6 +37,7 @@
 @media screen and (max-width:767px) {
     .user-image{
         max-width: 75%;
+        height: 150px !important;
     }
 }
 
@@ -59,6 +60,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width:767px) {
+    .info-box.phone {
+        height: 35px;
+        align-items: normal;
+    }
 }
 
 .info-box:hover {

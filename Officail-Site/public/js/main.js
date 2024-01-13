@@ -76,7 +76,7 @@ if(page==""){
 
 
     let countDown = () => {
-    let futureDate = new Date("18 Jan 2024");
+    let futureDate = new Date("19 Jan 2024");
     let currentDate = new Date();
     let myDate = futureDate - currentDate;
     //console.log(myDate);

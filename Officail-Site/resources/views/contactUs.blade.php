@@ -106,7 +106,7 @@
                 <div class="info-box">
                     <p>Email: thanujapriyadarshane26@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: +94767274497</p>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                 <div class="info-box">
                     <p>Email: chalanichanchala18@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: +94776250496</p>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <div class="info-box">
                     <p>Email: buddhikapereraofficial@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0701577670</p>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                 <div class="info-box">
                     <p>Email: shanakaisuru11@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0768324613
                     </p>
                 </div>
@@ -171,7 +171,7 @@
                 <div class="info-box">
                     <p>Email: kushanca20@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0777357473
                     </p>
                 </div>
@@ -188,7 +188,7 @@
                 <div class="info-box">
                     <p>Email: thejanahirumal5@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0789389459
                     </p>
                 </div>
@@ -204,7 +204,7 @@
                 <div class="info-box">
                     <p>Email: imashadilshan1080@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0769799502
                     </p>
                 </div>
@@ -220,7 +220,7 @@
                 <div class="info-box">
                     <p>Email: malindasampath45@gmail.com</p>
                 </div>
-                <div class="info-box">
+                <div class="info-box phone">
                     <p>Phone: 0701894658
                     </p>
                 </div>
