@@ -28,19 +28,13 @@
             background-color: black;
         }
 
-        body {
+        /* body {
             overflow-x: hidden;
-        }
+        } */
 
         .shw_vwport {
             height:100vh;
             padding-top: 7%;
-        }
-        @media (max-width: 767px) {
-            .shw_vwport {
-            height:68vh;
-            padding-top: 7%;
-        }
         }
 
         .Thanktext,
@@ -95,7 +89,7 @@
             #rimg1 {
             width: 243px;
             position: relative;
-            right: -66px;
+            /* right: -66px; */
             top: 39px;
         }
         }
@@ -189,7 +183,7 @@
             </div>
         </nav>
     </header>
-    <div class="images_relative">
+    <div class="images_relative text-sm-center text-center">
             <img src="{{ asset('images/Human_vector.png') }}" alt="Human" id="rimg1">
         </div>
     <div class="container shw_vwport">
