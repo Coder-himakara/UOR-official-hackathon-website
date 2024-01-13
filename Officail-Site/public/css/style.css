@@ -364,6 +364,19 @@ header {
     }
 }
 
+@media screen and (min-width:992px) and (max-width:1326px){
+    .bg_vector_Gimg {
+        max-width: 410px;
+        height: 405px;
+    }
+    .bg_vector_Timg {
+        width: 392px;
+        height: 244px;
+        top: 98px;
+        right: 2px;
+    }
+}
+
 
 /* Each section show the size of the viewport */
 .shw_vwport {
