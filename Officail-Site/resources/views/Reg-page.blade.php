@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="topic-color text-sm-start">
                         <!--Hackthon main title.Can change with the time-->
-                        <p><span class="st8_2_1">I</span>
+                        <p class="welcome_para"><span class="st8_2_1">I</span>
                             <span class="st8_2">NSURGE</span>
                             <span class="st8_2_3">X</span>
                             <span class="st8_2">1.0</span>
