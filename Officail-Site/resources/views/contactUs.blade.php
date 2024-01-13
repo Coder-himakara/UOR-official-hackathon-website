@@ -101,10 +101,10 @@
                     <img class="user-image" src="{{ asset('images/Contacts/chair.png') }}" alt="Chair person Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Thanuja Priyadarshane (Chair)</h2>
+                    <h2>Thanuja Priyadarshane<br>(Chair)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: thanujapriyadarshane26@gmail.com</p>
+                    <p>Email:<br>thanujapriyadarshane26@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: +94767274497</p>
@@ -116,10 +116,10 @@
                 <div><img class="user-image" src="{{ asset('images/Contacts/Secratary.png') }}" alt="Secratary Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Chalani Chanchala (Secretary) </h2>
+                    <h2>Chalani Chanchala<br>(Secretary) </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: chalanichanchala18@gmail.com</p>
+                    <p>Email:<br>chalanichanchala18@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: +94776250496</p>
@@ -132,10 +132,10 @@
                         alt="Treasurer Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Buddhika Perera (Treasurer)</h2>
+                    <h2>Buddhika Perera<br>(Treasurer)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: buddhikapereraofficial@gmail.com</p>
+                    <p>Email:<br>buddhikapereraofficial@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0701577670</p>
@@ -148,11 +148,11 @@
                         src="{{ asset('images/Contacts/Programming.png') }}"alt="Programming leader Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Isuru Shanaka (Programming)</h2>
+                    <h2>Isuru Shanaka<br>(Programming)</h2>
 
                 </div>
                 <div class="info-box">
-                    <p>Email: shanakaisuru11@gmail.com</p>
+                    <p>Email:<br>shanakaisuru11@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0768324613
@@ -166,10 +166,10 @@
                         src="{{ asset('images/Contacts/Financial.png') }}"alt="Finance leader Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Kushan Sandul (Finance)</h2>
+                    <h2>Kushan Sandul<br>(Finance)</h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: kushanca20@gmail.com</p>
+                    <p>Email:<br>kushanca20@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0777357473
@@ -182,11 +182,11 @@
                 <div><img class="user-image" src="{{ asset('images/Contacts/PR.png') }}" alt="User Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Thejana Hirumal (Public Relation)
+                    <h2>Thejana Hirumal<br>(Public Relation)
                     </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: thejanahirumal5@gmail.com</p>
+                    <p>Email:<br>thejanahirumal5@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0789389459
@@ -198,11 +198,11 @@
                 <div><img class="user-image" src="{{ asset('images/Contacts/logistics.png') }}" alt="User Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Imasha Dilshan (Logistics)
+                    <h2>Imasha Dilshan<br>(Logistics)
                     </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: imashadilshan1080@gmail.com</p>
+                    <p>Email:<br>imashadilshan1080@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0769799502
@@ -214,11 +214,11 @@
                 <div><img class="user-image" src="{{ asset('images/Contacts/Marketing.png') }}" alt="User Image">
                 </div>
                 <div class="info-box-name">
-                    <h2>Malinda Sampath (Marketing)
+                    <h2>Malinda Sampath<br>(Marketing)
                     </h2>
                 </div>
                 <div class="info-box">
-                    <p>Email: malindasampath45@gmail.com</p>
+                    <p>Email:<br>malindasampath45@gmail.com</p>
                 </div>
                 <div class="info-box">
                     <p>Phone: 0701894658
