@@ -89,10 +89,19 @@ if(page==""){
 
     let sec = Math.floor(myDate / 1000) % 60;
 
-    daysItem.innerHTML = days;
-    hoursItem.innerHTML = hours;
-    minItem.innerHTML = min;
-    secItem.innerHTML = sec;
+    if(days>=0){
+        daysItem.innerHTML = days;
+        hoursItem.innerHTML = hours;
+        minItem.innerHTML = min;
+        secItem.innerHTML = sec;
+    }
+    else{
+        daysItem.innerHTML = 0;
+        hoursItem.innerHTML = 0;
+        minItem.innerHTML = 0;
+        secItem.innerHTML = 0;
+    }
+    
     }
 
     countDown();
