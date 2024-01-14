@@ -423,6 +423,9 @@ header {
 
 
 /* **********************/
+.clock-row-margin{
+    margin-top: 20px;
+}
 /* Countdown style */
 .countdown-container{
     padding-top: 30px;
@@ -481,6 +484,7 @@ p.countdown_title{
     animation: fade-right 0.5s;
     font-size: 20px;
     padding-top: 0px;
+    margin-bottom: 40px;
 }
 
 .year,

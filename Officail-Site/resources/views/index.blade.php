@@ -144,7 +144,7 @@
                     </div>
 
                 </div>
-                <div class="row">
+                <div class="row clock-row-margin" >
                     <p class="text-center countdown_title  col-md-6">Registration will be closed on</p>
                     <div class="countdown-container">
                         <div>
