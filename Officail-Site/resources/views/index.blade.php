@@ -404,10 +404,10 @@
             </div>
             </div>
         </section>
-
-        <div class="bg_Pvectors">
+        <!--<div class="bg_Pvectors">
             <img src="{{ asset('images/target.png') }}" class="bg_vector_Pimg " alt="peple manage">
-        </div>
+        </div>-->
+        
         <!-- PARTNERSHIP and Sponsors section -->
         <section class="shw_vwport" id="sponsers">
             <div class="container-fluid reveal">
