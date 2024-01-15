@@ -282,7 +282,7 @@
                             <div class="text-box">
                                 <h2>Registration Open
                                 </h2>
-                                <small class="h6">13-Jan-2023</small>
+                                <small class="h6">13-Jan 2024</small>
                                 <p>"The creative coding revolution has been unlocked as registration for our hackathon
                                     is now open."
                                 </p>
@@ -293,11 +293,10 @@
                         <div class=" right-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Event Announcement Ceremony</h2>
-                                <small class="h6">16-Jan-2024</small>
-                                <p>"Exciting announcement: Unveiling our upcoming event that promises innovation,
-                                    collaboration, and memorable
-                                    experiences!"
+                                <h2>Workshop I</h2>
+                                <small class="h6">16-Jan 2024</small>
+                                <p>"Master the art of hackathon success in Workshop 1 by Team ExactPro-your guide to
+                                    conquering the coding challenges ahead!"
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -306,11 +305,12 @@
                         <div class="left-container timeline-align reveal">
 
                             <div class="text-box">
-                                <h2>Workshop I
+                                <h2>Event Announcement Ceremony
                                 </h2>
-                                <small class="h6">16-Jan-2024</small>
-                                <p>"Master the art of hackathon success in Workshop 1 by Team ExactPro-your guide to
-                                    conquering the coding challenges ahead!"
+                                <small class="h6">17-Jan 2024</small>
+                                <p>"Exciting announcement: Unveiling our upcoming event that promises innovation,
+                                    collaboration, and memorable
+                                    experiences!"
                                 </p>
                                 <span class="left-container-arrow"></span>
                             </div>
@@ -321,8 +321,8 @@
                             <div class="text-box">
                                 <h2>Registration Close
                                 </h2>
-                                <small class="h6">18-Jan-2024</small>
-                                <p>"Registration has closed. Get ready for an incredible event!
+                                <small class="h6">18-Jan 2024</small>
+                                <p>"Registration has closed. Get ready for an incredible event!"
                                 </p>
                                 <span class="right-container-arrow"></span>
                             </div>
@@ -333,7 +333,7 @@
                             <div class="text-box">
                                 <h2>Hackathon
                                 </h2>
-                                <small class="h6">20-Jan-2024</small>
+                                <small class="h6">20-Jan 2024</small>
                                 <p>"Get ready for Hackathon Day: where innovation meets competition, and coding prowess
                                     takes center stage!"
                                 </p>
@@ -346,7 +346,7 @@
                             <div class="text-box">
                                 <h2>Workshop II
                                 </h2>
-                                <small class="h6">20-Jan-2024</small>
+                                <small class="h6">20-Jan 2024</small>
                                 <p>"Dive into the world of Software Quality Assurance in Workshop 2 by Team ExactPro -
                                     sharpen your skills for top-tier software development!"
                                 </p>
@@ -376,7 +376,7 @@
 
                     <!-- 1 -->
                     <div class="prize-body reveal sp-prize col-lg  col-md mx-lg-4 mx-md-2 order-md-2">
-                        <div class="info-box-name">1st</div>
+                        <div class="info-box-name" style="font-weight: bold">1st</div>
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/1.png') }}" alt="1nd">
                         </div>
@@ -385,7 +385,7 @@
 
                     <!-- 2 -->
                     <div class="prize-body reveal col-lg col-md mx-lg-4 mx-md-2 order-md-1">
-                        <div class="info-box-name">2nd</div>
+                        <div class="info-box-name" style="font-weight: bold">2nd</div>
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/2.png') }}" alt="2nd">
                         </div>
@@ -394,7 +394,7 @@
 
                     <!-- 3 -->
                     <div class="prize-body reveal sp-prize col-lg  col-md mx-lg-4 mx-md-2 order-md-3">
-                        <div class="info-box-name">3rd</div>
+                        <div class="info-box-name" style="font-weight: bold">3rd</div>
                         <div class="card">
                             <img class="user-image" src="{{ asset('images/3.png') }}" alt="3nd">
                         </div>
