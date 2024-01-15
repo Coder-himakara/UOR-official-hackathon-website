@@ -102,9 +102,9 @@
                             <li>Each team is required to create a single Hackathon account, and <b>the username for
                                     your
                                     HackerRank account must adhere to a specific pattern provided by us.<br>
-                                    [for alignment with your team's name, "CodeBlasters", the username for
-                                    HackerRank shouls be
-                                    CodeBlasters_X1 /(TeamName_X1) ].
+                                    [for alignment with your team's name, "CodeRangers", the username for
+                                    HackerRank should be
+                                    CodeRangers_IX1 (TeamName_IX1)].
                                 </b></li>
                             <li>
                                 Team size limit: Your team can include <b>a maximum of 3 members.</b>
