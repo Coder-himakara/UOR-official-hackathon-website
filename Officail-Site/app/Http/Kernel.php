@@ -43,6 +43,7 @@ class Kernel extends HttpKernel
             \Illuminate\Routing\Middleware\ThrottleRequests::class.':api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+   
     ];
 
     /**
@@ -65,4 +66,12 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
+
+   // app/Http/Kernel.php
+
+protected $routeMiddleware = [
+    // ... other middleware entries
+    'after.submit' => \App\Http\Middleware\AfterSubmitMiddleware::class,
+];
+
 }
