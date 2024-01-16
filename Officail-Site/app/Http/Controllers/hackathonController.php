@@ -94,6 +94,7 @@ class hackathonController extends Controller
         $hackteam->member3SID = $request->member3SID;
         $hackteam->member3Email = $request->member3Email;
         $hackteam->save();
+        session()->flash('registration_success', true);
         return redirect()->route('afterSubmit', ['id'=>$hackteam->id])->withInput();
     }
 
