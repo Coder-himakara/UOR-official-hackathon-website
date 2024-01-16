@@ -23,6 +23,6 @@ Route::get('/register',[hackathonController::class,'register'])->name('register'
 //==To store form data in the database==
 Route::post('/store',[hackathonController::class,'store'])->name('store');
 //==View after submitting the data==
-Route::get('/afterSubmit',[hackathonController::class,'afterSubmit'])->name('afterSubmit');
+Route::get('/afterSubmit',[hackathonController::class,'afterSubmit'])->middleware('after.submit')->name('afterSubmit');
 //For generating a pdf from form data
 Route::get('/generate-pdf/{id}', [PdfController::class, 'generatePdf'])->name('generate-pdf');
