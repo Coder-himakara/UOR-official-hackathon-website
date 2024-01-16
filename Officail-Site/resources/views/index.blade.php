@@ -415,17 +415,24 @@
                 <div class="container prize reveal mt-5 mb-3">
                     <div class="row justify-content-evenly">
                         <!-- 1 -->
-                        <div class="prize-body spon reveal col-lg-4  col-md-4 mx-lg-4 mx-md-2 order-md-2 my-4">
+                        <div class="prize-body spon reveal col-lg mx-lg-2 mx-md-1 col-md my-4">
                             <div class="card">
-                                <img class="user-image" src="{{ asset('images/Sponsors/Logo2.png') }}"
+                                <img class="user-image " src="{{ asset('images/Sponsors/Logo2.png') }}"
                                     alt="1nd">
                             </div>
                         </div>
 
                         <!-- 2 -->
-                        <div class="prize-body spon reveal  col-lg-4 col-md-4 mx-lg-4 mx-md-2 order-md-1 my-4">
+                        <div class="prize-body spon reveal  col-lg mx-lg-2 mx-md-1 col-md my-4">
                             <div class="card">
                                 <img class="user-image" src="{{ asset('images/Sponsors/LanLogo_kavithi.png') }}" alt="2nd">
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="prize-body spon reveal  col-lg mx-lg-2 mx-md-1 col-md my-4">
+                            <div class="card">
+                                <img class="user-image wso2" src="{{ asset('images/Sponsors/wso2-vector-logo-2022.png')}}" alt="3nd">
                             </div>
                         </div>
                     </div>

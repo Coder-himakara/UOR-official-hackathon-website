@@ -1058,6 +1058,18 @@ p.countdown_title{
 .spon .user-image{
     max-width: 100%;
 }
+.spon .user-image.wso2{
+    height: 122px;
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+    .prize-body.spon {
+        min-height: 180px;
+    }
+    .spon .user-image.wso2{
+        height: 108px;
+    }
+}
+
 
 @media screen and (max-width:767px) {
     .prize-body.spon {
@@ -1070,6 +1082,7 @@ p.countdown_title{
         height: 100px;
     }
 }
+
 
 /* ************************************************************************************/
 /* Footer decoration */
