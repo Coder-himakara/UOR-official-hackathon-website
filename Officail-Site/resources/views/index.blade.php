@@ -3,7 +3,7 @@
 
 <head>
     <title>INSURGEX-1.0 | Home</title> <!--Change the title with recent hackthon name-->
-    <link rel="icon" type="image/x-icon" href="{{asset('images/ONLY LOGO.jpg')}}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/ONLY LOGO.jpg') }}">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -78,7 +78,7 @@
                         <li class="nav-item ">
                             <a class="nav-link px-1" href="{{ route('contactUs') }}" target="_self">Contact-us</a>
                         </li>
-                        
+
 
                         <!-- WILL BE UPDATED SOON -->
 
@@ -144,7 +144,7 @@
                     </div>
 
                 </div>
-                <div class="row clock-row-margin" >
+                <div class="row clock-row-margin">
                     <p class="text-center countdown_title  col-md-6">Registration will be closed on</p>
                     <div class="countdown-container">
                         <div>
@@ -220,33 +220,34 @@
                             </li>
                             <li style="text-align: left">
                                 Ensure that the username for the HackerRank account follows the
-                                    specific pattern provided by the organizers. For alignment with your
-                                    team's name, "CodeRangers," the username for,<br>
-                                <p style="font-weight: bolder;text-align:left">HackerRank should be CodeRangers_IX1 (TeamName_IX1).</p>
+                                specific pattern provided by the organizers. For alignment with your
+                                team's name, "CodeRangers," the username for,<br>
+                                <p style="font-weight: bolder;text-align:left">HackerRank should be CodeRangers_IX1
+                                    (TeamName_IX1).</p>
                             </li>
                             <li style="text-align: left">
                                 Participants are required to bring their own laptops for the hackathon.
-                                    Ensure your devices are fully charged(Because charging ports are
-                                    limited).
+                                Ensure your devices are fully charged(Because charging ports are
+                                limited).
                                 If you need extension you can bring it.
-                                
+
                             </li>
                             <li style="text-align: left">
                                 The hackathon will run for a set duration of 3 hours. Manage your time
-                                    properly.
-                                
+                                properly.
+
                             </li>
                             <li style="text-align: left">
                                 Your internet connection is provided by the Organizing team through
-                                    Wifi.
+                                Wifi.
                             </li>
                             <li style="text-align: left">
                                 Feel free to use any tools during the hackathon to enhance your coding
-                                    experience.
+                                experience.
                             </li>
                             <li style="font-weight: bolder">
                                 To see more guidelines, Please download the PDF from
-                                    below.
+                                below.
                             </li>
                         </ol>
 
@@ -257,7 +258,8 @@
 
         <div class="container">
             <div class="row text-lg-start text-center pt-0">
-                <a href="https://drive.google.com/file/d/1PBjR8wt4crCcOA60sxl0qg_edZOYUefh/view?usp=drive_link"  target="_blank"><button type="button" class="btn btn-primary bttn"><span
+                <a href="https://drive.google.com/file/d/1PBjR8wt4crCcOA60sxl0qg_edZOYUefh/view?usp=drive_link"
+                    target="_blank"><button type="button" class="btn btn-primary bttn"><span
                             class="bttn-text">Download</span></button></a>
             </div>
         </div>
@@ -407,7 +409,7 @@
         <!--<div class="bg_Pvectors">
             <img src="{{ asset('images/target.png') }}" class="bg_vector_Pimg " alt="peple manage">
         </div>-->
-        
+
         <!-- PARTNERSHIP and Sponsors section -->
         <section class="shw_vwport" id="sponsers">
             <div class="container-fluid reveal">
@@ -417,22 +419,24 @@
                         <!-- 1 -->
                         <div class="prize-body spon reveal col-lg mx-lg-2 mx-md-1 col-md my-4">
                             <div class="card">
-                                <img class="user-image " src="{{ asset('images/Sponsors/Logo2.png') }}"
-                                    alt="1nd">
+                                <img class="user-image wso2"
+                                    src="{{ asset('images/Sponsors/wso2-vector-logo-2022.png') }}" alt="1nd">
                             </div>
                         </div>
 
                         <!-- 2 -->
                         <div class="prize-body spon reveal  col-lg mx-lg-2 mx-md-1 col-md my-4">
                             <div class="card">
-                                <img class="user-image" src="{{ asset('images/Sponsors/LanLogo_kavithi.png') }}" alt="2nd">
+                                <img class="user-image" src="{{ asset('images/Sponsors/Logo2.png') }}"
+                                    alt="2nd">
                             </div>
                         </div>
 
                         <!-- 3 -->
                         <div class="prize-body spon reveal  col-lg mx-lg-2 mx-md-1 col-md my-4">
                             <div class="card">
-                                <img class="user-image wso2" src="{{ asset('images/Sponsors/wso2-vector-logo-2022.png')}}" alt="3nd">
+                                <img class="user-image" src="{{ asset('images/Sponsors/LanLogo_kavithi.png') }}"
+                                    alt="3nd">
                             </div>
                         </div>
                     </div>
