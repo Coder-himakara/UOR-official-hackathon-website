@@ -137,15 +137,15 @@
                             Expect a great experience!
 
                         </p>
-                        <a href="{{ route('register') }}" target="_self"><button type="button"
+                       <!--<a href="{{ route('register') }}" target="_self"><button type="button"
                                 class="btn btn-primary bttn text-center">
                                 <span class="bttn-text">ENROLL NOW</span>
-                            </button></a>
+                            </button></a>--> 
                     </div>
 
                 </div>
                 <div class="row clock-row-margin">
-                    <p class="text-center countdown_title  col-md-6">Registration will be closed on</p>
+                    <p class="text-center countdown_title  col-md-6">Registration closed</p>
                     <div class="countdown-container">
                         <div>
                             <p id="days" class="big-text">0</p>
