@@ -1,2 +1,2 @@
-# UOR-official-hackathon-website
-Designed and developed by the undergraduates of the Department of Computer Science of University of Ruhuna.
+# UOR-Hackathon-website (INSURGEX 1.0)
+This was designed and developed by the undergraduates of the Department of Computer Science of University of Ruhuna.
